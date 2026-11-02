@@ -1,0 +1,1255 @@
+﻿id_pedido;data_venda;cliente;produto;categoria;quantidade;preco_unitario;receita_bruta;descontos;custos;lucro;margem_lucro;canal_venda;regiao;cidade;status_pedido;forma_pagamento;frete;devolucoes
+PED-00001;2025-01-08;Diego Esteves;Bola;Esporte;1;92,80;92,80;13,92;50,47;15,39;0,1951;App;Sudeste;São Paulo;Entregue;Cartão de crédito;13,02;0,00
+PED-00002;2025-01-19;Elisa Barros;Cama Pet;Pet;1;112,07;112,07;5,60;56,06;37,36;0,3509;App;Nordeste;Salvador;Entregue;Cartão de crédito;13,05;0,00
+PED-00003;2025-01-04;Marina Guedes;Ração Premium;Pet;2;147,97;295,94;14,80;148,45;117,85;0,4192;Site próprio;Sul;Curitiba;Entregue;Boleto;14,84;0,00
+PED-00004;2025-01-07;Heitor Ibrahim;Hidratante;Beleza;1;53,00;53,00;0,00;34,72;6,78;0,1279;Site próprio;Sudeste;São Paulo;Entregue;Pix;11,50;0,00
+PED-00005;2025-01-27;Ana Almeida;Kit Skincare;Beleza;1;172,05;172,05;17,21;114,29;22,52;0,1454;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;18,03;0,00
+PED-00006;2025-01-08;João Lopes;Ração Premium;Pet;1;146,69;146,69;7,33;94,21;26,88;0,1929;App;Sul;Curitiba;Entregue;Cartão de crédito;18,27;0,00
+PED-00007;2025-01-22;Elisa Moreira;Kit Skincare;Beleza;3;185,74;557,22;0,00;319,01;-337,86;-0,6063;Marketplace;Sul;Porto Alegre;Devolvido;Pix;18,85;557,22
+PED-00008;2025-01-14;Lucas Cardoso;Furadeira;Ferramentas;4;348,79;1395,16;0,00;885,98;477,81;0,3425;Redes sociais;Sul;Curitiba;Entregue;Boleto;31,37;0,00
+PED-00009;2025-01-21;Olívia Nunes;Furadeira;Ferramentas;1;316,55;316,55;47,48;215,16;36,50;0,1357;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;17,41;0,00
+PED-00010;2025-01-24;Kelly Moreira;Brinquedo;Pet;1;40,83;40,83;0,00;24,72;1,31;0,0321;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;14,80;0,00
+PED-00011;2025-01-22;João Henrique;Garrafa Térmica;Esporte;2;61,78;123,56;0,00;75,73;25,85;0,2092;Marketplace;Nordeste;Fortaleza;Entregue;Boleto;21,98;0,00
+PED-00012;2025-01-01;Kelly Lopes;Trena;Ferramentas;1;28,02;28,02;0,00;14,73;-2,47;-0,0882;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;15,76;0,00
+PED-00013;2025-01-18;Ana Henrique;Garrafa Térmica;Esporte;1;60,37;60,37;3,02;39,63;-12,17;-0,2122;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;29,89;0,00
+PED-00014;2025-01-13;Elisa Guedes;Garrafa Térmica;Esporte;1;64,11;64,11;9,62;43,59;-6,85;-0,1257;Marketplace;Sudeste;São Paulo;Entregue;Boleto;17,75;0,00
+PED-00015;2025-01-14;Elisa Ibrahim;Garrafa Térmica;Esporte;1;64,35;64,35;3,22;44,79;-1,66;-0,0272;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;18,00;0,00
+PED-00016;2025-01-23;Nicolas Nunes;Cama Pet;Pet;1;110,44;110,44;11,04;56,46;-87,59;-0,8812;Marketplace;Sul;Curitiba;Devolvido;Cartão de crédito;31,13;99,40
+PED-00017;2025-01-20;Paulo Nunes;Furadeira;Ferramentas;1;314,00;314,00;0,00;184,33;98,45;0,3135;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;31,22;0,00
+PED-00018;2025-01-09;Lucas Guedes;Trena;Ferramentas;1;30,25;30,25;0,00;18,32;-8,24;-0,2724;App;Nordeste;Fortaleza;Entregue;Boleto;20,17;0,00
+PED-00019;2025-01-24;João Klein;Kit Skincare;Beleza;1;163,99;163,99;0,00;113,57;38,46;0,2345;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;11,96;0,00
+PED-00020;2025-01-23;Kelly Jardim;Garrafa Térmica;Esporte;4;63,49;253,96;0,00;159,75;69,38;0,2732;App;Centro-Oeste;Brasília;Entregue;Pix;24,83;0,00
+PED-00021;2025-01-19;Paulo Jardim;Perfume;Beleza;1;229,09;229,09;11,45;148,09;51,44;0,2364;App;Nordeste;Salvador;Entregue;Cartão de crédito;18,11;0,00
+PED-00022;2025-01-19;Elisa Almeida;Furadeira;Ferramentas;1;329,51;329,51;32,95;222,88;64,21;0,2165;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;9,47;0,00
+PED-00023;2025-01-15;Ana Nunes;Hidratante;Beleza;1;53,00;53,00;0,00;28,12;-0,24;-0,0045;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;25,12;0,00
+PED-00024;2025-01-06;Nicolas Ibrahim;Hidratante;Beleza;1;52,26;52,26;7,84;35,42;-53,31;-1,2001;Marketplace;Nordeste;Recife;Devolvido;Pix;17,89;44,42
+PED-00025;2025-01-22;Olívia Jardim;Brinquedo;Pet;3;41,64;124,92;18,74;76,00;14,97;0,1410;Site próprio;Centro-Oeste;Brasília;Entregue;Boleto;15,21;0,00
+PED-00026;2025-01-06;Felipe Guedes;Cama Pet;Pet;2;109,77;219,54;0,00;123,77;80,83;0,3682;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;14,94;0,00
+PED-00027;2025-01-07;Kelly Moreira;Brinquedo;Pet;2;39,62;79,24;3,96;45,11;-1,30;-0,0173;App;Nordeste;Recife;Entregue;Pix;31,47;0,00
+PED-00028;2025-01-28;Nicolas Lopes;Kit Skincare;Beleza;1;172,21;172,21;17,22;112,45;31,96;0,2062;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;10,58;0,00
+PED-00029;2025-01-05;Kelly Henrique;Brinquedo;Pet;1;41,60;41,60;6,24;27,83;-5,86;-0,1657;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;13,39;0,00
+PED-00030;2025-01-08;Elisa Duarte;Cama Pet;Pet;2;118,57;237,14;0,00;124,08;102,19;0,4309;App;Sudeste;Belo Horizonte;Entregue;Pix;10,87;0,00
+PED-00031;2025-01-28;Olívia Klein;Bola;Esporte;1;85,20;85,20;4,26;53,08;7,86;0,0971;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;20,00;0,00
+PED-00032;2025-01-20;Diego Guedes;Garrafa Térmica;Esporte;1;62,62;62,62;0,00;41,83;-68,92;-1,1006;Site próprio;Sudeste;São Paulo;Devolvido;Cartão de crédito;27,09;62,62
+PED-00033;2025-01-11;Paulo Jardim;Bola;Esporte;1;86,43;86,43;12,96;49,99;-8,14;-0,1108;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;31,62;0,00
+PED-00034;2025-01-22;Paulo Duarte;Brinquedo;Pet;2;41,08;82,16;4,11;43,62;18,05;0,2313;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;16,38;0,00
+PED-00035;2025-01-11;Kelly Klein;Brinquedo;Pet;1;39,55;39,55;0,00;24,94;-0,51;-0,0129;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;15,12;0,00
+PED-00036;2025-01-28;Kelly Klein;Ração Premium;Pet;1;145,74;145,74;14,57;93,26;26,11;0,1991;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;11,80;0,00
+PED-00037;2025-01-02;Paulo Farias;Hidratante;Beleza;1;59,05;59,05;0,00;34,14;9,90;0,1677;App;Centro-Oeste;Goiânia;Entregue;Pix;15,01;0,00
+PED-00038;2025-01-08;Carla Esteves;Hidratante;Beleza;1;53,34;53,34;2,67;35,40;-10,57;-0,2086;Redes sociais;Sudeste;São Paulo;Entregue;Boleto;25,84;0,00
+PED-00039;2025-01-01;Isabela Ibrahim;Cama Pet;Pet;3;111,16;333,48;33,35;185,62;97,79;0,3258;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;16,72;0,00
+PED-00040;2025-01-01;Paulo Almeida;Kit Skincare;Beleza;1;162,18;162,18;8,11;99,50;29,62;0,1923;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de crédito;24,95;0,00
+PED-00041;2025-01-15;Bruno Duarte;Furadeira;Ferramentas;1;352,23;352,23;0,00;204,74;128,36;0,3644;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;19,13;0,00
+PED-00042;2025-01-22;Kelly Nunes;Bola;Esporte;2;91,15;182,30;0,00;112,02;44,49;0,2440;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;25,79;0,00
+PED-00043;2025-01-08;Isabela Barros;Garrafa Térmica;Esporte;2;56,61;113,22;0,00;63,05;-76,23;-0,6733;Redes sociais;Nordeste;Recife;Devolvido;Cartão de crédito;13,18;113,22
+PED-00044;2025-01-09;Bruno Guedes;Perfume;Beleza;1;229,01;229,01;11,45;159,33;27,36;0,1258;Site próprio;Nordeste;Salvador;Entregue;Cartão de débito;30,87;0,00
+PED-00045;2025-01-02;Gabriela Lopes;Kit Chaves;Ferramentas;2;76,30;152,60;0,00;91,95;34,49;0,2260;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;26,16;0,00
+PED-00046;2025-01-06;Marina Klein;Kit Skincare;Beleza;1;171,96;171,96;17,20;91,34;47,38;0,3062;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;16,04;0,00
+PED-00047;2025-01-15;Diego Ibrahim;Furadeira;Ferramentas;1;356,44;356,44;0,00;221,52;111,94;0,3141;Marketplace;Nordeste;Salvador;Entregue;Pix;22,98;0,00
+PED-00048;2025-01-27;Paulo Lopes;Kit Chaves;Ferramentas;1;85,73;85,73;0,00;49,75;19,39;0,2262;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;16,59;0,00
+PED-00049;2025-01-03;João Jardim;Ração Premium;Pet;2;150,24;300,48;45,07;162,94;77,62;0,3039;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de crédito;14,85;0,00
+PED-00050;2025-01-27;Olívia Henrique;Bola;Esporte;1;93,76;93,76;4,69;53,94;-81,43;-0,9142;Site próprio;Nordeste;Fortaleza;Devolvido;Cartão de débito;27,49;89,07
+PED-00051;2025-01-20;João Farias;Ração Premium;Pet;1;142,36;142,36;0,00;79,73;50,89;0,3575;Redes sociais;Sul;Porto Alegre;Entregue;Pix;11,74;0,00
+PED-00052;2025-01-05;Elisa Lopes;Bola;Esporte;1;87,36;87,36;0,00;46,48;9,91;0,1134;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;30,97;0,00
+PED-00053;2025-01-18;João Lopes;Kit Chaves;Ferramentas;3;79,73;239,19;23,92;136,32;69,83;0,3244;App;Nordeste;Salvador;Entregue;Cartão de crédito;9,12;0,00
+PED-00054;2025-01-24;Kelly Klein;Kit Chaves;Ferramentas;1;83,23;83,23;8,32;42,78;19,47;0,2599;App;Nordeste;Salvador;Entregue;Cartão de crédito;12,66;0,00
+PED-00055;2025-01-25;Paulo Ibrahim;Trena;Ferramentas;2;31,21;62,42;0,00;36,35;14,68;0,2352;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;11,39;0,00
+PED-00056;2025-01-20;Carla Cardoso;Kit Skincare;Beleza;2;164,04;328,08;0,00;188,57;123,40;0,3761;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;16,11;0,00
+PED-00057;2025-01-06;Diego Barros;Kit Chaves;Ferramentas;1;83,46;83,46;0,00;47,09;20,51;0,2457;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;15,86;0,00
+PED-00058;2025-01-25;Lucas Lopes;Trena;Ferramentas;1;29,09;29,09;0,00;17,36;-9,44;-0,3245;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;21,17;0,00
+PED-00059;2025-01-08;Diego Guedes;Kit Skincare;Beleza;1;182,94;182,94;18,29;108,41;29,87;0,1814;Site próprio;Nordeste;Salvador;Entregue;Boleto;26,37;0,00
+PED-00060;2025-01-19;Ana Ibrahim;Furadeira;Ferramentas;2;352,63;705,26;70,53;373,80;249,19;0,3926;Redes sociais;Sul;Curitiba;Entregue;Pix;11,74;0,00
+PED-00061;2025-01-18;Gabriela Cardoso;Halter;Esporte;1;138,24;138,24;13,82;76,60;28,43;0,2285;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;19,39;0,00
+PED-00062;2025-01-23;Elisa Almeida;Brinquedo;Pet;1;37,29;37,29;5,59;19,34;-18,44;-0,5817;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;30,80;0,00
+PED-00063;2025-01-24;Carla Almeida;Brinquedo;Pet;4;41,84;167,36;16,74;93,18;42,92;0,2850;App;Nordeste;Salvador;Entregue;Pix;14,52;0,00
+PED-00064;2025-01-10;Ana Ibrahim;Trena;Ferramentas;1;28,68;28,68;2,87;14,62;-8,99;-0,3483;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;20,18;0,00
+PED-00065;2025-01-02;Felipe Jardim;Hidratante;Beleza;3;56,69;170,07;25,51;86,09;40,76;0,2820;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;17,71;0,00
+PED-00066;2025-01-03;Carla Henrique;Perfume;Beleza;2;221,30;442,60;0,00;304,89;124,22;0,2807;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;13,49;0,00
+PED-00067;2025-01-09;Gabriela Farias;Brinquedo;Pet;2;39,05;78,10;3,90;42,00;6,91;0,0931;App;Centro-Oeste;Brasília;Entregue;Boleto;25,29;0,00
+PED-00068;2025-01-09;Elisa Jardim;Trena;Ferramentas;1;29,11;29,11;2,91;14,72;-11,29;-0,4309;App;Sudeste;São Paulo;Entregue;Cartão de débito;22,77;0,00
+PED-00069;2025-01-11;Gabriela Jardim;Kit Chaves;Ferramentas;1;80,40;80,40;8,04;51,62;7,59;0,1049;Redes sociais;Sul;Curitiba;Entregue;Boleto;13,15;0,00
+PED-00070;2025-01-13;João Farias;Brinquedo;Pet;1;40,49;40,49;2,02;26,43;-8,13;-0,2113;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;20,17;0,00
+PED-00071;2025-01-23;João Ibrahim;Kit Chaves;Ferramentas;2;85,96;171,92;0,00;99,93;48,84;0,2841;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;23,15;0,00
+PED-00072;2025-01-05;Isabela Ibrahim;Cama Pet;Pet;2;115,25;230,50;11,53;134,35;62,04;0,2833;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;22,58;0,00
+PED-00073;2025-01-04;Ana Farias;Cama Pet;Pet;1;113,15;113,15;5,66;66,15;-87,68;-0,8157;Redes sociais;Sudeste;Belo Horizonte;Devolvido;Cartão de débito;21,53;107,49
+PED-00074;2025-01-07;Olívia Almeida;Kit Chaves;Ferramentas;1;75,64;75,64;11,35;41,00;5,46;0,0849;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;17,83;0,00
+PED-00075;2025-01-25;Isabela Klein;Cama Pet;Pet;1;115,36;115,36;0,00;60,55;-87,14;-0,7554;Marketplace;Sudeste;Rio de Janeiro;Devolvido;Boleto;26,59;115,36
+PED-00076;2025-01-18;Nicolas Nunes;Garrafa Térmica;Esporte;2;61,35;122,70;0,00;73,41;39,19;0,3194;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;10,10;0,00
+PED-00077;2025-01-26;Olívia Duarte;Furadeira;Ferramentas;2;357,48;714,96;107,24;419,15;175,96;0,2895;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;12,61;0,00
+PED-00078;2025-01-22;Kelly Moreira;Ração Premium;Pet;1;151,07;151,07;22,66;78,14;20,70;0,1612;App;Nordeste;Fortaleza;Entregue;Boleto;29,57;0,00
+PED-00079;2025-01-18;Nicolas Duarte;Trena;Ferramentas;1;28,00;28,00;0,00;16,29;-17,95;-0,6411;App;Centro-Oeste;Goiânia;Entregue;Pix;29,66;0,00
+PED-00080;2025-01-13;Ana Esteves;Ração Premium;Pet;3;136,65;409,95;61,49;259,80;66,72;0,1915;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de crédito;21,94;0,00
+PED-00081;2025-01-02;Nicolas Esteves;Kit Chaves;Ferramentas;1;80,52;80,52;0,00;54,15;1,13;0,0140;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;25,24;0,00
+PED-00082;2025-01-20;Isabela Farias;Trena;Ferramentas;1;28,71;28,71;1,44;19,78;-12,33;-0,4521;App;Nordeste;Fortaleza;Entregue;Cartão de débito;19,82;0,00
+PED-00083;2025-01-21;João Farias;Brinquedo;Pet;1;37,15;37,15;1,86;22,72;-13,32;-0,3774;App;Sul;Porto Alegre;Entregue;Pix;25,89;0,00
+PED-00084;2025-01-04;Heitor Klein;Bola;Esporte;2;90,44;180,88;0,00;107,50;43,03;0,2379;App;Nordeste;Salvador;Entregue;Cartão de débito;30,35;0,00
+PED-00085;2025-01-07;Marina Lopes;Perfume;Beleza;3;225,45;676,35;33,82;415,68;201,60;0,3138;Marketplace;Nordeste;Salvador;Entregue;Pix;25,25;0,00
+PED-00086;2025-01-04;Elisa Guedes;Kit Chaves;Ferramentas;1;75,36;75,36;0,00;40,87;-50,23;-0,6665;App;Nordeste;Salvador;Devolvido;Boleto;9,36;75,36
+PED-00087;2025-01-18;Kelly Henrique;Perfume;Beleza;1;236,60;236,60;23,66;145,56;42,12;0,1978;Marketplace;Sudeste;São Paulo;Entregue;Pix;25,26;0,00
+PED-00088;2025-01-11;Lucas Moreira;Trena;Ferramentas;1;30,88;30,88;3,09;17,52;-14,29;-0,5142;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;24,56;0,00
+PED-00089;2025-01-01;Isabela Ibrahim;Hidratante;Beleza;2;58,85;117,70;11,77;78,06;0,77;0,0073;Site próprio;Nordeste;Salvador;Entregue;Boleto;27,10;0,00
+PED-00090;2025-01-21;Carla Barros;Garrafa Térmica;Esporte;1;56,65;56,65;2,83;0,00;0,00;0,0000;Redes sociais;Sul;Porto Alegre;Cancelado;Boleto;0,00;53,82
+PED-00091;2025-01-07;Olívia Almeida;Brinquedo;Pet;1;40,53;40,53;4,05;27,42;-4,23;-0,1160;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;13,29;0,00
+PED-00092;2025-01-14;Elisa Klein;Ração Premium;Pet;2;141,90;283,80;14,19;152,85;92,69;0,3438;Site próprio;Sudeste;São Paulo;Entregue;Boleto;24,07;0,00
+PED-00093;2025-01-27;Felipe Farias;Cama Pet;Pet;2;107,20;214,40;10,72;121,22;73,39;0,3603;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;9,07;0,00
+PED-00094;2025-01-19;Marina Esteves;Furadeira;Ferramentas;2;356,17;712,34;106,85;390,27;190,76;0,3151;Redes sociais;Nordeste;Recife;Entregue;Boleto;24,46;0,00
+PED-00095;2025-01-16;Diego Farias;Ração Premium;Pet;2;132,23;264,46;13,22;177,06;58,82;0,2341;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;15,36;0,00
+PED-00096;2025-02-11;Gabriela Esteves;Ração Premium;Pet;4;147,29;589,16;58,92;410,05;94,88;0,1789;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;25,31;0,00
+PED-00097;2025-02-28;Olívia Esteves;Kit Chaves;Ferramentas;3;79,19;237,57;0,00;136,99;-162,92;-0,6858;Marketplace;Centro-Oeste;Goiânia;Devolvido;Cartão de crédito;25,93;237,57
+PED-00098;2025-02-21;Diego Ibrahim;Cama Pet;Pet;1;114,17;114,17;0,00;64,10;26,86;0,2353;App;Sudeste;Belo Horizonte;Entregue;Boleto;23,21;0,00
+PED-00099;2025-02-12;Isabela Henrique;Perfume;Beleza;1;232,96;232,96;34,94;138,66;36,71;0,1854;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;22,65;0,00
+PED-00100;2025-02-10;Carla Moreira;Garrafa Térmica;Esporte;1;57,57;57,57;0,00;36,76;11,56;0,2008;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;9,25;0,00
+PED-00101;2025-02-03;Bruno Barros;Kit Skincare;Beleza;1;182,58;182,58;27,39;91,84;40,02;0,2579;App;Sul;Curitiba;Entregue;Pix;23,33;0,00
+PED-00102;2025-02-23;Paulo Jardim;Garrafa Térmica;Esporte;1;59,31;59,31;5,93;40,75;2,87;0,0538;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;9,76;0,00
+PED-00103;2025-02-04;Paulo Jardim;Trena;Ferramentas;1;30,02;30,02;1,50;16,52;-17,64;-0,6185;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;29,64;0,00
+PED-00104;2025-02-20;Carla Farias;Trena;Ferramentas;2;27,74;55,48;0,00;32,84;-4,75;-0,0856;App;Nordeste;Fortaleza;Entregue;Pix;27,39;0,00
+PED-00105;2025-02-14;Bruno Ibrahim;Ração Premium;Pet;1;138,61;138,61;20,79;90,32;15,39;0,1306;App;Sudeste;São Paulo;Entregue;Cartão de débito;12,11;0,00
+PED-00106;2025-02-11;Isabela Duarte;Hidratante;Beleza;1;55,12;55,12;0,00;37,74;2,76;0,0501;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;14,62;0,00
+PED-00107;2025-02-02;Isabela Cardoso;Ração Premium;Pet;1;133,54;133,54;20,03;67,15;30,93;0,2725;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;15,43;0,00
+PED-00108;2025-02-10;Gabriela Duarte;Garrafa Térmica;Esporte;1;60,33;60,33;0,00;35,05;-3,40;-0,0564;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Boleto;28,68;0,00
+PED-00109;2025-02-25;Ana Duarte;Ração Premium;Pet;1;137,36;137,36;6,87;90,24;-106,87;-0,8190;Marketplace;Centro-Oeste;Goiânia;Devolvido;Cartão de débito;16,63;130,49
+PED-00110;2025-02-12;Felipe Farias;Trena;Ferramentas;1;30,44;30,44;3,04;20,00;-29,99;-1,0945;Site próprio;Nordeste;Recife;Devolvido;Cartão de débito;9,99;27,40
+PED-00111;2025-02-28;João Barros;Cama Pet;Pet;2;112,65;225,30;11,27;142,89;45,28;0,2116;Site próprio;Sudeste;Rio de Janeiro;Entregue;Pix;25,86;0,00
+PED-00112;2025-02-10;Lucas Moreira;Bola;Esporte;3;88,82;266,46;26,65;175,53;50,40;0,2102;Site próprio;Nordeste;Salvador;Entregue;Boleto;13,88;0,00
+PED-00113;2025-02-01;Felipe Henrique;Bola;Esporte;2;91,97;183,94;9,20;101,57;56,88;0,3255;Site próprio;Sudeste;Belo Horizonte;Entregue;Boleto;16,29;0,00
+PED-00114;2025-02-07;Olívia Moreira;Cama Pet;Pet;3;112,12;336,36;16,82;199,44;97,18;0,3041;Marketplace;Nordeste;Recife;Entregue;Pix;22,92;0,00
+PED-00115;2025-02-10;Bruno Klein;Halter;Esporte;2;131,53;263,06;0,00;162,47;77,33;0,2940;App;Sudeste;São Paulo;Entregue;Pix;23,26;0,00
+PED-00116;2025-02-01;João Ibrahim;Perfume;Beleza;2;229,45;458,90;0,00;279,86;147,48;0,3214;App;Sudeste;São Paulo;Entregue;Boleto;31,56;0,00
+PED-00117;2025-02-07;João Guedes;Garrafa Térmica;Esporte;1;61,14;61,14;0,00;32,97;1,37;0,0224;Redes sociais;Sul;Curitiba;Entregue;Cartão de débito;26,80;0,00
+PED-00118;2025-02-16;Olívia Guedes;Halter;Esporte;2;135,92;271,84;0,00;190,23;50,74;0,1867;Site próprio;Sudeste;Rio de Janeiro;Entregue;Boleto;30,87;0,00
+PED-00119;2025-02-27;Felipe Jardim;Cama Pet;Pet;1;108,65;108,65;5,43;59,44;17,91;0,1735;Site próprio;Sudeste;Belo Horizonte;Entregue;Boleto;25,87;0,00
+PED-00120;2025-02-16;Kelly Henrique;Cama Pet;Pet;1;108,93;108,93;16,34;64,73;10,95;0,1183;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;16,91;0,00
+PED-00121;2025-02-22;Isabela Klein;Furadeira;Ferramentas;2;361,03;722,06;0,00;394,87;316,85;0,4388;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;10,34;0,00
+PED-00122;2025-02-06;Olívia Farias;Perfume;Beleza;1;211,48;211,48;0,00;114,72;83,69;0,3957;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;13,07;0,00
+PED-00123;2025-02-17;Bruno Almeida;Brinquedo;Pet;1;40,48;40,48;6,07;25,44;-7,71;-0,2241;Marketplace;Sul;Porto Alegre;Entregue;Pix;16,68;0,00
+PED-00124;2025-02-18;João Lopes;Ração Premium;Pet;4;142,53;570,12;0,00;307,97;247,07;0,4334;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;15,08;0,00
+PED-00125;2025-02-07;Olívia Cardoso;Kit Skincare;Beleza;1;164,44;164,44;16,44;109,52;20,05;0,1355;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;18,43;0,00
+PED-00126;2025-02-21;Heitor Lopes;Furadeira;Ferramentas;1;328,05;328,05;16,40;164,39;119,70;0,3841;App;Nordeste;Salvador;Entregue;Pix;27,56;0,00
+PED-00127;2025-02-23;Elisa Henrique;Kit Chaves;Ferramentas;1;78,69;78,69;11,80;40,57;2,76;0,0413;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;23,56;0,00
+PED-00128;2025-02-15;Olívia Henrique;Hidratante;Beleza;1;53,57;53,57;5,36;35,24;-13,82;-0,2867;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;26,79;0,00
+PED-00129;2025-02-28;Diego Barros;Cama Pet;Pet;1;107,44;107,44;5,37;70,59;-93,01;-0,9112;Redes sociais;Sul;Porto Alegre;Devolvido;Cartão de crédito;22,42;102,07
+PED-00130;2025-02-08;Isabela Guedes;Ração Premium;Pet;2;143,98;287,96;0,00;176,46;80,89;0,2809;Marketplace;Nordeste;Recife;Entregue;Boleto;30,61;0,00
+PED-00131;2025-02-17;Marina Jardim;Perfume;Beleza;1;218,88;218,88;21,89;152,33;18,87;0,0958;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;25,79;0,00
+PED-00132;2025-02-25;Diego Ibrahim;Halter;Esporte;1;128,55;128,55;12,86;70,75;33,68;0,2911;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;11,26;0,00
+PED-00133;2025-02-26;Gabriela Moreira;Trena;Ferramentas;1;31,60;31,60;4,74;17,09;-7,85;-0,2923;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;17,62;0,00
+PED-00134;2025-02-01;Gabriela Barros;Furadeira;Ferramentas;2;313,20;626,40;62,64;428,60;111,39;0,1976;App;Sudeste;Rio de Janeiro;Entregue;Boleto;23,77;0,00
+PED-00135;2025-02-01;Gabriela Jardim;Trena;Ferramentas;1;30,73;30,73;1,54;17,98;-7,81;-0,2676;App;Centro-Oeste;Brasília;Entregue;Pix;19,02;0,00
+PED-00136;2025-02-05;Nicolas Duarte;Perfume;Beleza;1;209,53;209,53;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Recife;Cancelado;Cartão de crédito;0,00;209,53
+PED-00137;2025-02-21;Heitor Moreira;Kit Chaves;Ferramentas;1;76,71;76,71;7,67;39,46;19,12;0,2769;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;10,46;0,00
+PED-00138;2025-02-12;Isabela Farias;Trena;Ferramentas;1;31,78;31,78;0,00;17,87;-8,37;-0,2634;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de crédito;22,28;0,00
+PED-00139;2025-02-18;Paulo Lopes;Kit Skincare;Beleza;2;179,59;359,18;17,96;238,95;81,11;0,2377;Site próprio;Sudeste;Rio de Janeiro;Entregue;Boleto;21,16;0,00
+PED-00140;2025-02-18;Elisa Almeida;Perfume;Beleza;1;227,52;227,52;0,00;117,98;95,36;0,4191;App;Centro-Oeste;Brasília;Entregue;Boleto;14,18;0,00
+PED-00141;2025-02-07;Olívia Farias;Bola;Esporte;1;97,85;97,85;0,00;60,85;11,50;0,1175;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;25,50;0,00
+PED-00142;2025-02-07;Elisa Lopes;Trena;Ferramentas;1;28,51;28,51;0,00;15,47;-11,02;-0,3865;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de crédito;24,06;0,00
+PED-00143;2025-02-03;Diego Esteves;Hidratante;Beleza;1;54,81;54,81;8,22;30,05;7,26;0,1558;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;9,28;0,00
+PED-00144;2025-02-24;Marina Cardoso;Brinquedo;Pet;1;41,17;41,17;2,06;27,52;-10,16;-0,2598;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;21,75;0,00
+PED-00145;2025-02-10;Kelly Guedes;Kit Skincare;Beleza;1;169,64;169,64;0,00;118,70;-136,12;-0,8024;App;Nordeste;Salvador;Devolvido;Cartão de crédito;17,42;169,64
+PED-00146;2025-02-03;Felipe Ibrahim;Bola;Esporte;2;91,82;183,64;9,18;99,95;47,72;0,2735;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;26,79;0,00
+PED-00147;2025-02-07;Lucas Guedes;Kit Chaves;Ferramentas;3;81,83;245,49;0,00;126,81;92,02;0,3748;Marketplace;Sul;Curitiba;Entregue;Pix;26,66;0,00
+PED-00148;2025-02-01;Heitor Moreira;Garrafa Térmica;Esporte;4;64,63;258,52;38,78;141,79;58,53;0,2664;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;19,42;0,00
+PED-00149;2025-02-12;Nicolas Moreira;Trena;Ferramentas;1;28,00;28,00;2,80;14,95;-9,19;-0,3647;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;19,44;0,00
+PED-00150;2025-02-20;Lucas Almeida;Bola;Esporte;1;88,28;88,28;4,41;53,90;14,02;0,1672;Site próprio;Nordeste;Fortaleza;Entregue;Pix;15,95;0,00
+PED-00151;2025-02-24;Felipe Duarte;Garrafa Térmica;Esporte;2;56,53;113,06;0,00;76,19;5,12;0,0453;App;Nordeste;Recife;Entregue;Cartão de débito;31,75;0,00
+PED-00152;2025-02-25;Gabriela Guedes;Perfume;Beleza;1;213,32;213,32;0,00;145,06;54,58;0,2559;Marketplace;Sul;Curitiba;Entregue;Boleto;13,68;0,00
+PED-00153;2025-02-04;Marina Cardoso;Brinquedo;Pet;1;39,82;39,82;0,00;24,02;-11,42;-0,2868;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;27,22;0,00
+PED-00154;2025-02-11;Olívia Duarte;Trena;Ferramentas;1;31,53;31,53;0,00;16,40;1,42;0,0450;Marketplace;Nordeste;Recife;Entregue;Pix;13,71;0,00
+PED-00155;2025-02-19;Bruno Lopes;Furadeira;Ferramentas;2;345,20;690,40;103,56;356,30;206,01;0,3510;Site próprio;Nordeste;Salvador;Entregue;Cartão de débito;24,53;0,00
+PED-00156;2025-02-18;Paulo Lopes;Bola;Esporte;1;91,52;91,52;0,00;62,82;5,66;0,0618;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;23,04;0,00
+PED-00157;2025-02-08;Heitor Ibrahim;Perfume;Beleza;1;238,91;238,91;0,00;129,95;80,90;0,3386;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;28,06;0,00
+PED-00158;2025-02-28;Nicolas Duarte;Halter;Esporte;1;141,09;141,09;21,16;73,83;27,25;0,2272;Marketplace;Sul;Curitiba;Entregue;Boleto;18,85;0,00
+PED-00159;2025-02-11;Elisa Jardim;Perfume;Beleza;1;209,00;209,00;31,35;142,98;15,34;0,0863;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;19,33;0,00
+PED-00160;2025-02-15;Heitor Duarte;Halter;Esporte;2;131,66;263,32;13,17;174,36;44,92;0,1796;App;Sudeste;Belo Horizonte;Entregue;Pix;30,87;0,00
+PED-00161;2025-02-21;Elisa Ibrahim;Brinquedo;Pet;1;41,79;41,79;0,00;20,92;-7,82;-0,1871;App;Nordeste;Fortaleza;Entregue;Boleto;28,69;0,00
+PED-00162;2025-02-19;Olívia Duarte;Bola;Esporte;1;92,20;92,20;0,00;0,00;0,00;0,0000;Marketplace;Centro-Oeste;Brasília;Cancelado;Pix;0,00;92,20
+PED-00163;2025-02-06;Carla Cardoso;Kit Skincare;Beleza;1;170,18;170,18;17,02;90,37;42,52;0,2776;App;Nordeste;Recife;Entregue;Boleto;20,27;0,00
+PED-00164;2025-02-05;Heitor Nunes;Halter;Esporte;1;136,76;136,76;13,68;69,90;43,63;0,3545;Redes sociais;Sudeste;São Paulo;Entregue;Pix;9,55;0,00
+PED-00165;2025-02-27;Kelly Cardoso;Kit Chaves;Ferramentas;1;84,68;84,68;8,47;46,26;18,68;0,2451;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;11,27;0,00
+PED-00166;2025-02-19;Paulo Esteves;Ração Premium;Pet;1;133,74;133,74;0,00;89,61;34,42;0,2574;Site próprio;Sudeste;Belo Horizonte;Entregue;Boleto;9,71;0,00
+PED-00167;2025-02-26;Nicolas Cardoso;Bola;Esporte;1;97,28;97,28;4,86;66,94;9,19;0,0994;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;16,29;0,00
+PED-00168;2025-02-03;Elisa Guedes;Halter;Esporte;1;135,18;135,18;13,52;81,89;12,96;0,1065;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;26,81;0,00
+PED-00169;2025-02-15;Carla Jardim;Brinquedo;Pet;2;40,73;81,46;12,22;52,96;-67,22;-0,9708;Marketplace;Sudeste;Rio de Janeiro;Devolvido;Pix;14,26;69,24
+PED-00170;2025-02-01;Isabela Guedes;Hidratante;Beleza;1;56,92;56,92;2,85;38,34;-13,45;-0,2488;App;Sul;Curitiba;Entregue;Boleto;29,18;0,00
+PED-00171;2025-02-28;Carla Esteves;Perfume;Beleza;3;221,60;664,80;33,24;358,01;242,41;0,3838;App;Nordeste;Recife;Entregue;Cartão de crédito;31,14;0,00
+PED-00172;2025-02-25;Heitor Jardim;Brinquedo;Pet;1;38,81;38,81;5,82;23,71;-8,94;-0,2710;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;18,22;0,00
+PED-00173;2025-02-03;Bruno Esteves;Perfume;Beleza;4;217,96;871,84;130,78;524,44;201,57;0,2720;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;15,05;0,00
+PED-00174;2025-02-28;Felipe Nunes;Cama Pet;Pet;3;111,54;334,62;33,46;179,19;92,53;0,3072;App;Nordeste;Salvador;Entregue;Cartão de débito;29,44;0,00
+PED-00175;2025-02-13;Lucas Henrique;Furadeira;Ferramentas;1;322,49;322,49;16,12;211,27;74,34;0,2426;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;20,76;0,00
+PED-00176;2025-02-27;Paulo Almeida;Trena;Ferramentas;3;27,58;82,74;8,27;56,82;5,03;0,0675;Redes sociais;Sul;Curitiba;Entregue;Boleto;12,62;0,00
+PED-00177;2025-02-07;Lucas Farias;Hidratante;Beleza;2;54,08;108,16;5,41;69,96;16,31;0,1587;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de crédito;16,48;0,00
+PED-00178;2025-02-05;Nicolas Henrique;Perfume;Beleza;1;233,22;233,22;11,66;118,23;76,20;0,3439;Marketplace;Centro-Oeste;Goiânia;Entregue;Pix;27,13;0,00
+PED-00179;2025-02-06;Paulo Esteves;Perfume;Beleza;1;215,59;215,59;32,34;126,94;25,95;0,1416;Redes sociais;Nordeste;Salvador;Entregue;Pix;30,36;0,00
+PED-00180;2025-02-22;Ana Ibrahim;Furadeira;Ferramentas;1;317,16;317,16;0,00;190,79;110,53;0,3485;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de crédito;15,84;0,00
+PED-00181;2025-02-11;Diego Jardim;Hidratante;Beleza;2;57,24;114,48;0,00;66,53;31,98;0,2794;App;Sul;Porto Alegre;Entregue;Cartão de débito;15,97;0,00
+PED-00182;2025-02-17;Elisa Farias;Hidratante;Beleza;1;53,34;53,34;8,00;29,31;-8,24;-0,1817;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;24,27;0,00
+PED-00183;2025-02-05;Diego Lopes;Furadeira;Ferramentas;1;333,84;333,84;0,00;193,08;120,35;0,3605;Site próprio;Sudeste;São Paulo;Entregue;Pix;20,41;0,00
+PED-00184;2025-02-12;Heitor Moreira;Kit Skincare;Beleza;1;174,48;174,48;26,17;110,61;13,76;0,0928;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de crédito;23,94;0,00
+PED-00185;2025-02-06;Bruno Almeida;Hidratante;Beleza;1;57,90;57,90;8,68;39,00;-0,58;-0,0118;App;Sudeste;São Paulo;Entregue;Boleto;10,80;0,00
+PED-00186;2025-03-13;Carla Ibrahim;Kit Skincare;Beleza;2;174,40;348,80;0,00;0,00;0,00;0,0000;App;Centro-Oeste;Goiânia;Cancelado;Cartão de crédito;0,00;348,80
+PED-00187;2025-03-06;Heitor Guedes;Brinquedo;Pet;4;40,06;160,24;0,00;101,48;35,67;0,2226;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;23,09;0,00
+PED-00188;2025-03-09;Paulo Almeida;Perfume;Beleza;2;223,31;446,62;0,00;225,77;191,58;0,4290;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;29,27;0,00
+PED-00189;2025-03-03;João Esteves;Kit Chaves;Ferramentas;2;80,15;160,30;24,05;0,00;0,00;0,0000;Redes sociais;Sudeste;Rio de Janeiro;Cancelado;Boleto;0,00;136,25
+PED-00190;2025-03-15;Isabela Barros;Kit Chaves;Ferramentas;1;83,07;83,07;0,00;54,31;7,60;0,0915;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;21,16;0,00
+PED-00191;2025-03-11;Kelly Lopes;Trena;Ferramentas;2;30,51;61,02;9,15;39,96;-10,71;-0,2065;App;Nordeste;Salvador;Entregue;Pix;22,62;0,00
+PED-00192;2025-03-12;Kelly Lopes;Halter;Esporte;2;123,77;247,54;0,00;161,54;62,91;0,2541;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;23,09;0,00
+PED-00193;2025-03-03;Diego Barros;Trena;Ferramentas;1;27,65;27,65;0,00;15,15;-45,38;-1,6412;Redes sociais;Centro-Oeste;Brasília;Devolvido;Boleto;30,23;27,65
+PED-00194;2025-03-27;Isabela Jardim;Halter;Esporte;1;136,16;136,16;0,00;74,68;51,59;0,3789;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;9,89;0,00
+PED-00195;2025-03-11;Felipe Cardoso;Furadeira;Ferramentas;2;330,53;661,06;0,00;414,38;236,70;0,3581;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;9,98;0,00
+PED-00196;2025-03-02;Heitor Jardim;Garrafa Térmica;Esporte;1;63,26;63,26;0,00;35,42;9,98;0,1578;Redes sociais;Sudeste;São Paulo;Entregue;Boleto;17,86;0,00
+PED-00197;2025-03-10;Lucas Barros;Brinquedo;Pet;1;42,60;42,60;6,39;24,29;-12,92;-0,3568;App;Sul;Porto Alegre;Entregue;Pix;24,84;0,00
+PED-00198;2025-03-27;Marina Cardoso;Hidratante;Beleza;1;57,78;57,78;8,67;37,78;-10,58;-0,2154;App;Sul;Curitiba;Entregue;Cartão de débito;21,91;0,00
+PED-00199;2025-03-23;Kelly Cardoso;Ração Premium;Pet;3;141,35;424,05;0,00;267,45;-285,73;-0,6738;App;Sudeste;Rio de Janeiro;Devolvido;Cartão de crédito;18,28;424,05
+PED-00200;2025-03-08;Diego Nunes;Bola;Esporte;1;95,93;95,93;0,00;66,99;6,59;0,0687;App;Sudeste;São Paulo;Entregue;Boleto;22,35;0,00
+PED-00201;2025-03-27;João Klein;Hidratante;Beleza;3;57,04;171,12;0,00;114,06;42,08;0,2459;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;14,98;0,00
+PED-00202;2025-03-17;Diego Almeida;Bola;Esporte;1;94,28;94,28;0,00;57,68;-69,42;-0,7363;Redes sociais;Sul;Porto Alegre;Devolvido;Cartão de débito;11,74;94,28
+PED-00203;2025-03-11;Isabela Almeida;Brinquedo;Pet;1;38,10;38,10;1,91;22,10;-14,46;-0,3996;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;28,55;0,00
+PED-00204;2025-03-11;Gabriela Almeida;Perfume;Beleza;2;223,54;447,08;0,00;294,45;129,91;0,2906;Redes sociais;Nordeste;Recife;Entregue;Pix;22,72;0,00
+PED-00205;2025-03-04;Gabriela Esteves;Furadeira;Ferramentas;1;319,11;319,11;47,87;200,07;54,81;0,2021;Redes sociais;Nordeste;Fortaleza;Entregue;Pix;16,36;0,00
+PED-00206;2025-03-04;João Ibrahim;Furadeira;Ferramentas;1;339,59;339,59;16,98;211,88;101,20;0,3137;App;Sul;Porto Alegre;Entregue;Cartão de débito;9,53;0,00
+PED-00207;2025-03-24;Marina Moreira;Brinquedo;Pet;1;39,50;39,50;5,92;24,03;-18,04;-0,5372;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;27,59;0,00
+PED-00208;2025-03-18;Carla Duarte;Bola;Esporte;2;85,07;170,14;0,00;108,26;40,39;0,2374;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;21,49;0,00
+PED-00209;2025-03-15;Felipe Lopes;Ração Premium;Pet;1;134,10;134,10;6,71;68,04;41,81;0,3282;App;Nordeste;Salvador;Entregue;Pix;17,54;0,00
+PED-00210;2025-03-27;Isabela Duarte;Halter;Esporte;1;129,15;129,15;19,37;78,12;8,44;0,0769;Redes sociais;Nordeste;Salvador;Entregue;Pix;23,22;0,00
+PED-00211;2025-03-13;Paulo Esteves;Cama Pet;Pet;3;114,97;344,91;0,00;191,77;136,56;0,3959;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;16,58;0,00
+PED-00212;2025-03-28;Gabriela Cardoso;Cama Pet;Pet;2;112,74;225,48;0,00;119,32;89,69;0,3978;Marketplace;Nordeste;Fortaleza;Entregue;Pix;16,47;0,00
+PED-00213;2025-03-23;Lucas Almeida;Halter;Esporte;2;139,71;279,42;0,00;174,42;85,75;0,3069;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;19,25;0,00
+PED-00214;2025-03-23;Olívia Esteves;Cama Pet;Pet;1;112,26;112,26;16,84;69,87;13,46;0,1411;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;12,09;0,00
+PED-00215;2025-03-11;Isabela Klein;Hidratante;Beleza;3;57,97;173,91;8,70;108,40;46,95;0,2842;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;9,86;0,00
+PED-00216;2025-03-01;João Lopes;Furadeira;Ferramentas;3;329,71;989,13;49,46;668,45;256,89;0,2734;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;14,33;0,00
+PED-00217;2025-03-11;Felipe Guedes;Perfume;Beleza;1;210,04;210,04;31,51;114,06;53,92;0,3020;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;10,55;0,00
+PED-00218;2025-03-01;Nicolas Almeida;Ração Premium;Pet;1;135,22;135,22;0,00;79,87;-105,58;-0,7808;Redes sociais;Sul;Porto Alegre;Devolvido;Cartão de crédito;25,71;135,22
+PED-00219;2025-03-13;Paulo Jardim;Trena;Ferramentas;1;30,20;30,20;1,51;20,82;-21,59;-0,7525;App;Sul;Porto Alegre;Entregue;Boleto;29,46;0,00
+PED-00220;2025-03-07;Kelly Nunes;Kit Skincare;Beleza;1;174,97;174,97;8,75;101,36;51,72;0,3112;App;Sul;Curitiba;Entregue;Cartão de débito;13,14;0,00
+PED-00221;2025-03-27;Olívia Nunes;Trena;Ferramentas;1;28,72;28,72;0,00;17,74;-1,63;-0,0568;Marketplace;Sul;Porto Alegre;Entregue;Pix;12,61;0,00
+PED-00222;2025-03-19;Elisa Henrique;Perfume;Beleza;2;235,78;471,56;47,16;241,18;162,55;0,3830;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;20,67;0,00
+PED-00223;2025-03-21;Heitor Duarte;Ração Premium;Pet;1;143,23;143,23;21,48;71,64;32,40;0,2661;Redes sociais;Nordeste;Salvador;Entregue;Boleto;17,71;0,00
+PED-00224;2025-03-18;Paulo Cardoso;Hidratante;Beleza;2;57,77;115,54;5,78;60,91;37,47;0,3414;Site próprio;Sul;Curitiba;Entregue;Pix;11,38;0,00
+PED-00225;2025-03-17;Nicolas Moreira;Bola;Esporte;4;91,28;365,12;18,26;238,05;82,78;0,2387;Redes sociais;Sudeste;São Paulo;Entregue;Pix;26,03;0,00
+PED-00226;2025-03-12;Nicolas Moreira;Perfume;Beleza;1;224,89;224,89;0,00;135,67;71,10;0,3162;Marketplace;Nordeste;Recife;Entregue;Pix;18,12;0,00
+PED-00227;2025-03-09;Kelly Ibrahim;Trena;Ferramentas;4;31,87;127,48;12,75;63,77;-90,20;-0,7862;Marketplace;Nordeste;Recife;Devolvido;Cartão de débito;26,43;114,73
+PED-00228;2025-03-21;Lucas Jardim;Kit Chaves;Ferramentas;2;85,37;170,74;25,61;102,18;14,51;0,1000;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;28,44;0,00
+PED-00229;2025-03-17;Felipe Duarte;Furadeira;Ferramentas;1;357,17;357,17;35,72;245,90;-262,80;-0,8175;Redes sociais;Nordeste;Recife;Devolvido;Boleto;16,90;321,45
+PED-00230;2025-03-19;Elisa Esteves;Bola;Esporte;2;88,72;177,44;0,00;100,93;51,90;0,2925;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;24,61;0,00
+PED-00231;2025-03-13;Bruno Moreira;Perfume;Beleza;1;237,87;237,87;23,79;129,13;55,72;0,2603;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;29,23;0,00
+PED-00232;2025-03-07;Nicolas Cardoso;Garrafa Térmica;Esporte;1;62,18;62,18;6,22;43,11;-14,88;-0,2659;Site próprio;Sudeste;São Paulo;Entregue;Boleto;27,73;0,00
+PED-00233;2025-03-24;Diego Duarte;Garrafa Térmica;Esporte;1;59,18;59,18;0,00;32,78;-3,18;-0,0537;App;Nordeste;Salvador;Entregue;Boleto;29,58;0,00
+PED-00234;2025-03-18;Lucas Farias;Trena;Ferramentas;1;31,19;31,19;0,00;19,57;-13,05;-0,4184;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;24,67;0,00
+PED-00235;2025-03-07;João Almeida;Furadeira;Ferramentas;1;351,07;351,07;52,66;207,95;78,70;0,2637;Redes sociais;Nordeste;Recife;Entregue;Pix;11,76;0,00
+PED-00236;2025-03-01;Isabela Cardoso;Bola;Esporte;1;90,48;90,48;0,00;50,26;11,83;0,1307;App;Centro-Oeste;Goiânia;Entregue;Pix;28,39;0,00
+PED-00237;2025-03-28;Marina Barros;Ração Premium;Pet;1;138,72;138,72;6,94;91,78;29,65;0,2250;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;10,35;0,00
+PED-00238;2025-03-21;Felipe Duarte;Halter;Esporte;2;141,35;282,70;14,13;172,72;72,81;0,2711;Marketplace;Sudeste;São Paulo;Entregue;Boleto;23,04;0,00
+PED-00239;2025-03-25;Felipe Nunes;Kit Chaves;Ferramentas;1;77,30;77,30;3,87;0,00;-0,00;-0,0000;Redes sociais;Nordeste;Fortaleza;Cancelado;Pix;0,00;73,43
+PED-00240;2025-03-07;Bruno Farias;Brinquedo;Pet;1;39,76;39,76;3,98;23,06;-8,97;-0,2507;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;21,69;0,00
+PED-00241;2025-03-26;Olívia Henrique;Halter;Esporte;1;138,19;138,19;20,73;70,95;15,05;0,1281;Redes sociais;Sul;Curitiba;Entregue;Boleto;31,46;0,00
+PED-00242;2025-03-23;Elisa Cardoso;Brinquedo;Pet;2;37,75;75,50;0,00;47,12;19,17;0,2539;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;9,21;0,00
+PED-00243;2025-03-20;Ana Farias;Garrafa Térmica;Esporte;3;63,62;190,86;28,63;119,41;11,90;0,0734;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;30,92;0,00
+PED-00244;2025-03-11;João Esteves;Ração Premium;Pet;1;135,24;135,24;20,29;74,91;26,30;0,2288;App;Sul;Porto Alegre;Entregue;Cartão de crédito;13,74;0,00
+PED-00245;2025-03-13;Olívia Barros;Kit Chaves;Ferramentas;2;77,21;154,42;0,00;89,29;38,51;0,2494;Redes sociais;Sul;Curitiba;Entregue;Pix;26,62;0,00
+PED-00246;2025-03-15;Isabela Esteves;Hidratante;Beleza;1;57,25;57,25;0,00;31,97;-4,60;-0,0803;Redes sociais;Sul;Curitiba;Entregue;Pix;29,88;0,00
+PED-00247;2025-03-15;Isabela Farias;Bola;Esporte;1;96,92;96,92;0,00;48,81;28,13;0,2902;App;Centro-Oeste;Goiânia;Entregue;Pix;19,98;0,00
+PED-00248;2025-03-26;Carla Ibrahim;Hidratante;Beleza;2;54,98;109,96;0,00;62,52;34,57;0,3144;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;12,87;0,00
+PED-00249;2025-03-02;Diego Nunes;Kit Skincare;Beleza;2;181,43;362,86;0,00;236,67;107,30;0,2957;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;18,89;0,00
+PED-00250;2025-03-08;Olívia Moreira;Furadeira;Ferramentas;1;340,19;340,19;34,02;232,20;48,68;0,1590;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;25,29;0,00
+PED-00251;2025-03-02;Bruno Almeida;Brinquedo;Pet;1;38,88;38,88;5,83;0,00;0,00;0,0000;Redes sociais;Sul;Curitiba;Cancelado;Pix;0,00;33,05
+PED-00252;2025-03-23;Heitor Barros;Brinquedo;Pet;2;41,21;82,42;12,36;49,73;-4,51;-0,0644;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;24,84;0,00
+PED-00253;2025-03-06;Felipe Barros;Ração Premium;Pet;2;149,82;299,64;0,00;154,11;119,20;0,3978;Redes sociais;Sul;Porto Alegre;Entregue;Pix;26,33;0,00
+PED-00254;2025-03-25;Paulo Barros;Brinquedo;Pet;1;41,38;41,38;4,14;21,73;6,37;0,1711;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;9,14;0,00
+PED-00255;2025-03-17;Marina Almeida;Furadeira;Ferramentas;1;346,17;346,17;51,93;214,78;61,45;0,2088;App;Sul;Curitiba;Entregue;Pix;18,01;0,00
+PED-00256;2025-03-25;Diego Guedes;Brinquedo;Pet;2;38,87;77,74;7,77;49,22;11,50;0,1644;Site próprio;Nordeste;Recife;Entregue;Boleto;9,25;0,00
+PED-00257;2025-03-08;Felipe Jardim;Bola;Esporte;2;89,17;178,34;17,83;117,09;15,70;0,0978;App;Sul;Porto Alegre;Entregue;Pix;27,72;0,00
+PED-00258;2025-03-23;Gabriela Nunes;Bola;Esporte;1;92,41;92,41;0,00;50,71;26,55;0,2873;Redes sociais;Sul;Curitiba;Entregue;Pix;15,15;0,00
+PED-00259;2025-03-22;Diego Farias;Garrafa Térmica;Esporte;1;59,78;59,78;5,98;38,62;-7,85;-0,1459;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;23,03;0,00
+PED-00260;2025-03-03;Felipe Barros;Trena;Ferramentas;2;31,33;62,66;0,00;41,15;-1,58;-0,0252;App;Nordeste;Recife;Entregue;Pix;23,09;0,00
+PED-00261;2025-03-27;Olívia Klein;Garrafa Térmica;Esporte;1;63,64;63,64;9,55;41,31;0,45;0,0083;Redes sociais;Sul;Curitiba;Entregue;Boleto;12,33;0,00
+PED-00262;2025-03-01;Lucas Farias;Trena;Ferramentas;2;30,94;61,88;0,00;34,22;2,99;0,0483;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;24,67;0,00
+PED-00263;2025-03-09;Ana Klein;Bola;Esporte;1;97,64;97,64;0,00;67,57;14,55;0,1490;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;15,52;0,00
+PED-00264;2025-03-20;Marina Lopes;Cama Pet;Pet;1;109,75;109,75;5,49;63,42;-73,30;-0,7031;Redes sociais;Centro-Oeste;Goiânia;Devolvido;Cartão de crédito;9,88;104,26
+PED-00265;2025-03-18;Marina Almeida;Cama Pet;Pet;1;114,60;114,60;5,73;63,53;28,74;0,2640;Marketplace;Sudeste;São Paulo;Entregue;Cartão de crédito;16,60;0,00
+PED-00266;2025-03-02;Heitor Lopes;Brinquedo;Pet;1;37,76;37,76;0,00;0,00;0,00;0,0000;Redes sociais;Centro-Oeste;Brasília;Cancelado;Cartão de crédito;0,00;37,76
+PED-00267;2025-03-15;Lucas Jardim;Kit Skincare;Beleza;2;168,79;337,58;50,64;175,87;81,93;0,2855;Site próprio;Sudeste;Rio de Janeiro;Entregue;Boleto;29,14;0,00
+PED-00268;2025-03-15;Ana Klein;Kit Skincare;Beleza;1;167,53;167,53;25,13;86,62;25,10;0,1763;App;Centro-Oeste;Goiânia;Entregue;Boleto;30,68;0,00
+PED-00269;2025-03-23;Olívia Henrique;Furadeira;Ferramentas;3;325,27;975,81;0,00;657,56;287,30;0,2944;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;30,95;0,00
+PED-00270;2025-03-16;Bruno Almeida;Halter;Esporte;1;122,98;122,98;6,15;75,67;17,58;0,1505;App;Sul;Porto Alegre;Entregue;Cartão de débito;23,58;0,00
+PED-00271;2025-03-22;Bruno Ibrahim;Halter;Esporte;1;128,16;128,16;6,41;64,88;45,37;0,3726;App;Centro-Oeste;Goiânia;Entregue;Pix;11,50;0,00
+PED-00272;2025-03-10;Ana Barros;Kit Skincare;Beleza;1;170,78;170,78;17,08;87,41;44,67;0,2906;App;Centro-Oeste;Goiânia;Entregue;Boleto;21,62;0,00
+PED-00273;2025-04-16;Felipe Almeida;Bola;Esporte;2;95,94;191,88;0,00;121,70;57,50;0,2997;Site próprio;Sul;Porto Alegre;Entregue;Pix;12,68;0,00
+PED-00274;2025-04-17;Nicolas Duarte;Cama Pet;Pet;1;115,77;115,77;5,79;65,21;32,75;0,2978;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;12,02;0,00
+PED-00275;2025-04-25;Heitor Guedes;Brinquedo;Pet;3;40,98;122,94;12,29;62,03;26,41;0,2387;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;22,21;0,00
+PED-00276;2025-04-24;João Esteves;Kit Skincare;Beleza;1;172,54;172,54;17,25;103,26;28,30;0,1822;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;23,73;0,00
+PED-00277;2025-04-27;Felipe Barros;Halter;Esporte;2;129,14;258,28;0,00;176,75;50,85;0,1969;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;30,68;0,00
+PED-00278;2025-04-17;Nicolas Duarte;Kit Chaves;Ferramentas;2;86,19;172,38;0,00;87,40;68,16;0,3954;Site próprio;Sul;Curitiba;Entregue;Boleto;16,82;0,00
+PED-00279;2025-04-01;Lucas Moreira;Cama Pet;Pet;2;110,75;221,50;33,23;143,23;24,88;0,1322;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;20,16;0,00
+PED-00280;2025-04-12;Lucas Moreira;Ração Premium;Pet;1;143,07;143,07;0,00;92,81;-124,10;-0,8674;App;Sudeste;São Paulo;Devolvido;Pix;31,29;143,07
+PED-00281;2025-04-06;Nicolas Duarte;Kit Chaves;Ferramentas;1;82,18;82,18;8,22;51,19;-8,14;-0,1101;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;30,91;0,00
+PED-00282;2025-04-10;Nicolas Cardoso;Brinquedo;Pet;2;41,15;82,30;4,12;0,00;-0,00;-0,0000;App;Nordeste;Salvador;Cancelado;Cartão de débito;0,00;78,18
+PED-00283;2025-04-13;Marina Moreira;Ração Premium;Pet;1;143,42;143,42;21,51;88,71;11,42;0,0937;Marketplace;Nordeste;Recife;Entregue;Pix;21,78;0,00
+PED-00284;2025-04-10;Isabela Cardoso;Ração Premium;Pet;1;134,69;134,69;0,00;71,34;50,54;0,3752;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;12,81;0,00
+PED-00285;2025-04-04;Heitor Cardoso;Garrafa Térmica;Esporte;1;63,53;63,53;0,00;31,93;21,75;0,3424;App;Nordeste;Salvador;Entregue;Cartão de crédito;9,85;0,00
+PED-00286;2025-04-01;Bruno Klein;Ração Premium;Pet;2;139,15;278,30;41,74;183,28;21,60;0,0913;Redes sociais;Sul;Porto Alegre;Entregue;Pix;31,68;0,00
+PED-00287;2025-04-06;Felipe Lopes;Cama Pet;Pet;1;110,48;110,48;5,52;62,14;21,03;0,2004;App;Sul;Porto Alegre;Entregue;Boleto;21,79;0,00
+PED-00288;2025-04-15;Bruno Guedes;Bola;Esporte;1;96,96;96,96;0,00;56,50;19,98;0,2061;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;20,48;0,00
+PED-00289;2025-04-28;Paulo Duarte;Kit Chaves;Ferramentas;2;81,36;162,72;24,41;89,88;27,02;0,1954;App;Sudeste;Rio de Janeiro;Entregue;Pix;21,41;0,00
+PED-00290;2025-04-19;Ana Moreira;Perfume;Beleza;1;216,90;216,90;10,85;114,24;64,05;0,3108;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;27,76;0,00
+PED-00291;2025-04-18;Marina Barros;Ração Premium;Pet;3;136,97;410,91;0,00;245,65;139,20;0,3388;Site próprio;Nordeste;Recife;Entregue;Boleto;26,06;0,00
+PED-00292;2025-04-13;Heitor Moreira;Brinquedo;Pet;1;41,61;41,61;0,00;26,90;-3,43;-0,0824;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;18,14;0,00
+PED-00293;2025-04-01;Kelly Guedes;Trena;Ferramentas;2;29,10;58,20;5,82;34,40;-7,72;-0,1474;App;Nordeste;Salvador;Entregue;Boleto;25,70;0,00
+PED-00294;2025-04-02;Olívia Farias;Kit Skincare;Beleza;1;181,04;181,04;0,00;119,70;48,99;0,2706;Redes sociais;Nordeste;Recife;Entregue;Boleto;12,35;0,00
+PED-00295;2025-04-25;Gabriela Barros;Halter;Esporte;1;136,28;136,28;0,00;74,44;30,34;0,2226;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;31,50;0,00
+PED-00296;2025-04-12;Elisa Guedes;Kit Chaves;Ferramentas;2;82,63;165,26;24,79;83,89;38,21;0,2720;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;18,37;0,00
+PED-00297;2025-04-07;Nicolas Barros;Perfume;Beleza;1;240,45;240,45;36,07;129,83;44,12;0,2159;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;30,43;0,00
+PED-00298;2025-04-26;João Farias;Brinquedo;Pet;2;42,35;84,70;0,00;45,54;29,60;0,3495;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Boleto;9,56;0,00
+PED-00299;2025-04-15;Marina Henrique;Hidratante;Beleza;1;53,58;53,58;5,36;29,87;-7,19;-0,1491;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;25,54;0,00
+PED-00300;2025-04-12;Ana Barros;Ração Premium;Pet;1;148,00;148,00;7,40;86,11;27,29;0,1941;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;27,20;0,00
+PED-00301;2025-04-10;Bruno Nunes;Brinquedo;Pet;1;38,63;38,63;0,00;20,15;-0,70;-0,0181;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;19,18;0,00
+PED-00302;2025-04-22;Isabela Ibrahim;Bola;Esporte;2;89,69;179,38;8,97;115,67;43,30;0,2541;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de crédito;11,44;0,00
+PED-00303;2025-04-12;Felipe Cardoso;Furadeira;Ferramentas;1;323,59;323,59;0,00;192,11;121,52;0,3755;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;9,96;0,00
+PED-00304;2025-04-02;João Lopes;Bola;Esporte;1;90,43;90,43;0,00;53,19;26,07;0,2883;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;11,17;0,00
+PED-00305;2025-04-27;Carla Lopes;Halter;Esporte;4;129,81;519,24;0,00;281,97;214,47;0,4130;App;Sul;Porto Alegre;Entregue;Cartão de débito;22,80;0,00
+PED-00306;2025-04-17;Kelly Jardim;Garrafa Térmica;Esporte;1;56,15;56,15;0,00;29,44;5,33;0,0949;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;21,38;0,00
+PED-00307;2025-04-16;Marina Ibrahim;Trena;Ferramentas;1;30,66;30,66;1,53;19,85;-3,40;-0,1167;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;12,68;0,00
+PED-00308;2025-04-26;João Nunes;Bola;Esporte;1;88,00;88,00;13,20;0,00;0,00;0,0000;Redes sociais;Sudeste;Rio de Janeiro;Cancelado;Cartão de crédito;0,00;74,80
+PED-00309;2025-04-09;Paulo Lopes;Garrafa Térmica;Esporte;3;59,03;177,09;26,56;119,11;16,61;0,1103;Site próprio;Sul;Curitiba;Entregue;Pix;14,81;0,00
+PED-00310;2025-04-15;Olívia Duarte;Halter;Esporte;1;140,55;140,55;21,08;85,23;22,24;0,1862;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;12,00;0,00
+PED-00311;2025-04-04;Heitor Esteves;Kit Chaves;Ferramentas;2;83,35;166,70;0,00;92,55;57,69;0,3461;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;16,46;0,00
+PED-00312;2025-04-24;Elisa Nunes;Kit Chaves;Ferramentas;1;78,29;78,29;7,83;47,70;4,46;0,0633;App;Sudeste;São Paulo;Entregue;Cartão de crédito;18,30;0,00
+PED-00313;2025-04-19;Bruno Almeida;Furadeira;Ferramentas;4;313,42;1253,68;0,00;791,88;447,47;0,3569;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;14,33;0,00
+PED-00314;2025-04-17;Bruno Guedes;Furadeira;Ferramentas;1;316,73;316,73;15,84;198,26;92,84;0,3086;Redes sociais;Nordeste;Salvador;Entregue;Pix;9,79;0,00
+PED-00315;2025-04-10;Kelly Ibrahim;Ração Premium;Pet;2;151,81;303,62;0,00;187,67;94,00;0,3096;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;21,95;0,00
+PED-00316;2025-04-24;Diego Barros;Halter;Esporte;1;130,06;130,06;13,01;72,93;-93,21;-0,7963;Marketplace;Sul;Porto Alegre;Devolvido;Pix;20,28;117,05
+PED-00317;2025-04-03;Kelly Jardim;Cama Pet;Pet;1;108,41;108,41;0,00;0,00;0,00;0,0000;App;Sul;Curitiba;Cancelado;Cartão de débito;0,00;108,41
+PED-00318;2025-04-17;Carla Almeida;Ração Premium;Pet;1;151,47;151,47;0,00;91,14;51,13;0,3376;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;9,20;0,00
+PED-00319;2025-04-20;Felipe Cardoso;Halter;Esporte;1;129,00;129,00;6,45;76,42;33,18;0,2707;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;12,95;0,00
+PED-00320;2025-04-05;Diego Barros;Kit Skincare;Beleza;4;170,07;680,28;0,00;341,90;311,08;0,4573;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;27,30;0,00
+PED-00321;2025-04-24;Olívia Barros;Halter;Esporte;1;137,83;137,83;13,78;87,14;20,78;0,1675;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;16,13;0,00
+PED-00322;2025-04-23;Ana Guedes;Ração Premium;Pet;2;133,91;267,82;26,78;139,62;82,63;0,3428;App;Nordeste;Salvador;Entregue;Pix;18,79;0,00
+PED-00323;2025-04-03;Bruno Moreira;Cama Pet;Pet;1;111,42;111,42;5,57;73,66;9,04;0,0854;App;Nordeste;Recife;Entregue;Pix;23,15;0,00
+PED-00324;2025-04-04;Felipe Duarte;Halter;Esporte;2;133,45;266,90;0,00;144,17;112,37;0,4210;App;Nordeste;Salvador;Entregue;Cartão de débito;10,36;0,00
+PED-00325;2025-04-23;Olívia Duarte;Cama Pet;Pet;1;111,81;111,81;5,59;60,97;23,45;0,2208;Redes sociais;Sul;Curitiba;Entregue;Cartão de débito;21,80;0,00
+PED-00326;2025-04-02;Nicolas Henrique;Garrafa Térmica;Esporte;3;57,86;173,58;0,00;114,12;47,55;0,2739;Marketplace;Sudeste;São Paulo;Entregue;Cartão de crédito;11,91;0,00
+PED-00327;2025-04-23;Nicolas Nunes;Perfume;Beleza;1;238,63;238,63;35,79;128,17;53,33;0,2629;Marketplace;Sul;Porto Alegre;Entregue;Pix;21,34;0,00
+PED-00328;2025-04-25;Paulo Henrique;Bola;Esporte;1;93,53;93,53;0,00;56,57;8,19;0,0876;App;Sudeste;Belo Horizonte;Entregue;Boleto;28,77;0,00
+PED-00329;2025-04-20;Ana Almeida;Kit Skincare;Beleza;3;181,64;544,92;27,25;320,35;181,20;0,3500;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;16,12;0,00
+PED-00330;2025-04-25;Elisa Moreira;Brinquedo;Pet;4;41,09;164,36;8,22;93,59;32,93;0,2109;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;29,62;0,00
+PED-00331;2025-04-14;Felipe Almeida;Ração Premium;Pet;2;147,08;294,16;0,00;175,71;93,18;0,3168;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;25,27;0,00
+PED-00332;2025-04-02;Paulo Jardim;Kit Chaves;Ferramentas;1;77,02;77,02;11,55;52,20;-1,52;-0,0232;App;Sul;Curitiba;Entregue;Boleto;14,79;0,00
+PED-00333;2025-04-04;Felipe Klein;Kit Chaves;Ferramentas;4;79,66;318,64;0,00;196,45;-216,97;-0,6809;Marketplace;Nordeste;Salvador;Devolvido;Cartão de crédito;20,52;318,64
+PED-00334;2025-04-10;Gabriela Ibrahim;Ração Premium;Pet;1;134,47;134,47;13,45;70,24;36,04;0,2978;Site próprio;Sul;Porto Alegre;Entregue;Pix;14,74;0,00
+PED-00335;2025-04-05;Carla Moreira;Perfume;Beleza;1;240,48;240,48;12,02;134,86;-153,32;-0,6711;Marketplace;Sudeste;São Paulo;Devolvido;Cartão de débito;18,46;228,46
+PED-00336;2025-04-08;Olívia Nunes;Cama Pet;Pet;1;118,22;118,22;0,00;71,14;28,62;0,2421;App;Centro-Oeste;Brasília;Entregue;Boleto;18,46;0,00
+PED-00337;2025-04-06;Gabriela Henrique;Brinquedo;Pet;3;42,24;126,72;0,00;83,86;18,96;0,1496;Redes sociais;Nordeste;Salvador;Entregue;Boleto;23,90;0,00
+PED-00338;2025-04-04;Olívia Klein;Halter;Esporte;1;136,91;136,91;0,00;90,97;36,80;0,2688;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;9,14;0,00
+PED-00339;2025-04-10;Nicolas Almeida;Hidratante;Beleza;1;54,62;54,62;8,19;30,64;-12,65;-0,2725;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;28,44;0,00
+PED-00340;2025-04-24;Kelly Esteves;Kit Skincare;Beleza;2;182,20;364,40;0,00;189,52;163,95;0,4499;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;10,93;0,00
+PED-00341;2025-04-10;Nicolas Duarte;Kit Chaves;Ferramentas;1;86,81;86,81;8,68;49,43;-62,39;-0,7985;Marketplace;Sudeste;Belo Horizonte;Devolvido;Boleto;12,96;78,13
+PED-00342;2025-04-15;Ana Duarte;Garrafa Térmica;Esporte;1;61,12;61,12;0,00;38,53;10,11;0,1654;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;12,48;0,00
+PED-00343;2025-04-26;Heitor Nunes;Kit Skincare;Beleza;2;161,26;322,52;48,38;212,21;44,13;0,1610;Site próprio;Sudeste;Rio de Janeiro;Entregue;Pix;17,80;0,00
+PED-00344;2025-04-23;Kelly Farias;Trena;Ferramentas;1;29,18;29,18;0,00;20,19;-6,58;-0,2255;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;15,57;0,00
+PED-00345;2025-04-17;Paulo Barros;Brinquedo;Pet;3;38,84;116,52;0,00;72,19;31,73;0,2723;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;12,60;0,00
+PED-00346;2025-04-23;Paulo Jardim;Hidratante;Beleza;1;54,16;54,16;0,00;35,92;-66,62;-1,2301;App;Nordeste;Salvador;Devolvido;Cartão de crédito;30,70;54,16
+PED-00347;2025-04-15;Kelly Barros;Bola;Esporte;1;87,70;87,70;8,77;45,02;24,44;0,3096;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;9,47;0,00
+PED-00348;2025-04-17;Diego Ibrahim;Ração Premium;Pet;4;148,96;595,84;0,00;325,00;252,36;0,4235;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;18,48;0,00
+PED-00349;2025-04-20;Lucas Duarte;Furadeira;Ferramentas;3;357,37;1072,11;160,82;693,02;198,94;0,2183;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;19,33;0,00
+PED-00350;2025-04-04;Heitor Ibrahim;Garrafa Térmica;Esporte;1;61,97;61,97;3,10;41,74;7,77;0,1320;Site próprio;Sudeste;São Paulo;Entregue;Boleto;9,36;0,00
+PED-00351;2025-04-17;Carla Henrique;Kit Chaves;Ferramentas;1;77,36;77,36;3,87;45,02;7,14;0,0972;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;21,33;0,00
+PED-00352;2025-04-14;Diego Farias;Hidratante;Beleza;1;53,66;53,66;2,68;28,55;6,72;0,1318;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;15,71;0,00
+PED-00353;2025-04-17;Heitor Henrique;Brinquedo;Pet;2;38,94;77,88;0,00;53,66;-0,89;-0,0114;App;Centro-Oeste;Goiânia;Entregue;Boleto;25,11;0,00
+PED-00354;2025-04-28;Diego Jardim;Kit Skincare;Beleza;2;167,32;334,64;33,46;222,08;47,33;0,1571;App;Nordeste;Salvador;Entregue;Cartão de crédito;31,77;0,00
+PED-00355;2025-04-13;João Barros;Hidratante;Beleza;2;51,73;103,46;10,35;70,10;4,72;0,0507;App;Nordeste;Recife;Entregue;Boleto;18,29;0,00
+PED-00356;2025-05-06;Olívia Ibrahim;Trena;Ferramentas;4;30,94;123,76;6,19;67,65;23,59;0,2006;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;26,33;0,00
+PED-00357;2025-05-16;Elisa Moreira;Bola;Esporte;4;96,53;386,12;57,92;221,79;94,85;0,2890;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;11,56;0,00
+PED-00358;2025-05-07;Paulo Almeida;Ração Premium;Pet;3;147,86;443,58;0,00;232,45;190,85;0,4302;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;20,28;0,00
+PED-00359;2025-05-15;Kelly Henrique;Cama Pet;Pet;1;104,55;104,55;0,00;60,12;23,16;0,2215;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;21,27;0,00
+PED-00360;2025-05-22;Isabela Almeida;Bola;Esporte;1;85,51;85,51;0,00;47,14;25,79;0,3016;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;12,58;0,00
+PED-00361;2025-05-13;Lucas Nunes;Hidratante;Beleza;1;58,78;58,78;0,00;37,89;4,02;0,0684;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;16,87;0,00
+PED-00362;2025-05-23;Carla Cardoso;Kit Chaves;Ferramentas;1;78,30;78,30;7,83;39,68;18,14;0,2574;Marketplace;Nordeste;Recife;Entregue;Boleto;12,65;0,00
+PED-00363;2025-05-12;Elisa Almeida;Kit Skincare;Beleza;2;176,09;352,18;0,00;239,37;85,18;0,2419;Site próprio;Nordeste;Fortaleza;Entregue;Boleto;27,63;0,00
+PED-00364;2025-05-08;Carla Duarte;Kit Skincare;Beleza;1;184,97;184,97;27,75;111,04;28,96;0,1842;App;Sudeste;Rio de Janeiro;Entregue;Boleto;17,22;0,00
+PED-00365;2025-05-12;Carla Moreira;Perfume;Beleza;1;213,34;213,34;0,00;133,32;64,38;0,3018;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de débito;15,64;0,00
+PED-00366;2025-05-07;Ana Farias;Kit Skincare;Beleza;1;170,59;170,59;8,53;91,85;60,48;0,3732;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;9,73;0,00
+PED-00367;2025-05-27;Nicolas Henrique;Hidratante;Beleza;2;52,57;105,14;0,00;62,50;11,35;0,1080;Site próprio;Centro-Oeste;Brasília;Entregue;Boleto;31,29;0,00
+PED-00368;2025-05-20;Kelly Guedes;Hidratante;Beleza;2;51,32;102,64;5,13;58,25;23,72;0,2433;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;15,54;0,00
+PED-00369;2025-05-13;Bruno Guedes;Bola;Esporte;4;88,46;353,84;0,00;243,71;88,20;0,2493;Site próprio;Sudeste;São Paulo;Entregue;Boleto;21,93;0,00
+PED-00370;2025-05-06;Carla Moreira;Garrafa Térmica;Esporte;3;63,13;189,39;0,00;115,04;44,87;0,2369;App;Sudeste;São Paulo;Entregue;Cartão de crédito;29,48;0,00
+PED-00371;2025-05-03;Ana Guedes;Bola;Esporte;1;97,71;97,71;14,66;53,19;1,34;0,0161;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;28,52;0,00
+PED-00372;2025-05-03;Isabela Duarte;Cama Pet;Pet;2;115,41;230,82;23,08;118,78;72,01;0,3466;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;16,95;0,00
+PED-00373;2025-05-07;Olívia Klein;Garrafa Térmica;Esporte;1;58,00;58,00;8,70;37,84;-8,77;-0,1779;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;20,23;0,00
+PED-00374;2025-05-01;Bruno Ibrahim;Kit Skincare;Beleza;4;167,08;668,32;33,42;410,76;206,34;0,3250;Redes sociais;Sul;Curitiba;Entregue;Pix;17,80;0,00
+PED-00375;2025-05-07;Marina Cardoso;Kit Skincare;Beleza;1;177,36;177,36;0,00;99,91;55,37;0,3122;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;22,08;0,00
+PED-00376;2025-05-21;Isabela Guedes;Cama Pet;Pet;1;116,71;116,71;5,84;59,41;22,25;0,2007;App;Nordeste;Recife;Entregue;Cartão de crédito;29,21;0,00
+PED-00377;2025-05-21;Carla Jardim;Garrafa Térmica;Esporte;1;58,27;58,27;0,00;34,27;12,54;0,2152;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;11,46;0,00
+PED-00378;2025-05-13;Heitor Moreira;Furadeira;Ferramentas;2;349,11;698,22;0,00;397,34;272,74;0,3906;Site próprio;Sul;Curitiba;Entregue;Boleto;28,14;0,00
+PED-00379;2025-05-11;Lucas Barros;Garrafa Térmica;Esporte;2;62,03;124,06;0,00;72,30;39,52;0,3186;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;12,24;0,00
+PED-00380;2025-05-08;Olívia Cardoso;Trena;Ferramentas;1;27,80;27,80;0,00;14,15;-6,26;-0,2252;Marketplace;Nordeste;Recife;Entregue;Boleto;19,91;0,00
+PED-00381;2025-05-19;Diego Farias;Garrafa Térmica;Esporte;3;62,96;188,88;18,89;126,22;22,87;0,1345;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;20,90;0,00
+PED-00382;2025-05-08;Paulo Cardoso;Hidratante;Beleza;1;53,24;53,24;7,99;33,68;-15,83;-0,3498;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;27,40;0,00
+PED-00383;2025-05-20;Marina Jardim;Halter;Esporte;1;128,15;128,15;19,22;77,82;9,24;0,0848;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;21,87;0,00
+PED-00384;2025-05-16;Olívia Moreira;Cama Pet;Pet;1;119,59;119,59;0,00;66,89;27,78;0,2323;App;Centro-Oeste;Brasília;Entregue;Boleto;24,92;0,00
+PED-00385;2025-05-24;Kelly Guedes;Trena;Ferramentas;1;30,84;30,84;3,08;17,20;-16,05;-0,5782;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;26,61;0,00
+PED-00386;2025-05-21;Paulo Ibrahim;Kit Skincare;Beleza;2;185,19;370,38;55,56;252,05;43,96;0,1396;Marketplace;Sul;Curitiba;Entregue;Boleto;18,81;0,00
+PED-00387;2025-05-03;Elisa Barros;Furadeira;Ferramentas;1;355,74;355,74;35,57;195,25;111,92;0,3496;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;13,00;0,00
+PED-00388;2025-05-22;Marina Duarte;Hidratante;Beleza;1;56,04;56,04;5,60;30,87;-1,73;-0,0343;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;21,30;0,00
+PED-00389;2025-05-12;Ana Jardim;Furadeira;Ferramentas;2;341,35;682,70;0,00;416,70;243,12;0,3561;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;22,88;0,00
+PED-00390;2025-05-27;Kelly Jardim;Ração Premium;Pet;1;147,65;147,65;0,00;89,46;43,50;0,2946;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;14,69;0,00
+PED-00391;2025-05-19;Paulo Barros;Kit Chaves;Ferramentas;1;85,78;85,78;12,87;59,04;-2,31;-0,0317;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;16,18;0,00
+PED-00392;2025-05-01;João Guedes;Bola;Esporte;1;94,12;94,12;9,41;47,28;15,19;0,1793;App;Sudeste;São Paulo;Entregue;Cartão de débito;22,24;0,00
+PED-00393;2025-05-10;Paulo Guedes;Ração Premium;Pet;2;142,36;284,72;0,00;175,19;92,56;0,3251;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;16,97;0,00
+PED-00394;2025-05-12;Olívia Jardim;Hidratante;Beleza;1;58,95;58,95;0,00;34,05;6,48;0,1099;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;18,42;0,00
+PED-00395;2025-05-24;Kelly Cardoso;Kit Skincare;Beleza;3;167,66;502,98;0,00;288,69;199,39;0,3964;Site próprio;Sudeste;São Paulo;Entregue;Pix;14,90;0,00
+PED-00396;2025-05-02;Carla Klein;Ração Premium;Pet;3;151,88;455,64;0,00;0,00;0,00;0,0000;Site próprio;Nordeste;Salvador;Cancelado;Cartão de débito;0,00;455,64
+PED-00397;2025-05-22;Lucas Cardoso;Ração Premium;Pet;1;151,71;151,71;0,00;82,55;48,38;0,3189;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;20,78;0,00
+PED-00398;2025-05-02;Felipe Nunes;Hidratante;Beleza;1;56,44;56,44;0,00;33,36;-5,41;-0,0959;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;28,49;0,00
+PED-00399;2025-05-16;Paulo Almeida;Furadeira;Ferramentas;1;348,01;348,01;34,80;203,65;-230,41;-0,7356;Redes sociais;Centro-Oeste;Brasília;Devolvido;Boleto;26,76;313,21
+PED-00400;2025-05-23;Paulo Nunes;Hidratante;Beleza;3;53,59;160,77;0,00;99,38;36,12;0,2247;Site próprio;Sul;Curitiba;Entregue;Boleto;25,27;0,00
+PED-00401;2025-05-03;Lucas Esteves;Kit Chaves;Ferramentas;2;78,85;157,70;0,00;86,61;54,14;0,3433;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;16,95;0,00
+PED-00402;2025-05-28;Carla Ibrahim;Kit Chaves;Ferramentas;1;85,19;85,19;0,00;50,19;-65,38;-0,7675;Redes sociais;Centro-Oeste;Brasília;Devolvido;Pix;15,19;85,19
+PED-00403;2025-05-25;Elisa Jardim;Perfume;Beleza;1;232,58;232,58;0,00;127,72;92,82;0,3991;Marketplace;Sul;Curitiba;Entregue;Pix;12,04;0,00
+PED-00404;2025-05-23;Ana Lopes;Ração Premium;Pet;1;148,82;148,82;0,00;74,47;45,65;0,3067;Redes sociais;Nordeste;Recife;Entregue;Pix;28,70;0,00
+PED-00405;2025-05-16;Isabela Moreira;Cama Pet;Pet;4;116,63;466,52;46,65;0,00;0,00;0,0000;Redes sociais;Sul;Curitiba;Cancelado;Pix;0,00;419,87
+PED-00406;2025-05-24;Ana Ibrahim;Ração Premium;Pet;1;151,25;151,25;7,56;91,14;37,42;0,2604;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;15,13;0,00
+PED-00407;2025-05-01;Felipe Barros;Halter;Esporte;2;136,93;273,86;0,00;157,80;-183,61;-0,6705;Site próprio;Nordeste;Recife;Devolvido;Cartão de débito;25,81;273,86
+PED-00408;2025-05-12;Kelly Moreira;Garrafa Térmica;Esporte;1;61,38;61,38;9,21;37,75;-2,10;-0,0403;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;16,52;0,00
+PED-00409;2025-05-18;Carla Lopes;Ração Premium;Pet;1;142,08;142,08;7,10;88,82;28,21;0,2090;Site próprio;Nordeste;Salvador;Entregue;Pix;17,95;0,00
+PED-00410;2025-05-23;Isabela Cardoso;Kit Skincare;Beleza;1;168,55;168,55;25,28;90,29;24,73;0,1726;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;28,25;0,00
+PED-00411;2025-05-10;Felipe Esteves;Trena;Ferramentas;2;30,05;60,10;3,01;40,70;-5,45;-0,0955;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;21,84;0,00
+PED-00412;2025-05-16;Diego Nunes;Furadeira;Ferramentas;4;349,72;1398,88;0,00;837,47;546,37;0,3906;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;15,04;0,00
+PED-00413;2025-05-11;Diego Barros;Bola;Esporte;1;93,95;93,95;0,00;53,25;9,84;0,1047;App;Sudeste;Belo Horizonte;Entregue;Boleto;30,86;0,00
+PED-00414;2025-05-12;Paulo Moreira;Garrafa Térmica;Esporte;1;63,86;63,86;6,39;43,61;-16,62;-0,2892;Redes sociais;Nordeste;Recife;Entregue;Cartão de débito;30,48;0,00
+PED-00415;2025-05-20;Diego Henrique;Perfume;Beleza;2;237,83;475,66;0,00;0,00;0,00;0,0000;Site próprio;Nordeste;Fortaleza;Cancelado;Pix;0,00;475,66
+PED-00416;2025-05-10;Marina Barros;Garrafa Térmica;Esporte;3;63,66;190,98;0,00;128,62;43,95;0,2301;Redes sociais;Nordeste;Salvador;Entregue;Boleto;18,41;0,00
+PED-00417;2025-05-25;Kelly Klein;Brinquedo;Pet;1;39,45;39,45;0,00;20,98;-4,91;-0,1245;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;23,38;0,00
+PED-00418;2025-05-11;João Almeida;Furadeira;Ferramentas;1;359,68;359,68;17,98;200,12;114,62;0,3354;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;26,96;0,00
+PED-00419;2025-05-17;Marina Almeida;Perfume;Beleza;2;234,00;468,00;0,00;294,66;162,58;0,3474;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;10,76;0,00
+PED-00420;2025-05-03;Gabriela Moreira;Garrafa Térmica;Esporte;1;58,24;58,24;0,00;37,91;-53,41;-0,9171;Site próprio;Sul;Porto Alegre;Devolvido;Cartão de crédito;15,50;58,24
+PED-00421;2025-05-09;Felipe Nunes;Halter;Esporte;2;125,43;250,86;0,00;156,00;77,66;0,3096;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;17,20;0,00
+PED-00422;2025-05-03;Elisa Guedes;Garrafa Térmica;Esporte;3;62,74;188,22;0,00;99,61;65,80;0,3496;Redes sociais;Nordeste;Salvador;Entregue;Pix;22,81;0,00
+PED-00423;2025-05-28;Olívia Lopes;Trena;Ferramentas;1;30,49;30,49;0,00;15,81;-7,04;-0,2309;Site próprio;Sul;Curitiba;Entregue;Boleto;21,72;0,00
+PED-00424;2025-05-07;Olívia Moreira;Furadeira;Ferramentas;1;332,20;332,20;49,83;193,76;68,11;0,2412;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;20,50;0,00
+PED-00425;2025-05-12;Bruno Duarte;Halter;Esporte;3;126,21;378,63;0,00;234,18;135,20;0,3571;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;9,25;0,00
+PED-00426;2025-05-12;Heitor Duarte;Garrafa Térmica;Esporte;1;59,08;59,08;0,00;0,00;0,00;0,0000;Marketplace;Nordeste;Fortaleza;Cancelado;Boleto;0,00;59,08
+PED-00427;2025-05-10;Isabela Jardim;Garrafa Térmica;Esporte;1;64,75;64,75;9,71;34,95;-8,64;-0,1570;App;Sul;Porto Alegre;Entregue;Cartão de débito;28,73;0,00
+PED-00428;2025-05-18;Felipe Esteves;Brinquedo;Pet;1;37,85;37,85;1,89;22,94;-11,28;-0,3137;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;24,30;0,00
+PED-00429;2025-05-08;Carla Esteves;Ração Premium;Pet;3;136,88;410,64;0,00;224,76;172,86;0,4210;Site próprio;Sul;Curitiba;Entregue;Pix;13,02;0,00
+PED-00430;2025-05-22;Olívia Almeida;Kit Skincare;Beleza;2;170,09;340,18;0,00;223,93;103,21;0,3034;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;13,04;0,00
+PED-00431;2025-05-20;Paulo Farias;Brinquedo;Pet;2;40,29;80,58;0,00;40,96;-54,10;-0,6714;App;Centro-Oeste;Goiânia;Devolvido;Cartão de débito;13,14;80,58
+PED-00432;2025-05-28;João Moreira;Halter;Esporte;1;122,65;122,65;6,13;65,27;31,94;0,2741;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;19,31;0,00
+PED-00433;2025-05-13;Marina Klein;Kit Skincare;Beleza;1;164,72;164,72;24,71;97,87;25,60;0,1828;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;16,54;0,00
+PED-00434;2025-05-03;Diego Barros;Bola;Esporte;1;93,19;93,19;9,32;61,93;10,91;0,1301;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;11,03;0,00
+PED-00435;2025-05-02;Isabela Nunes;Ração Premium;Pet;3;152,32;456,96;0,00;306,33;127,10;0,2781;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;23,53;0,00
+PED-00436;2025-05-02;Heitor Esteves;Kit Skincare;Beleza;1;184,43;184,43;9,22;97,54;66,09;0,3772;Site próprio;Nordeste;Recife;Entregue;Boleto;11,58;0,00
+PED-00437;2025-05-19;Heitor Lopes;Kit Chaves;Ferramentas;1;80,51;80,51;0,00;45,72;12,28;0,1525;App;Sul;Porto Alegre;Entregue;Cartão de crédito;22,51;0,00
+PED-00438;2025-05-16;Bruno Cardoso;Hidratante;Beleza;2;55,29;110,58;16,59;60,33;23,25;0,2474;App;Sudeste;São Paulo;Entregue;Boleto;10,41;0,00
+PED-00439;2025-05-15;Felipe Nunes;Ração Premium;Pet;3;140,35;421,05;0,00;223,66;-248,70;-0,5907;Marketplace;Nordeste;Salvador;Devolvido;Boleto;25,04;421,05
+PED-00440;2025-05-14;Marina Ibrahim;Perfume;Beleza;2;211,00;422,00;21,10;219,44;162,28;0,4048;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;19,18;0,00
+PED-00441;2025-05-19;Ana Guedes;Kit Skincare;Beleza;1;170,79;170,79;8,54;91,06;54,64;0,3368;App;Centro-Oeste;Goiânia;Entregue;Pix;16,55;0,00
+PED-00442;2025-05-06;Isabela Esteves;Brinquedo;Pet;1;42,67;42,67;0,00;22,34;-4,36;-0,1022;Marketplace;Sudeste;São Paulo;Entregue;Pix;24,69;0,00
+PED-00443;2025-05-19;Nicolas Duarte;Kit Chaves;Ferramentas;2;82,58;165,16;16,52;96,87;31,39;0,2112;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;20,38;0,00
+PED-00444;2025-05-28;Carla Duarte;Perfume;Beleza;1;211,75;211,75;21,18;110,80;57,74;0,3030;Site próprio;Sudeste;São Paulo;Entregue;Pix;22,03;0,00
+PED-00445;2025-05-18;Marina Farias;Cama Pet;Pet;1;103,95;103,95;15,59;56,79;9,75;0,1103;Site próprio;Sudeste;São Paulo;Entregue;Pix;21,82;0,00
+PED-00446;2025-05-07;Isabela Moreira;Kit Skincare;Beleza;1;161,88;161,88;16,19;0,00;0,00;0,0000;Site próprio;Sul;Curitiba;Cancelado;Cartão de débito;0,00;145,69
+PED-00447;2025-05-02;Marina Lopes;Trena;Ferramentas;1;28,51;28,51;4,28;18,04;-3,92;-0,1618;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;10,11;0,00
+PED-00448;2025-05-13;Nicolas Lopes;Garrafa Térmica;Esporte;1;59,16;59,16;0,00;40,05;3,56;0,0602;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;15,55;0,00
+PED-00449;2025-05-20;Lucas Guedes;Ração Premium;Pet;4;146,37;585,48;0,00;381,04;193,10;0,3298;Redes sociais;Nordeste;Recife;Entregue;Pix;11,34;0,00
+PED-00450;2025-05-05;Ana Henrique;Kit Skincare;Beleza;2;161,00;322,00;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Recife;Cancelado;Pix;0,00;322,00
+PED-00451;2025-05-06;Marina Barros;Halter;Esporte;1;132,07;132,07;0,00;77,00;43,47;0,3291;App;Sul;Porto Alegre;Entregue;Cartão de crédito;11,60;0,00
+PED-00452;2025-05-07;Elisa Henrique;Perfume;Beleza;2;211,10;422,20;0,00;262,17;147,49;0,3493;Marketplace;Centro-Oeste;Goiânia;Entregue;Pix;12,54;0,00
+PED-00453;2025-05-27;Marina Esteves;Garrafa Térmica;Esporte;1;62,71;62,71;3,14;39,98;4,94;0,0829;Site próprio;Sudeste;São Paulo;Entregue;Pix;14,65;0,00
+PED-00454;2025-05-13;Nicolas Duarte;Brinquedo;Pet;1;40,35;40,35;2,02;23,56;-13,96;-0,3642;Site próprio;Sul;Curitiba;Entregue;Pix;28,73;0,00
+PED-00455;2025-05-07;Paulo Henrique;Furadeira;Ferramentas;2;343,66;687,32;0,00;393,64;283,60;0,4126;Site próprio;Nordeste;Fortaleza;Entregue;Pix;10,08;0,00
+PED-00456;2025-05-02;Bruno Lopes;Bola;Esporte;1;92,75;92,75;13,91;64,19;-9,56;-0,1213;Marketplace;Sul;Porto Alegre;Entregue;Cartão de crédito;24,21;0,00
+PED-00457;2025-05-11;Marina Almeida;Brinquedo;Pet;1;39,72;39,72;0,00;23,05;1,07;0,0269;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;15,60;0,00
+PED-00458;2025-05-02;Bruno Barros;Perfume;Beleza;3;217,65;652,95;65,30;394,79;163,55;0,2783;App;Sudeste;Belo Horizonte;Entregue;Pix;29,31;0,00
+PED-00459;2025-05-20;Kelly Cardoso;Hidratante;Beleza;3;57,72;173,16;0,00;0,00;0,00;0,0000;App;Centro-Oeste;Brasília;Cancelado;Cartão de débito;0,00;173,16
+PED-00460;2025-05-15;Elisa Ibrahim;Halter;Esporte;1;126,77;126,77;19,02;65,63;17,87;0,1658;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;24,25;0,00
+PED-00461;2025-05-18;Bruno Henrique;Cama Pet;Pet;1;118,42;118,42;17,76;76,77;-104,51;-1,0382;Redes sociais;Nordeste;Fortaleza;Devolvido;Cartão de crédito;27,74;100,66
+PED-00462;2025-05-15;Olívia Henrique;Garrafa Térmica;Esporte;2;56,09;112,18;16,83;57,26;23,12;0,2425;App;Nordeste;Recife;Entregue;Cartão de débito;14,97;0,00
+PED-00463;2025-05-04;Gabriela Moreira;Perfume;Beleza;1;217,63;217,63;0,00;131,54;-152,34;-0,7000;Marketplace;Sul;Porto Alegre;Devolvido;Boleto;20,80;217,63
+PED-00464;2025-05-08;Carla Barros;Cama Pet;Pet;1;115,15;115,15;5,76;59,80;31,62;0,2891;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;17,97;0,00
+PED-00465;2025-05-06;Paulo Moreira;Hidratante;Beleza;1;55,45;55,45;2,77;34,05;5,15;0,0978;Site próprio;Nordeste;Fortaleza;Entregue;Pix;13,48;0,00
+PED-00466;2025-05-18;João Klein;Brinquedo;Pet;2;40,82;81,64;0,00;0,00;0,00;0,0000;Marketplace;Centro-Oeste;Brasília;Cancelado;Cartão de crédito;0,00;81,64
+PED-00467;2025-05-01;Bruno Jardim;Halter;Esporte;2;123,40;246,80;37,02;126,68;73,28;0,3493;App;Centro-Oeste;Goiânia;Entregue;Pix;9,82;0,00
+PED-00468;2025-05-26;Elisa Duarte;Kit Skincare;Beleza;1;168,58;168,58;8,43;84,52;56,65;0,3537;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;18,98;0,00
+PED-00469;2025-05-23;Carla Barros;Halter;Esporte;4;131,04;524,16;52,42;313,63;135,87;0,2880;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de crédito;22,24;0,00
+PED-00470;2025-05-02;Ana Lopes;Halter;Esporte;1;123,15;123,15;0,00;67,95;31,97;0,2596;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;23,23;0,00
+PED-00471;2025-06-09;Carla Henrique;Kit Skincare;Beleza;2;164,37;328,74;0,00;164,63;147,44;0,4485;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;16,67;0,00
+PED-00472;2025-06-06;Nicolas Ibrahim;Perfume;Beleza;1;211,18;211,18;21,12;124,47;-142,03;-0,7473;Marketplace;Centro-Oeste;Brasília;Devolvido;Boleto;17,56;190,06
+PED-00473;2025-06-20;Lucas Jardim;Trena;Ferramentas;1;29,23;29,23;1,46;16,89;-12,80;-0,4609;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;23,68;0,00
+PED-00474;2025-06-12;Elisa Duarte;Hidratante;Beleza;2;57,80;115,60;5,78;60,22;20,89;0,1902;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;28,71;0,00
+PED-00475;2025-06-05;Bruno Almeida;Kit Skincare;Beleza;1;167,22;167,22;0,00;90,93;66,79;0,3994;Site próprio;Nordeste;Fortaleza;Entregue;Boleto;9,50;0,00
+PED-00476;2025-06-08;Diego Henrique;Cama Pet;Pet;1;116,21;116,21;5,81;76,43;3,81;0,0345;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;30,16;0,00
+PED-00477;2025-06-09;Ana Moreira;Kit Skincare;Beleza;1;171,96;171,96;17,20;117,68;18,43;0,1191;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;18,65;0,00
+PED-00478;2025-06-12;Carla Henrique;Perfume;Beleza;1;224,66;224,66;33,70;117,16;43,85;0,2296;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;29,95;0,00
+PED-00479;2025-06-10;Carla Barros;Ração Premium;Pet;3;133,13;399,39;0,00;234,50;143,61;0,3596;App;Nordeste;Fortaleza;Entregue;Cartão de débito;21,28;0,00
+PED-00480;2025-06-10;Elisa Klein;Trena;Ferramentas;1;29,60;29,60;1,48;16,01;-6,67;-0,2372;Site próprio;Nordeste;Salvador;Entregue;Pix;18,78;0,00
+PED-00481;2025-06-07;Lucas Moreira;Kit Chaves;Ferramentas;1;75,69;75,69;7,57;45,37;-9,24;-0,1356;Site próprio;Nordeste;Fortaleza;Entregue;Pix;31,99;0,00
+PED-00482;2025-06-19;Lucas Duarte;Garrafa Térmica;Esporte;3;63,07;189,21;0,00;105,60;59,91;0,3166;App;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;23,70;0,00
+PED-00483;2025-06-22;João Esteves;Bola;Esporte;1;88,98;88,98;13,35;51,26;14,95;0,1977;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;9,42;0,00
+PED-00484;2025-06-16;Isabela Farias;Perfume;Beleza;1;228,15;228,15;22,82;135,83;56,53;0,2753;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;12,97;0,00
+PED-00485;2025-06-02;Felipe Guedes;Brinquedo;Pet;2;42,42;84,84;12,73;45,09;-0,54;-0,0075;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;27,56;0,00
+PED-00486;2025-06-06;Marina Barros;Hidratante;Beleza;2;53,11;106,22;5,31;63,45;21,43;0,2124;App;Sudeste;São Paulo;Entregue;Cartão de crédito;16,03;0,00
+PED-00487;2025-06-25;Ana Cardoso;Ração Premium;Pet;3;134,48;403,44;0,00;246,55;139,23;0,3451;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;17,66;0,00
+PED-00488;2025-06-11;João Cardoso;Furadeira;Ferramentas;1;341,45;341,45;0,00;213,53;116,04;0,3398;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;11,88;0,00
+PED-00489;2025-06-25;Gabriela Esteves;Furadeira;Ferramentas;2;338,48;676,96;0,00;376,58;281,03;0,4151;Redes sociais;Sudeste;São Paulo;Entregue;Pix;19,35;0,00
+PED-00490;2025-06-17;Heitor Almeida;Hidratante;Beleza;1;54,91;54,91;5,49;0,00;-0,00;-0,0000;Site próprio;Nordeste;Salvador;Cancelado;Boleto;0,00;49,42
+PED-00491;2025-06-17;João Cardoso;Hidratante;Beleza;1;58,33;58,33;2,92;35,42;-2,41;-0,0435;Marketplace;Sudeste;São Paulo;Entregue;Cartão de crédito;22,40;0,00
+PED-00492;2025-06-28;Felipe Ibrahim;Hidratante;Beleza;2;55,52;111,04;0,00;56,68;22,57;0,2033;App;Sul;Porto Alegre;Entregue;Pix;31,79;0,00
+PED-00493;2025-06-02;Bruno Moreira;Perfume;Beleza;1;234,54;234,54;0,00;157,75;62,81;0,2678;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;13,98;0,00
+PED-00494;2025-06-23;Isabela Esteves;Brinquedo;Pet;1;40,11;40,11;2,01;21,42;6,03;0,1583;App;Centro-Oeste;Brasília;Entregue;Pix;10,65;0,00
+PED-00495;2025-06-26;Heitor Jardim;Kit Chaves;Ferramentas;1;84,28;84,28;0,00;56,59;4,05;0,0481;App;Nordeste;Fortaleza;Entregue;Pix;23,64;0,00
+PED-00496;2025-06-25;Olívia Guedes;Cama Pet;Pet;1;112,97;112,97;16,95;66,34;17,84;0,1858;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;11,84;0,00
+PED-00497;2025-06-01;Ana Duarte;Trena;Ferramentas;1;29,95;29,95;0,00;18,92;-7,68;-0,2564;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;18,71;0,00
+PED-00498;2025-06-24;Kelly Barros;Kit Skincare;Beleza;1;176,31;176,31;17,63;0,00;0,00;0,0000;Redes sociais;Nordeste;Recife;Cancelado;Boleto;0,00;158,68
+PED-00499;2025-06-11;Heitor Henrique;Cama Pet;Pet;4;112,89;451,56;0,00;231,49;189,40;0,4194;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;30,67;0,00
+PED-00500;2025-06-10;Elisa Nunes;Furadeira;Ferramentas;2;354,01;708,02;106,20;454,21;136,02;0,2260;App;Sudeste;Rio de Janeiro;Entregue;Pix;11,59;0,00
+PED-00501;2025-06-08;Diego Klein;Perfume;Beleza;1;219,38;219,38;0,00;124,91;80,98;0,3691;App;Sul;Curitiba;Entregue;Cartão de crédito;13,49;0,00
+PED-00502;2025-06-07;Nicolas Nunes;Brinquedo;Pet;1;40,33;40,33;2,02;22,47;-11,53;-0,3010;Site próprio;Sudeste;São Paulo;Entregue;Pix;27,37;0,00
+PED-00503;2025-06-24;João Lopes;Hidratante;Beleza;2;51,71;103,42;15,51;53,75;19,06;0,2168;App;Nordeste;Recife;Entregue;Pix;15,10;0,00
+PED-00504;2025-06-11;Lucas Nunes;Ração Premium;Pet;1;147,71;147,71;0,00;99,56;36,90;0,2498;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;11,25;0,00
+PED-00505;2025-06-11;Gabriela Jardim;Ração Premium;Pet;1;140,84;140,84;21,13;73,12;35,40;0,2957;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;11,19;0,00
+PED-00506;2025-06-05;Nicolas Jardim;Garrafa Térmica;Esporte;1;59,63;59,63;5,96;32,47;-1,24;-0,0231;Marketplace;Nordeste;Recife;Entregue;Boleto;22,44;0,00
+PED-00507;2025-06-11;Diego Barros;Hidratante;Beleza;2;58,33;116,66;0,00;66,86;19,69;0,1688;Site próprio;Sudeste;Belo Horizonte;Entregue;Boleto;30,11;0,00
+PED-00508;2025-06-27;Marina Jardim;Hidratante;Beleza;1;59,04;59,04;0,00;31,51;7,50;0,1270;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;20,03;0,00
+PED-00509;2025-06-14;Isabela Esteves;Furadeira;Ferramentas;1;330,39;330,39;0,00;224,87;84,04;0,2544;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;21,48;0,00
+PED-00510;2025-06-06;Olívia Barros;Bola;Esporte;1;86,45;86,45;12,97;58,80;-9,49;-0,1292;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de crédito;24,17;0,00
+PED-00511;2025-06-05;Nicolas Klein;Bola;Esporte;1;90,50;90,50;4,53;52,90;13,69;0,1592;Marketplace;Nordeste;Salvador;Entregue;Boleto;19,38;0,00
+PED-00512;2025-06-18;Isabela Klein;Bola;Esporte;1;94,24;94,24;9,42;65,49;0,93;0,0110;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;18,40;0,00
+PED-00513;2025-06-06;Gabriela Henrique;Bola;Esporte;1;91,73;91,73;0,00;0,00;0,00;0,0000;Marketplace;Nordeste;Salvador;Cancelado;Pix;0,00;91,73
+PED-00514;2025-06-05;Isabela Jardim;Furadeira;Ferramentas;3;313,76;941,28;47,06;544,13;325,24;0,3637;App;Sul;Porto Alegre;Entregue;Cartão de débito;24,85;0,00
+PED-00515;2025-06-08;Bruno Duarte;Garrafa Térmica;Esporte;1;58,32;58,32;8,75;33,85;-7,88;-0,1590;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;23,60;0,00
+PED-00516;2025-06-03;Isabela Esteves;Kit Skincare;Beleza;1;166,54;166,54;24,98;93,38;36,30;0,2564;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;11,88;0,00
+PED-00517;2025-06-21;Elisa Klein;Brinquedo;Pet;1;39,47;39,47;5,92;21,03;-18,07;-0,5386;Marketplace;Sudeste;São Paulo;Entregue;Pix;30,59;0,00
+PED-00518;2025-06-13;Gabriela Henrique;Perfume;Beleza;2;225,11;450,22;22,51;251,67;161,24;0,3770;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;14,80;0,00
+PED-00519;2025-06-03;João Henrique;Brinquedo;Pet;1;40,58;40,58;6,09;23,27;-15,43;-0,4474;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;26,65;0,00
+PED-00520;2025-06-23;Gabriela Barros;Halter;Esporte;1;130,99;130,99;19,65;90,20;-6,14;-0,0551;Redes sociais;Sul;Curitiba;Entregue;Boleto;27,28;0,00
+PED-00521;2025-06-26;João Lopes;Hidratante;Beleza;2;51,75;103,50;10,35;57,06;4,25;0,0456;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;31,84;0,00
+PED-00522;2025-06-16;Elisa Guedes;Trena;Ferramentas;2;28,54;57,08;8,56;0,00;-0,00;-0,0000;Marketplace;Nordeste;Salvador;Cancelado;Cartão de débito;0,00;48,52
+PED-00523;2025-06-05;Carla Cardoso;Kit Chaves;Ferramentas;2;85,21;170,42;8,52;105,15;42,70;0,2637;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;14,05;0,00
+PED-00524;2025-06-14;Diego Ibrahim;Cama Pet;Pet;1;106,55;106,55;0,00;66,54;14,76;0,1385;App;Centro-Oeste;Goiânia;Entregue;Pix;25,25;0,00
+PED-00525;2025-06-17;Nicolas Esteves;Trena;Ferramentas;4;29,47;117,88;5,89;77,27;7,69;0,0687;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;27,03;0,00
+PED-00526;2025-06-19;Ana Farias;Halter;Esporte;3;138,12;414,36;41,44;279,35;74,96;0,2010;Redes sociais;Nordeste;Salvador;Entregue;Pix;18,61;0,00
+PED-00527;2025-06-01;Felipe Cardoso;Brinquedo;Pet;2;40,81;81,62;4,08;45,63;8,79;0,1134;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;23,12;0,00
+PED-00528;2025-06-12;Ana Henrique;Perfume;Beleza;1;225,47;225,47;11,27;153,81;34,45;0,1608;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;25,94;0,00
+PED-00529;2025-06-26;Gabriela Duarte;Perfume;Beleza;1;211,38;211,38;0,00;132,45;64,19;0,3037;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;14,74;0,00
+PED-00530;2025-06-20;Isabela Henrique;Cama Pet;Pet;4;112,38;449,52;22,48;311,51;104,74;0,2453;Site próprio;Nordeste;Fortaleza;Entregue;Boleto;10,79;0,00
+PED-00531;2025-06-07;Ana Almeida;Trena;Ferramentas;1;28,88;28,88;1,44;19,65;-1,73;-0,0630;Redes sociais;Sudeste;São Paulo;Entregue;Pix;9,52;0,00
+PED-00532;2025-06-11;Elisa Jardim;Bola;Esporte;1;97,28;97,28;0,00;56,63;18,47;0,1899;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;22,18;0,00
+PED-00533;2025-06-18;Marina Guedes;Ração Premium;Pet;1;142,82;142,82;0,00;82,87;32,91;0,2304;Marketplace;Sul;Porto Alegre;Entregue;Cartão de crédito;27,04;0,00
+PED-00534;2025-06-18;Gabriela Moreira;Bola;Esporte;2;94,19;188,38;18,84;114,64;41,45;0,2445;Marketplace;Nordeste;Fortaleza;Entregue;Boleto;13,45;0,00
+PED-00535;2025-06-12;Bruno Moreira;Ração Premium;Pet;1;135,04;135,04;13,50;84,78;18,98;0,1562;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;17,78;0,00
+PED-00536;2025-06-11;Kelly Barros;Halter;Esporte;1;126,84;126,84;0,00;68,14;47,02;0,3707;Redes sociais;Sul;Curitiba;Entregue;Boleto;11,68;0,00
+PED-00537;2025-06-21;Heitor Cardoso;Brinquedo;Pet;1;41,77;41,77;2,09;22,61;7,52;0,1895;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;9,55;0,00
+PED-00538;2025-06-06;Carla Henrique;Perfume;Beleza;1;217,97;217,97;0,00;111,23;84,19;0,3862;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;22,55;0,00
+PED-00539;2025-06-21;Ana Farias;Garrafa Térmica;Esporte;1;58,68;58,68;0,00;29,61;5,72;0,0975;Marketplace;Nordeste;Salvador;Entregue;Cartão de crédito;23,35;0,00
+PED-00540;2025-06-24;Gabriela Guedes;Bola;Esporte;1;93,30;93,30;0,00;59,15;19,29;0,2068;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;14,86;0,00
+PED-00541;2025-06-10;Carla Duarte;Ração Premium;Pet;4;145,77;583,08;58,31;381,20;127,73;0,2434;App;Sudeste;Belo Horizonte;Entregue;Pix;15,84;0,00
+PED-00542;2025-06-18;Heitor Farias;Halter;Esporte;1;133,08;133,08;0,00;90,82;-108,33;-0,8140;App;Sudeste;Belo Horizonte;Devolvido;Cartão de crédito;17,51;133,08
+PED-00543;2025-06-11;Kelly Farias;Kit Skincare;Beleza;1;164,15;164,15;24,62;89,57;-117,24;-0,8402;App;Nordeste;Salvador;Devolvido;Boleto;27,67;139,53
+PED-00544;2025-06-23;Nicolas Duarte;Brinquedo;Pet;2;37,19;74,38;0,00;48,53;2,02;0,0272;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;23,83;0,00
+PED-00545;2025-06-15;Gabriela Henrique;Cama Pet;Pet;1;104,94;104,94;10,49;61,10;-70,81;-0,7497;Site próprio;Sudeste;São Paulo;Devolvido;Pix;9,71;94,45
+PED-00546;2025-06-13;Lucas Esteves;Cama Pet;Pet;1;116,22;116,22;17,43;75,42;0,93;0,0094;App;Centro-Oeste;Goiânia;Entregue;Pix;22,44;0,00
+PED-00547;2025-06-15;Heitor Duarte;Garrafa Térmica;Esporte;1;58,91;58,91;0,00;31,95;12,85;0,2181;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;14,11;0,00
+PED-00548;2025-06-28;Kelly Jardim;Garrafa Térmica;Esporte;1;61,34;61,34;3,07;35,49;1,19;0,0204;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;21,59;0,00
+PED-00549;2025-06-15;Heitor Lopes;Trena;Ferramentas;1;31,24;31,24;3,12;21,73;-12,48;-0,4438;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;18,87;0,00
+PED-00550;2025-06-27;Paulo Farias;Ração Premium;Pet;1;150,09;150,09;0,00;100,87;37,43;0,2494;App;Sudeste;São Paulo;Entregue;Pix;11,79;0,00
+PED-00551;2025-06-24;Bruno Duarte;Kit Chaves;Ferramentas;1;83,96;83,96;8,40;45,42;4,07;0,0539;Marketplace;Nordeste;Recife;Entregue;Pix;26,07;0,00
+PED-00552;2025-06-19;Isabela Farias;Bola;Esporte;2;91,78;183,56;27,53;0,00;0,00;0,0000;Site próprio;Sul;Porto Alegre;Cancelado;Cartão de crédito;0,00;156,03
+PED-00553;2025-06-01;Felipe Nunes;Perfume;Beleza;1;211,47;211,47;0,00;140,60;47,97;0,2268;App;Sul;Curitiba;Entregue;Pix;22,90;0,00
+PED-00554;2025-06-14;Isabela Guedes;Halter;Esporte;2;139,92;279,84;0,00;143,74;105,29;0,3763;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;30,81;0,00
+PED-00555;2025-06-07;Olívia Barros;Kit Chaves;Ferramentas;1;80,74;80,74;8,07;49,52;-4,35;-0,0599;App;Nordeste;Salvador;Entregue;Pix;27,50;0,00
+PED-00556;2025-06-09;Gabriela Almeida;Kit Skincare;Beleza;1;175,49;175,49;0,00;114,68;36,47;0,2078;App;Sul;Porto Alegre;Entregue;Cartão de débito;24,34;0,00
+PED-00557;2025-06-04;Kelly Jardim;Perfume;Beleza;1;214,76;214,76;10,74;135,09;-164,00;-0,8038;Site próprio;Nordeste;Recife;Devolvido;Cartão de débito;28,91;204,02
+PED-00558;2025-06-03;Lucas Henrique;Furadeira;Ferramentas;2;315,87;631,74;0,00;0,00;0,00;0,0000;Marketplace;Sul;Porto Alegre;Cancelado;Cartão de débito;0,00;631,74
+PED-00559;2025-06-15;Bruno Guedes;Ração Premium;Pet;1;150,17;150,17;0,00;99,29;35,48;0,2363;App;Nordeste;Recife;Entregue;Cartão de débito;15,40;0,00
+PED-00560;2025-06-10;Elisa Cardoso;Kit Skincare;Beleza;1;180,70;180,70;0,00;126,23;41,78;0,2312;App;Nordeste;Recife;Entregue;Cartão de crédito;12,69;0,00
+PED-00561;2025-06-23;Kelly Henrique;Bola;Esporte;1;94,63;94,63;0,00;65,86;13,99;0,1478;Marketplace;Nordeste;Recife;Entregue;Cartão de débito;14,78;0,00
+PED-00562;2025-06-15;Olívia Ibrahim;Brinquedo;Pet;1;42,83;42,83;0,00;21,73;3,83;0,0894;App;Sul;Curitiba;Entregue;Cartão de crédito;17,27;0,00
+PED-00563;2025-06-22;Lucas Moreira;Kit Skincare;Beleza;4;166,47;665,88;33,29;441,78;165,07;0,2609;App;Centro-Oeste;Brasília;Entregue;Pix;25,74;0,00
+PED-00564;2025-06-21;Elisa Jardim;Garrafa Térmica;Esporte;1;60,45;60,45;0,00;37,42;-4,62;-0,0764;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;27,65;0,00
+PED-00565;2025-06-11;Lucas Farias;Kit Chaves;Ferramentas;1;79,50;79,50;0,00;47,69;-75,79;-0,9533;Site próprio;Nordeste;Recife;Devolvido;Pix;28,10;79,50
+PED-00566;2025-06-06;Gabriela Duarte;Kit Chaves;Ferramentas;1;80,01;80,01;0,00;44,40;15,43;0,1929;Marketplace;Nordeste;Recife;Entregue;Cartão de débito;20,18;0,00
+PED-00567;2025-06-25;Marina Jardim;Garrafa Térmica;Esporte;2;57,55;115,10;11,51;74,29;11,40;0,1100;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;17,90;0,00
+PED-00568;2025-06-25;Diego Duarte;Garrafa Térmica;Esporte;1;63,91;63,91;6,39;39,15;-5,68;-0,0987;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;24,05;0,00
+PED-00569;2025-06-07;Kelly Cardoso;Furadeira;Ferramentas;1;312,90;312,90;46,93;194,87;44,96;0,1690;Redes sociais;Nordeste;Recife;Entregue;Boleto;26,14;0,00
+PED-00570;2025-06-14;Lucas Esteves;Ração Premium;Pet;2;135,98;271,96;0,00;148,81;111,62;0,4104;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;11,53;0,00
+PED-00571;2025-07-22;Ana Cardoso;Perfume;Beleza;1;223,41;223,41;0,00;117,55;95,05;0,4255;App;Centro-Oeste;Goiânia;Entregue;Pix;10,81;0,00
+PED-00572;2025-07-05;Olívia Ibrahim;Furadeira;Ferramentas;2;356,34;712,68;0,00;461,28;239,35;0,3358;Site próprio;Nordeste;Recife;Entregue;Pix;12,05;0,00
+PED-00573;2025-07-13;Lucas Almeida;Perfume;Beleza;4;239,15;956,60;0,00;664,15;282,39;0,2952;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;10,06;0,00
+PED-00574;2025-07-25;Lucas Esteves;Furadeira;Ferramentas;1;357,24;357,24;0,00;0,00;0,00;0,0000;Marketplace;Centro-Oeste;Brasília;Cancelado;Boleto;0,00;357,24
+PED-00575;2025-07-02;Bruno Ibrahim;Kit Chaves;Ferramentas;1;84,93;84,93;0,00;46,85;28,22;0,3323;Redes sociais;Sul;Curitiba;Entregue;Boleto;9,86;0,00
+PED-00576;2025-07-01;Kelly Henrique;Brinquedo;Pet;2;42,75;85,50;12,82;57,88;-13,77;-0,1895;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;28,57;0,00
+PED-00577;2025-07-05;Nicolas Klein;Perfume;Beleza;1;210,12;210,12;21,01;138,76;-150,62;-0,7965;App;Centro-Oeste;Goiânia;Devolvido;Cartão de débito;11,86;189,11
+PED-00578;2025-07-09;Felipe Farias;Kit Skincare;Beleza;1;164,63;164,63;0,00;114,36;27,98;0,1700;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;22,29;0,00
+PED-00579;2025-07-18;Bruno Farias;Cama Pet;Pet;1;107,08;107,08;10,71;58,56;23,25;0,2413;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;14,56;0,00
+PED-00580;2025-07-08;Kelly Jardim;Cama Pet;Pet;1;115,84;115,84;0,00;75,27;-86,54;-0,7471;App;Nordeste;Salvador;Devolvido;Pix;11,27;115,84
+PED-00581;2025-07-20;Heitor Farias;Hidratante;Beleza;4;57,94;231,76;34,76;142,79;33,33;0,1692;Redes sociais;Sul;Curitiba;Entregue;Pix;20,88;0,00
+PED-00582;2025-07-09;Elisa Duarte;Kit Skincare;Beleza;1;184,23;184,23;0,00;125,28;33,46;0,1816;App;Sul;Curitiba;Entregue;Cartão de crédito;25,49;0,00
+PED-00583;2025-07-17;Nicolas Jardim;Cama Pet;Pet;1;110,93;110,93;16,64;68,69;-98,68;-1,0466;Redes sociais;Nordeste;Recife;Devolvido;Boleto;29,99;94,29
+PED-00584;2025-07-26;Gabriela Guedes;Cama Pet;Pet;1;114,41;114,41;17,16;73,78;-4,31;-0,0443;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;27,78;0,00
+PED-00585;2025-07-28;João Cardoso;Hidratante;Beleza;1;53,32;53,32;2,67;29,59;-4,78;-0,0944;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de crédito;25,84;0,00
+PED-00586;2025-07-22;Nicolas Klein;Garrafa Térmica;Esporte;1;63,69;63,69;6,37;38,39;-2,91;-0,0508;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;21,84;0,00
+PED-00587;2025-07-13;Nicolas Nunes;Trena;Ferramentas;1;30,20;30,20;3,02;18,13;-17,02;-0,6262;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;26,07;0,00
+PED-00588;2025-07-02;Nicolas Klein;Halter;Esporte;3;135,40;406,20;20,31;278,00;87,70;0,2273;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;20,19;0,00
+PED-00589;2025-07-10;Gabriela Esteves;Kit Chaves;Ferramentas;1;86,47;86,47;4,32;49,30;12,73;0,1550;Redes sociais;Sudeste;São Paulo;Entregue;Pix;20,12;0,00
+PED-00590;2025-07-08;Olívia Almeida;Bola;Esporte;2;96,75;193,50;19,35;129,50;29,92;0,1718;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;14,73;0,00
+PED-00591;2025-07-15;Carla Cardoso;Garrafa Térmica;Esporte;1;64,48;64,48;6,45;33,10;13,06;0,2251;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de crédito;11,87;0,00
+PED-00592;2025-07-02;Paulo Lopes;Ração Premium;Pet;3;145,30;435,90;43,59;281,68;79,48;0,2026;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;31,15;0,00
+PED-00593;2025-07-02;Ana Guedes;Kit Skincare;Beleza;1;179,26;179,26;0,00;92,81;-117,83;-0,6573;Site próprio;Sudeste;Rio de Janeiro;Devolvido;Cartão de débito;25,02;179,26
+PED-00594;2025-07-25;Isabela Duarte;Furadeira;Ferramentas;1;339,00;339,00;33,90;181,31;107,51;0,3524;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;16,28;0,00
+PED-00595;2025-07-09;Heitor Almeida;Brinquedo;Pet;2;40,06;80,12;8,01;49,38;9,85;0,1366;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;12,88;0,00
+PED-00596;2025-07-15;Heitor Lopes;Garrafa Térmica;Esporte;1;57,95;57,95;2,90;40,27;-59,75;-1,0854;App;Sul;Porto Alegre;Devolvido;Cartão de débito;19,48;55,05
+PED-00597;2025-07-11;Marina Klein;Kit Skincare;Beleza;2;181,29;362,58;0,00;191,75;149,20;0,4115;Site próprio;Sul;Porto Alegre;Entregue;Cartão de crédito;21,63;0,00
+PED-00598;2025-07-09;Bruno Nunes;Cama Pet;Pet;2;113,28;226,56;11,33;121,45;73,77;0,3427;Marketplace;Nordeste;Fortaleza;Entregue;Pix;20,01;0,00
+PED-00599;2025-07-13;Olívia Duarte;Ração Premium;Pet;2;142,70;285,40;0,00;143,66;129,50;0,4537;App;Sul;Porto Alegre;Entregue;Boleto;12,24;0,00
+PED-00600;2025-07-08;Olívia Moreira;Bola;Esporte;1;95,45;95,45;9,54;60,16;12,41;0,1445;Redes sociais;Nordeste;Recife;Entregue;Boleto;13,34;0,00
+PED-00601;2025-07-06;Elisa Moreira;Garrafa Térmica;Esporte;2;62,06;124,12;6,21;78,44;16,72;0,1418;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;22,75;0,00
+PED-00602;2025-07-08;Ana Almeida;Trena;Ferramentas;1;27,90;27,90;0,00;14,24;3,59;0,1287;Marketplace;Nordeste;Recife;Entregue;Pix;10,07;0,00
+PED-00603;2025-07-06;Marina Guedes;Cama Pet;Pet;1;118,85;118,85;5,94;69,86;21,19;0,1877;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;21,86;0,00
+PED-00604;2025-07-11;Carla Farias;Perfume;Beleza;1;239,74;239,74;0,00;138,22;76,20;0,3178;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;25,32;0,00
+PED-00605;2025-07-04;Carla Farias;Brinquedo;Pet;1;39,20;39,20;0,00;20,37;4,36;0,1112;App;Sul;Porto Alegre;Entregue;Cartão de débito;14,47;0,00
+PED-00606;2025-07-12;Elisa Henrique;Cama Pet;Pet;1;117,85;117,85;11,79;80,60;11,40;0,1075;Site próprio;Nordeste;Salvador;Entregue;Pix;14,06;0,00
+PED-00607;2025-07-19;Lucas Klein;Brinquedo;Pet;2;40,89;81,78;12,27;56,69;-13,27;-0,1909;App;Sudeste;São Paulo;Entregue;Cartão de débito;26,09;0,00
+PED-00608;2025-07-13;Nicolas Esteves;Garrafa Térmica;Esporte;1;60,64;60,64;6,06;37,97;-4,90;-0,0898;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;21,51;0,00
+PED-00609;2025-07-21;Gabriela Nunes;Trena;Ferramentas;1;28,54;28,54;0,00;18,90;-0,49;-0,0172;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;10,13;0,00
+PED-00610;2025-07-17;Lucas Moreira;Halter;Esporte;2;132,22;264,44;13,22;168,35;70,26;0,2797;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;12,61;0,00
+PED-00611;2025-07-18;Marina Ibrahim;Kit Skincare;Beleza;2;166,25;332,50;49,88;192,96;70,40;0,2491;App;Nordeste;Salvador;Entregue;Pix;19,26;0,00
+PED-00612;2025-07-14;Elisa Lopes;Ração Premium;Pet;1;134,64;134,64;6,73;71,30;46,74;0,3654;Marketplace;Nordeste;Salvador;Entregue;Cartão de crédito;9,87;0,00
+PED-00613;2025-07-28;Olívia Ibrahim;Perfume;Beleza;1;227,72;227,72;22,77;153,53;27,23;0,1329;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;24,19;0,00
+PED-00614;2025-07-02;Elisa Cardoso;Trena;Ferramentas;1;27,72;27,72;1,39;14,10;-28,71;-1,0904;App;Nordeste;Fortaleza;Devolvido;Cartão de crédito;14,61;26,33
+PED-00615;2025-07-22;Felipe Jardim;Kit Chaves;Ferramentas;4;84,83;339,32;0,00;206,66;116,49;0,3433;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;16,17;0,00
+PED-00616;2025-07-25;Marina Ibrahim;Garrafa Térmica;Esporte;2;56,30;112,60;5,63;58,21;16,82;0,1572;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;31,94;0,00
+PED-00617;2025-07-27;Kelly Almeida;Perfume;Beleza;1;211,50;211,50;0,00;144,50;55,91;0,2643;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;11,09;0,00
+PED-00618;2025-07-27;Olívia Esteves;Furadeira;Ferramentas;1;328,00;328,00;16,40;208,40;74,82;0,2401;Marketplace;Sudeste;Belo Horizonte;Entregue;Pix;28,38;0,00
+PED-00619;2025-07-01;João Guedes;Kit Skincare;Beleza;1;181,27;181,27;0,00;98,61;52,72;0,2908;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;29,94;0,00
+PED-00620;2025-07-12;Olívia Ibrahim;Bola;Esporte;1;93,50;93,50;0,00;62,76;-0,91;-0,0097;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;31,65;0,00
+PED-00621;2025-07-11;João Duarte;Kit Chaves;Ferramentas;3;83,20;249,60;24,96;134,08;80,65;0,3590;App;Sudeste;São Paulo;Entregue;Cartão de crédito;9,91;0,00
+PED-00622;2025-07-23;Ana Jardim;Cama Pet;Pet;1;106,75;106,75;0,00;58,33;35,32;0,3309;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;13,10;0,00
+PED-00623;2025-07-07;Isabela Henrique;Kit Skincare;Beleza;1;175,85;175,85;17,59;108,09;39,21;0,2478;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;10,96;0,00
+PED-00624;2025-07-27;João Guedes;Hidratante;Beleza;1;53,87;53,87;0,00;28,81;2,33;0,0433;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;22,73;0,00
+PED-00625;2025-07-25;Olívia Duarte;Furadeira;Ferramentas;1;335,96;335,96;16,80;225,54;64,57;0,2023;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;29,05;0,00
+PED-00626;2025-07-20;Gabriela Barros;Halter;Esporte;1;132,78;132,78;6,64;87,43;-108,53;-0,8604;Site próprio;Sudeste;Belo Horizonte;Devolvido;Cartão de crédito;21,10;126,14
+PED-00627;2025-07-12;Nicolas Lopes;Furadeira;Ferramentas;4;332,37;1329,48;0,00;798,99;-824,99;-0,6205;Redes sociais;Nordeste;Recife;Devolvido;Boleto;26,00;1329,48
+PED-00628;2025-07-28;Gabriela Henrique;Kit Chaves;Ferramentas;1;81,25;81,25;8,12;53,33;-73,29;-1,0022;Marketplace;Nordeste;Recife;Devolvido;Boleto;19,96;73,13
+PED-00629;2025-07-24;Diego Cardoso;Halter;Esporte;2;138,64;277,28;27,73;164,82;54,64;0,2190;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;30,09;0,00
+PED-00630;2025-07-25;Lucas Klein;Kit Skincare;Beleza;1;182,49;182,49;0,00;91,81;-114,21;-0,6258;App;Centro-Oeste;Goiânia;Devolvido;Cartão de débito;22,40;182,49
+PED-00631;2025-07-06;Paulo Cardoso;Kit Skincare;Beleza;1;163,69;163,69;8,18;93,53;37,04;0,2382;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;24,94;0,00
+PED-00632;2025-07-23;Marina Barros;Hidratante;Beleza;1;57,47;57,47;5,75;32,62;8,92;0,1725;Site próprio;Sul;Curitiba;Entregue;Boleto;10,18;0,00
+PED-00633;2025-07-25;Lucas Nunes;Garrafa Térmica;Esporte;2;63,42;126,84;6,34;79,04;27,41;0,2275;Site próprio;Nordeste;Salvador;Entregue;Boleto;14,05;0,00
+PED-00634;2025-07-23;Bruno Guedes;Trena;Ferramentas;1;29,10;29,10;0,00;15,99;-8,36;-0,2873;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de crédito;21,47;0,00
+PED-00635;2025-07-15;Diego Cardoso;Hidratante;Beleza;1;57,29;57,29;2,86;34,54;-11,88;-0,2183;App;Centro-Oeste;Goiânia;Entregue;Pix;31,77;0,00
+PED-00636;2025-07-13;Olívia Cardoso;Halter;Esporte;2;125,08;250,16;0,00;158,96;62,06;0,2481;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;29,14;0,00
+PED-00637;2025-07-18;Marina Henrique;Trena;Ferramentas;1;28,94;28,94;0,00;15,27;-9,77;-0,3376;Site próprio;Sudeste;São Paulo;Entregue;Boleto;23,44;0,00
+PED-00638;2025-07-16;Heitor Nunes;Kit Chaves;Ferramentas;1;80,41;80,41;12,06;42,06;-0,06;-0,0009;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;26,35;0,00
+PED-00639;2025-07-01;Carla Nunes;Hidratante;Beleza;3;54,71;164,13;16,41;100,54;31,84;0,2155;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;15,34;0,00
+PED-00640;2025-07-09;João Cardoso;Kit Chaves;Ferramentas;2;76,54;153,08;0,00;82,01;47,85;0,3126;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;23,22;0,00
+PED-00641;2025-07-06;Paulo Farias;Perfume;Beleza;2;224,70;449,40;22,47;252,61;160,51;0,3760;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;13,81;0,00
+PED-00642;2025-07-16;Marina Klein;Kit Chaves;Ferramentas;2;75,68;151,36;7,57;89,55;24,08;0,1675;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;30,16;0,00
+PED-00643;2025-07-03;Elisa Cardoso;Brinquedo;Pet;1;39,17;39,17;0,00;27,01;-11,02;-0,2813;App;Nordeste;Recife;Entregue;Cartão de débito;23,18;0,00
+PED-00644;2025-07-04;Paulo Cardoso;Furadeira;Ferramentas;1;349,58;349,58;0,00;222,81;113,80;0,3255;Redes sociais;Nordeste;Recife;Entregue;Pix;12,97;0,00
+PED-00645;2025-07-10;Nicolas Moreira;Kit Chaves;Ferramentas;2;76,52;153,04;0,00;106,31;27,66;0,1807;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;19,07;0,00
+PED-00646;2025-07-25;Marina Ibrahim;Brinquedo;Pet;2;41,02;82,04;4,10;54,58;-81,38;-1,0441;App;Centro-Oeste;Goiânia;Devolvido;Boleto;26,80;77,94
+PED-00647;2025-07-16;Olívia Moreira;Perfume;Beleza;1;227,67;227,67;34,15;143,02;25,47;0,1316;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;25,03;0,00
+PED-00648;2025-07-06;Kelly Farias;Kit Chaves;Ferramentas;3;76,14;228,42;22,84;150,16;40,94;0,1991;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;14,48;0,00
+PED-00649;2025-07-19;Isabela Lopes;Garrafa Térmica;Esporte;4;60,98;243,92;12,20;159,16;63,39;0,2736;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;9,17;0,00
+PED-00650;2025-07-07;Carla Moreira;Cama Pet;Pet;1;112,21;112,21;5,61;58,15;-78,42;-0,7356;Marketplace;Nordeste;Salvador;Devolvido;Cartão de débito;20,27;106,60
+PED-00651;2025-07-20;Olívia Farias;Halter;Esporte;1;137,15;137,15;13,72;79,41;20,60;0,1669;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;23,42;0,00
+PED-00652;2025-07-01;Gabriela Barros;Ração Premium;Pet;3;139,85;419,55;62,93;261,29;73,76;0,2068;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;21,57;0,00
+PED-00653;2025-07-27;Elisa Ibrahim;Hidratante;Beleza;4;54,14;216,56;10,83;136,24;47,06;0,2287;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de débito;22,43;0,00
+PED-00654;2025-07-07;Bruno Klein;Ração Premium;Pet;1;132,23;132,23;0,00;77,16;25,94;0,1962;App;Nordeste;Salvador;Entregue;Cartão de crédito;29,13;0,00
+PED-00655;2025-08-21;Paulo Lopes;Furadeira;Ferramentas;1;353,14;353,14;0,00;193,99;133,07;0,3768;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;26,08;0,00
+PED-00656;2025-08-13;Paulo Ibrahim;Kit Skincare;Beleza;1;180,61;180,61;0,00;120,64;31,07;0,1720;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;28,90;0,00
+PED-00657;2025-08-18;Olívia Ibrahim;Furadeira;Ferramentas;1;328,95;328,95;0,00;182,00;-192,49;-0,5852;Site próprio;Sudeste;Rio de Janeiro;Devolvido;Boleto;10,49;328,95
+PED-00658;2025-08-04;Nicolas Cardoso;Furadeira;Ferramentas;1;355,01;355,01;35,50;184,18;123,24;0,3857;Marketplace;Nordeste;Salvador;Entregue;Pix;12,09;0,00
+PED-00659;2025-08-09;Nicolas Jardim;Furadeira;Ferramentas;1;337,46;337,46;16,87;219,53;75,24;0,2347;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Boleto;25,82;0,00
+PED-00660;2025-08-09;Gabriela Ibrahim;Kit Skincare;Beleza;2;168,01;336,02;0,00;171,68;146,17;0,4350;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;18,17;0,00
+PED-00661;2025-08-02;Lucas Farias;Kit Chaves;Ferramentas;1;84,84;84,84;12,73;56,13;-2,59;-0,0359;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;18,57;0,00
+PED-00662;2025-08-24;Nicolas Esteves;Ração Premium;Pet;1;148,84;148,84;7,44;83,69;37,46;0,2649;App;Sul;Porto Alegre;Entregue;Pix;20,25;0,00
+PED-00663;2025-08-19;Nicolas Guedes;Kit Skincare;Beleza;2;180,69;361,38;36,14;224,94;79,19;0,2435;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;21,11;0,00
+PED-00664;2025-08-15;Felipe Henrique;Bola;Esporte;1;88,05;88,05;0,00;52,01;10,56;0,1199;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;25,48;0,00
+PED-00665;2025-08-10;Bruno Esteves;Kit Skincare;Beleza;1;177,69;177,69;8,88;115,93;21,79;0,1291;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;31,09;0,00
+PED-00666;2025-08-05;Nicolas Nunes;Kit Skincare;Beleza;1;176,28;176,28;26,44;117,49;7,95;0,0531;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;24,40;0,00
+PED-00667;2025-08-19;Lucas Farias;Trena;Ferramentas;2;28,12;56,24;2,81;36,96;-10,98;-0,2055;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;27,45;0,00
+PED-00668;2025-08-15;Carla Esteves;Halter;Esporte;2;123,42;246,84;12,34;152,87;63,82;0,2722;Marketplace;Sul;Curitiba;Entregue;Boleto;17,81;0,00
+PED-00669;2025-08-25;Ana Barros;Bola;Esporte;4;91,68;366,72;18,34;216,86;111,43;0,3199;Site próprio;Nordeste;Recife;Entregue;Pix;20,09;0,00
+PED-00670;2025-08-27;Lucas Almeida;Ração Premium;Pet;1;140,23;140,23;0,00;90,64;19,57;0,1396;Site próprio;Nordeste;Recife;Entregue;Boleto;30,02;0,00
+PED-00671;2025-08-18;Nicolas Esteves;Kit Chaves;Ferramentas;1;80,04;80,04;4,00;41,18;-57,22;-0,7525;Marketplace;Centro-Oeste;Goiânia;Devolvido;Cartão de crédito;16,04;76,04
+PED-00672;2025-08-01;Gabriela Ibrahim;Ração Premium;Pet;2;137,86;275,72;0,00;139,49;126,89;0,4602;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;9,34;0,00
+PED-00673;2025-08-12;Nicolas Nunes;Perfume;Beleza;1;210,60;210,60;21,06;134,78;33,20;0,1752;Marketplace;Nordeste;Fortaleza;Entregue;Boleto;21,56;0,00
+PED-00674;2025-08-13;Ana Klein;Kit Chaves;Ferramentas;1;75,79;75,79;0,00;40,29;5,23;0,0690;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;30,27;0,00
+PED-00675;2025-08-20;Nicolas Ibrahim;Ração Premium;Pet;2;152,80;305,60;45,84;190,22;40,18;0,1547;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;29,36;0,00
+PED-00676;2025-08-21;Diego Duarte;Garrafa Térmica;Esporte;1;59,32;59,32;5,93;30,63;-8,69;-0,1628;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;31,45;0,00
+PED-00677;2025-08-05;Nicolas Klein;Ração Premium;Pet;1;133,63;133,63;6,68;78,41;31,41;0,2474;App;Nordeste;Salvador;Entregue;Cartão de débito;17,13;0,00
+PED-00678;2025-08-03;Ana Nunes;Furadeira;Ferramentas;1;355,97;355,97;0,00;229,73;106,87;0,3002;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;19,37;0,00
+PED-00679;2025-08-08;Nicolas Ibrahim;Brinquedo;Pet;1;38,37;38,37;0,00;22,89;-14,07;-0,3667;Marketplace;Sul;Porto Alegre;Entregue;Pix;29,55;0,00
+PED-00680;2025-08-02;Isabela Jardim;Cama Pet;Pet;4;106,89;427,56;21,38;291,24;87,04;0,2143;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;27,90;0,00
+PED-00681;2025-08-14;Olívia Farias;Ração Premium;Pet;3;132,70;398,10;19,91;259,43;97,50;0,2578;Marketplace;Nordeste;Recife;Entregue;Boleto;21,26;0,00
+PED-00682;2025-08-24;Heitor Lopes;Furadeira;Ferramentas;3;337,83;1013,49;101,35;588,11;-616,10;-0,6754;App;Centro-Oeste;Goiânia;Devolvido;Boleto;27,99;912,14
+PED-00683;2025-08-07;Kelly Lopes;Halter;Esporte;1;131,82;131,82;6,59;85,46;30,37;0,2425;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;9,40;0,00
+PED-00684;2025-08-22;Elisa Barros;Kit Chaves;Ferramentas;4;80,67;322,68;0,00;209,28;94,47;0,2928;App;Nordeste;Recife;Entregue;Boleto;18,93;0,00
+PED-00685;2025-08-25;Marina Moreira;Furadeira;Ferramentas;1;337,50;337,50;16,88;182,33;114,23;0,3563;Redes sociais;Sul;Curitiba;Entregue;Cartão de débito;24,06;0,00
+PED-00686;2025-08-20;João Moreira;Kit Skincare;Beleza;2;179,07;358,14;0,00;226,80;109,45;0,3056;Site próprio;Nordeste;Salvador;Entregue;Cartão de débito;21,89;0,00
+PED-00687;2025-08-09;João Almeida;Garrafa Térmica;Esporte;3;61,72;185,16;27,77;129,39;8,71;0,0553;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;19,29;0,00
+PED-00688;2025-08-12;Diego Esteves;Trena;Ferramentas;1;28,22;28,22;0,00;17,68;-5,82;-0,2062;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;16,36;0,00
+PED-00689;2025-08-24;João Duarte;Hidratante;Beleza;2;56,76;113,52;17,03;79,08;-0,83;-0,0086;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;18,24;0,00
+PED-00690;2025-08-02;Gabriela Cardoso;Furadeira;Ferramentas;1;360,53;360,53;36,05;246,92;48,50;0,1495;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;29,06;0,00
+PED-00691;2025-08-25;Heitor Almeida;Trena;Ferramentas;1;31,70;31,70;4,75;0,00;0,00;0,0000;Site próprio;Nordeste;Recife;Cancelado;Pix;0,00;26,95
+PED-00692;2025-08-26;Carla Duarte;Kit Chaves;Ferramentas;1;77,81;77,81;7,78;54,11;-81,41;-1,1625;Site próprio;Sudeste;Rio de Janeiro;Devolvido;Boleto;27,30;70,03
+PED-00693;2025-08-15;Marina Cardoso;Furadeira;Ferramentas;2;343,22;686,44;0,00;394,26;272,13;0,3964;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;20,05;0,00
+PED-00694;2025-08-13;Olívia Duarte;Kit Skincare;Beleza;1;175,46;175,46;0,00;108,34;44,42;0,2532;Marketplace;Sul;Porto Alegre;Entregue;Cartão de crédito;22,70;0,00
+PED-00695;2025-08-13;Bruno Guedes;Bola;Esporte;3;97,59;292,77;29,28;175,64;58,88;0,2235;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;28,97;0,00
+PED-00696;2025-08-10;Paulo Nunes;Garrafa Térmica;Esporte;1;62,74;62,74;9,41;37,70;1,00;0,0188;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;14,63;0,00
+PED-00697;2025-08-12;Elisa Henrique;Cama Pet;Pet;2;115,07;230,14;0,00;143,16;56,43;0,2452;App;Sudeste;Belo Horizonte;Entregue;Boleto;30,55;0,00
+PED-00698;2025-08-06;Lucas Klein;Brinquedo;Pet;1;39,82;39,82;3,98;21,32;-3,63;-0,1013;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;18,15;0,00
+PED-00699;2025-08-25;Lucas Duarte;Kit Skincare;Beleza;1;174,74;174,74;0,00;0,00;0,00;0,0000;Marketplace;Centro-Oeste;Brasília;Cancelado;Cartão de débito;0,00;174,74
+PED-00700;2025-08-16;Marina Esteves;Cama Pet;Pet;1;117,38;117,38;0,00;81,54;8,98;0,0765;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;26,86;0,00
+PED-00701;2025-08-28;Diego Almeida;Trena;Ferramentas;1;28,02;28,02;2,80;19,37;-18,47;-0,7324;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;24,32;0,00
+PED-00702;2025-08-18;Ana Moreira;Ração Premium;Pet;1;137,53;137,53;0,00;92,33;24,76;0,1800;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;20,44;0,00
+PED-00703;2025-08-26;Elisa Ibrahim;Perfume;Beleza;2;222,66;445,32;44,53;251,54;130,16;0,3248;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;19,09;0,00
+PED-00704;2025-08-21;Diego Duarte;Bola;Esporte;2;94,70;189,40;9,47;95,46;53,60;0,2979;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;30,87;0,00
+PED-00705;2025-08-06;Elisa Cardoso;Cama Pet;Pet;1;115,15;115,15;17,27;60,27;22,76;0,2325;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;14,85;0,00
+PED-00706;2025-08-17;Elisa Cardoso;Garrafa Térmica;Esporte;1;57,26;57,26;0,00;32,03;-4,83;-0,0844;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;30,06;0,00
+PED-00707;2025-08-28;Ana Moreira;Cama Pet;Pet;1;113,48;113,48;17,02;58,74;7,61;0,0789;Site próprio;Nordeste;Recife;Entregue;Pix;30,11;0,00
+PED-00708;2025-08-23;Nicolas Farias;Trena;Ferramentas;2;28,32;56,64;5,66;0,00;0,00;0,0000;Site próprio;Nordeste;Salvador;Cancelado;Pix;0,00;50,98
+PED-00709;2025-08-03;Gabriela Nunes;Furadeira;Ferramentas;1;322,44;322,44;0,00;195,15;98,53;0,3056;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;28,76;0,00
+PED-00710;2025-08-07;Diego Moreira;Cama Pet;Pet;3;106,03;318,09;0,00;190,79;111,38;0,3502;Site próprio;Sudeste;São Paulo;Entregue;Boleto;15,92;0,00
+PED-00711;2025-08-06;João Duarte;Kit Chaves;Ferramentas;1;82,23;82,23;0,00;43,60;21,91;0,2664;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;16,72;0,00
+PED-00712;2025-08-21;João Jardim;Bola;Esporte;1;95,51;95,51;0,00;49,04;30,07;0,3148;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;16,40;0,00
+PED-00713;2025-08-16;Ana Duarte;Trena;Ferramentas;1;31,49;31,49;4,72;18,13;-2,84;-0,1061;Site próprio;Sul;Porto Alegre;Entregue;Boleto;11,48;0,00
+PED-00714;2025-08-10;Kelly Farias;Garrafa Térmica;Esporte;4;57,56;230,24;23,02;122,38;74,12;0,3577;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;10,72;0,00
+PED-00715;2025-08-09;Marina Nunes;Kit Chaves;Ferramentas;2;83,44;166,88;0,00;83,71;-105,46;-0,6320;Redes sociais;Sul;Curitiba;Devolvido;Pix;21,75;166,88
+PED-00716;2025-08-06;Elisa Lopes;Garrafa Térmica;Esporte;2;60,06;120,12;0,00;64,12;32,45;0,2701;App;Nordeste;Recife;Entregue;Cartão de crédito;23,55;0,00
+PED-00717;2025-08-20;Felipe Cardoso;Halter;Esporte;1;138,19;138,19;0,00;96,15;18,64;0,1349;Site próprio;Nordeste;Salvador;Entregue;Cartão de crédito;23,40;0,00
+PED-00718;2025-08-06;Gabriela Duarte;Kit Skincare;Beleza;1;164,08;164,08;16,41;87,98;40,07;0,2713;App;Nordeste;Recife;Entregue;Pix;19,62;0,00
+PED-00719;2025-08-28;Bruno Jardim;Perfume;Beleza;1;232,99;232,99;34,95;146,40;-178,28;-0,9002;Marketplace;Sul;Curitiba;Devolvido;Cartão de crédito;31,88;198,04
+PED-00720;2025-08-17;Paulo Klein;Furadeira;Ferramentas;3;345,95;1037,85;0,00;713,45;313,33;0,3019;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;11,07;0,00
+PED-00721;2025-08-13;Isabela Nunes;Kit Skincare;Beleza;1;184,29;184,29;9,21;92,51;72,13;0,4120;App;Nordeste;Salvador;Entregue;Cartão de crédito;10,44;0,00
+PED-00722;2025-08-04;Nicolas Almeida;Brinquedo;Pet;1;41,40;41,40;0,00;21,89;-6,04;-0,1459;Site próprio;Nordeste;Recife;Entregue;Cartão de crédito;25,55;0,00
+PED-00723;2025-08-18;Olívia Cardoso;Perfume;Beleza;1;209,74;209,74;0,00;115,67;81,83;0,3901;Redes sociais;Nordeste;Salvador;Entregue;Pix;12,24;0,00
+PED-00724;2025-08-26;Marina Klein;Furadeira;Ferramentas;1;345,37;345,37;51,81;220,44;52,87;0,1801;App;Centro-Oeste;Brasília;Entregue;Pix;20,25;0,00
+PED-00725;2025-08-15;Isabela Almeida;Trena;Ferramentas;3;30,04;90,12;9,01;0,00;0,00;0,0000;Redes sociais;Centro-Oeste;Goiânia;Cancelado;Cartão de débito;0,00;81,11
+PED-00726;2025-08-04;Lucas Klein;Hidratante;Beleza;1;54,34;54,34;5,43;32,04;-13,16;-0,2691;Site próprio;Nordeste;Salvador;Entregue;Boleto;30,03;0,00
+PED-00727;2025-08-26;Felipe Cardoso;Furadeira;Ferramentas;1;323,91;323,91;0,00;204,76;89,19;0,2754;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;29,96;0,00
+PED-00728;2025-08-03;Nicolas Farias;Ração Premium;Pet;2;136,85;273,70;27,37;154,53;76,52;0,3106;App;Centro-Oeste;Brasília;Entregue;Pix;15,28;0,00
+PED-00729;2025-08-18;Kelly Duarte;Hidratante;Beleza;1;58,31;58,31;8,75;32,73;6,76;0,1364;App;Sul;Curitiba;Entregue;Pix;10,07;0,00
+PED-00730;2025-08-16;João Esteves;Furadeira;Ferramentas;1;332,13;332,13;49,82;171,58;-186,95;-0,6622;Marketplace;Centro-Oeste;Goiânia;Devolvido;Boleto;15,37;282,31
+PED-00731;2025-08-09;Carla Barros;Brinquedo;Pet;2;41,77;83,54;0,00;46,50;6,49;0,0777;App;Sudeste;Belo Horizonte;Entregue;Pix;30,55;0,00
+PED-00732;2025-08-27;Ana Guedes;Furadeira;Ferramentas;2;357,07;714,14;0,00;417,25;273,14;0,3825;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;23,75;0,00
+PED-00733;2025-08-26;João Henrique;Furadeira;Ferramentas;1;332,46;332,46;33,25;223,07;52,02;0,1739;Site próprio;Nordeste;Salvador;Entregue;Boleto;24,12;0,00
+PED-00734;2025-08-16;Lucas Guedes;Furadeira;Ferramentas;2;315,79;631,58;0,00;388,85;229,95;0,3641;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;12,78;0,00
+PED-00735;2025-08-04;Isabela Lopes;Perfume;Beleza;2;221,13;442,26;66,34;252,97;95,95;0,2552;Redes sociais;Sul;Curitiba;Entregue;Pix;27,00;0,00
+PED-00736;2025-08-15;Gabriela Moreira;Halter;Esporte;3;126,94;380,82;57,12;265,90;48,29;0,1492;Site próprio;Sul;Porto Alegre;Entregue;Pix;9,51;0,00
+PED-00737;2025-08-02;João Ibrahim;Kit Skincare;Beleza;1;183,50;183,50;18,35;100,06;49,37;0,2989;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;15,72;0,00
+PED-00738;2025-08-02;Gabriela Guedes;Garrafa Térmica;Esporte;4;59,65;238,60;0,00;163,30;46,53;0,1950;Marketplace;Nordeste;Fortaleza;Entregue;Pix;28,77;0,00
+PED-00739;2025-08-14;Olívia Barros;Brinquedo;Pet;1;42,13;42,13;6,32;23,97;-1,62;-0,0452;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;13,46;0,00
+PED-00740;2025-08-25;Gabriela Barros;Brinquedo;Pet;3;42,72;128,16;19,22;0,00;0,00;0,0000;App;Centro-Oeste;Brasília;Cancelado;Cartão de débito;0,00;108,94
+PED-00741;2025-08-10;Gabriela Guedes;Kit Chaves;Ferramentas;2;86,46;172,92;17,29;94,93;40,48;0,2601;App;Sul;Porto Alegre;Entregue;Cartão de débito;20,22;0,00
+PED-00742;2025-08-12;Olívia Moreira;Bola;Esporte;1;89,08;89,08;0,00;53,93;24,86;0,2791;App;Nordeste;Fortaleza;Entregue;Pix;10,29;0,00
+PED-00743;2025-08-03;João Henrique;Perfume;Beleza;3;209,20;627,60;31,38;0,00;0,00;0,0000;Redes sociais;Nordeste;Recife;Cancelado;Pix;0,00;596,22
+PED-00744;2025-08-03;Bruno Henrique;Furadeira;Ferramentas;1;318,59;318,59;15,93;221,67;66,73;0,2205;App;Sul;Porto Alegre;Entregue;Cartão de débito;14,26;0,00
+PED-00745;2025-08-05;Paulo Jardim;Bola;Esporte;1;95,40;95,40;14,31;60,79;-2,91;-0,0359;Site próprio;Nordeste;Salvador;Entregue;Boleto;23,21;0,00
+PED-00746;2025-08-13;Paulo Farias;Trena;Ferramentas;1;30,51;30,51;0,00;17,96;-11,22;-0,3677;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;23,77;0,00
+PED-00747;2025-08-21;Diego Cardoso;Perfume;Beleza;1;231,59;231,59;0,00;137,03;68,10;0,2941;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;26,46;0,00
+PED-00748;2025-08-11;Bruno Almeida;Trena;Ferramentas;1;27,87;27,87;1,39;16,54;-3,72;-0,1405;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;13,66;0,00
+PED-00749;2025-08-28;Felipe Moreira;Garrafa Térmica;Esporte;1;60,80;60,80;0,00;40,03;1,01;0,0166;App;Nordeste;Salvador;Entregue;Cartão de débito;19,76;0,00
+PED-00750;2025-08-15;Carla Esteves;Garrafa Térmica;Esporte;1;61,87;61,87;3,09;34,57;5,66;0,0963;App;Sul;Curitiba;Entregue;Cartão de débito;18,55;0,00
+PED-00751;2025-08-28;Isabela Nunes;Garrafa Térmica;Esporte;1;56,48;56,48;2,82;38,34;-14,97;-0,2790;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;30,29;0,00
+PED-00752;2025-08-10;Kelly Cardoso;Kit Skincare;Beleza;1;176,52;176,52;0,00;113,35;-143,78;-0,8145;Site próprio;Sul;Porto Alegre;Devolvido;Cartão de débito;30,43;176,52
+PED-00753;2025-08-15;Lucas Moreira;Brinquedo;Pet;2;41,41;82,82;8,28;44,03;-0,83;-0,0111;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;31,34;0,00
+PED-00754;2025-08-05;Isabela Farias;Hidratante;Beleza;1;54,81;54,81;0,00;29,18;-53,10;-0,9688;Marketplace;Nordeste;Recife;Devolvido;Boleto;23,92;54,81
+PED-00755;2025-08-12;Ana Guedes;Trena;Ferramentas;1;28,66;28,66;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Recife;Cancelado;Pix;0,00;28,66
+PED-00756;2025-08-23;Kelly Lopes;Cama Pet;Pet;3;109,40;328,20;32,82;196,57;81,90;0,2773;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;16,91;0,00
+PED-00757;2025-08-21;Ana Nunes;Perfume;Beleza;1;223,62;223,62;22,36;135,85;50,74;0,2521;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;14,67;0,00
+PED-00758;2025-08-20;Kelly Guedes;Bola;Esporte;1;90,50;90,50;13,57;48,68;6,35;0,0825;App;Sudeste;São Paulo;Entregue;Cartão de débito;21,90;0,00
+PED-00759;2025-08-04;Kelly Ibrahim;Hidratante;Beleza;1;55,10;55,10;0,00;0,00;0,00;0,0000;Redes sociais;Sul;Porto Alegre;Cancelado;Boleto;0,00;55,10
+PED-00760;2025-08-27;Paulo Cardoso;Ração Premium;Pet;4;140,79;563,16;56,32;385,96;106,80;0,2107;App;Sudeste;Belo Horizonte;Entregue;Pix;14,08;0,00
+PED-00761;2025-08-17;Olívia Farias;Hidratante;Beleza;1;53,89;53,89;0,00;27,38;3,04;0,0564;Site próprio;Sul;Porto Alegre;Entregue;Pix;23,47;0,00
+PED-00762;2025-08-20;Diego Moreira;Kit Chaves;Ferramentas;1;79,93;79,93;0,00;47,28;21,18;0,2650;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;11,47;0,00
+PED-00763;2025-08-10;Olívia Moreira;Perfume;Beleza;1;234,36;234,36;23,44;125,91;73,67;0,3493;App;Sudeste;São Paulo;Entregue;Boleto;11,34;0,00
+PED-00764;2025-08-28;Paulo Henrique;Cama Pet;Pet;1;106,70;106,70;16,00;66,56;6,45;0,0711;Site próprio;Nordeste;Salvador;Entregue;Pix;17,69;0,00
+PED-00765;2025-08-05;Lucas Guedes;Brinquedo;Pet;1;40,30;40,30;6,04;25,51;-8,70;-0,2539;Marketplace;Nordeste;Salvador;Entregue;Boleto;17,45;0,00
+PED-00766;2025-08-11;Carla Barros;Garrafa Térmica;Esporte;3;56,88;170,64;0,00;117,11;-137,22;-0,8041;App;Nordeste;Recife;Devolvido;Boleto;20,11;170,64
+PED-00767;2025-08-10;Isabela Moreira;Trena;Ferramentas;1;29,72;29,72;2,97;15,90;-6,32;-0,2363;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;17,17;0,00
+PED-00768;2025-08-28;Isabela Esteves;Halter;Esporte;2;131,45;262,90;39,43;155,38;53,20;0,2381;Marketplace;Sudeste;Belo Horizonte;Entregue;Pix;14,89;0,00
+PED-00769;2025-08-03;Carla Farias;Kit Skincare;Beleza;1;169,34;169,34;8,47;109,19;32,20;0,2002;Site próprio;Sul;Porto Alegre;Entregue;Pix;19,48;0,00
+PED-00770;2025-08-12;Elisa Farias;Trena;Ferramentas;1;30,46;30,46;4,57;15,77;-11,05;-0,4268;Marketplace;Nordeste;Fortaleza;Entregue;Pix;21,17;0,00
+PED-00771;2025-08-13;Ana Almeida;Trena;Ferramentas;1;31,82;31,82;1,59;18,29;-5,68;-0,1879;Site próprio;Nordeste;Recife;Entregue;Pix;17,62;0,00
+PED-00772;2025-08-22;Kelly Jardim;Trena;Ferramentas;1;28,88;28,88;4,33;17,42;-19,03;-0,7752;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;26,16;0,00
+PED-00773;2025-08-13;Diego Moreira;Perfume;Beleza;1;225,71;225,71;0,00;153,56;44,41;0,1968;Marketplace;Sul;Porto Alegre;Entregue;Boleto;27,74;0,00
+PED-00774;2025-08-09;Paulo Henrique;Perfume;Beleza;2;223,38;446,76;0,00;291,38;144,62;0,3237;Site próprio;Sul;Porto Alegre;Entregue;Boleto;10,76;0,00
+PED-00775;2025-08-01;Diego Henrique;Kit Skincare;Beleza;1;172,11;172,11;8,61;110,54;37,92;0,2319;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;15,04;0,00
+PED-00776;2025-08-24;Kelly Almeida;Kit Chaves;Ferramentas;2;86,15;172,30;8,62;111,77;31,74;0,1939;Marketplace;Nordeste;Recife;Entregue;Pix;20,17;0,00
+PED-00777;2025-08-13;Nicolas Cardoso;Cama Pet;Pet;2;108,97;217,94;0,00;150,11;43,47;0,1995;Marketplace;Nordeste;Fortaleza;Entregue;Pix;24,36;0,00
+PED-00778;2025-09-22;Kelly Klein;Trena;Ferramentas;1;27,62;27,62;0,00;17,49;-4,49;-0,1626;Redes sociais;Nordeste;Recife;Entregue;Cartão de débito;14,62;0,00
+PED-00779;2025-09-15;Kelly Cardoso;Garrafa Térmica;Esporte;1;58,50;58,50;8,78;36,69;-17,50;-0,3520;App;Sul;Porto Alegre;Entregue;Pix;30,53;0,00
+PED-00780;2025-09-10;Lucas Almeida;Kit Skincare;Beleza;2;179,93;359,86;53,98;242,60;39,25;0,1283;Site próprio;Nordeste;Salvador;Entregue;Boleto;24,03;0,00
+PED-00781;2025-09-27;Heitor Duarte;Brinquedo;Pet;3;39,74;119,22;11,92;80,54;8,04;0,0749;Site próprio;Sudeste;São Paulo;Entregue;Pix;18,72;0,00
+PED-00782;2025-09-15;Bruno Ibrahim;Furadeira;Ferramentas;4;348,35;1393,40;0,00;908,30;470,80;0,3379;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;14,30;0,00
+PED-00783;2025-09-16;Nicolas Duarte;Trena;Ferramentas;1;28,59;28,59;1,43;18,19;-13,85;-0,5099;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;22,82;0,00
+PED-00784;2025-09-03;Isabela Almeida;Hidratante;Beleza;1;58,47;58,47;2,92;35,73;0,22;0,0040;Marketplace;Sul;Curitiba;Entregue;Boleto;19,60;0,00
+PED-00785;2025-09-20;João Lopes;Halter;Esporte;1;141,46;141,46;0,00;74,78;-86,75;-0,6132;Site próprio;Centro-Oeste;Goiânia;Devolvido;Boleto;11,97;141,46
+PED-00786;2025-09-25;João Guedes;Kit Skincare;Beleza;3;171,25;513,75;77,06;277,74;140,38;0,3215;App;Sul;Curitiba;Entregue;Pix;18,57;0,00
+PED-00787;2025-09-01;Heitor Guedes;Kit Skincare;Beleza;3;169,68;509,04;76,36;278,68;131,46;0,3038;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;22,54;0,00
+PED-00788;2025-09-02;Ana Lopes;Furadeira;Ferramentas;1;322,86;322,86;16,14;201,68;78,90;0,2572;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;26,14;0,00
+PED-00789;2025-09-16;João Ibrahim;Furadeira;Ferramentas;1;336,63;336,63;50,49;173,17;85,30;0,2981;Site próprio;Nordeste;Salvador;Entregue;Pix;27,67;0,00
+PED-00790;2025-09-06;Diego Nunes;Hidratante;Beleza;1;58,70;58,70;5,87;36,39;5,37;0,1016;Marketplace;Nordeste;Recife;Entregue;Pix;11,07;0,00
+PED-00791;2025-09-10;Marina Lopes;Perfume;Beleza;1;222,32;222,32;33,35;121,92;57,66;0,3051;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;9,39;0,00
+PED-00792;2025-09-21;Gabriela Jardim;Garrafa Térmica;Esporte;1;59,68;59,68;5,97;34,16;3,97;0,0739;Redes sociais;Nordeste;Fortaleza;Entregue;Pix;15,58;0,00
+PED-00793;2025-09-13;Lucas Esteves;Perfume;Beleza;1;224,33;224,33;0,00;141,15;57,50;0,2563;App;Nordeste;Recife;Entregue;Cartão de crédito;25,68;0,00
+PED-00794;2025-09-11;Elisa Cardoso;Hidratante;Beleza;2;59,29;118,58;11,86;0,00;0,00;0,0000;Marketplace;Sul;Porto Alegre;Cancelado;Cartão de crédito;0,00;106,72
+PED-00795;2025-09-17;Kelly Duarte;Hidratante;Beleza;2;56,70;113,40;11,34;58,48;22,07;0,2162;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;21,51;0,00
+PED-00796;2025-09-02;Elisa Guedes;Kit Chaves;Ferramentas;1;80,32;80,32;0,00;42,28;16,29;0,2028;Redes sociais;Nordeste;Salvador;Entregue;Boleto;21,75;0,00
+PED-00797;2025-09-11;Felipe Lopes;Halter;Esporte;1;127,17;127,17;19,08;77,33;16,42;0,1519;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;14,34;0,00
+PED-00798;2025-09-12;Kelly Cardoso;Hidratante;Beleza;1;52,50;52,50;0,00;32,73;-10,20;-0,1943;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;29,97;0,00
+PED-00799;2025-09-07;Ana Klein;Perfume;Beleza;1;226,66;226,66;34,00;132,13;44,84;0,2327;App;Sudeste;São Paulo;Entregue;Boleto;15,69;0,00
+PED-00800;2025-09-02;Isabela Barros;Garrafa Térmica;Esporte;2;62,69;125,38;12,54;75,13;17,10;0,1515;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;20,61;0,00
+PED-00801;2025-09-23;Gabriela Barros;Ração Premium;Pet;1;133,92;133,92;13,39;0,00;-0,00;-0,0000;App;Sul;Curitiba;Cancelado;Cartão de débito;0,00;120,53
+PED-00802;2025-09-20;Diego Henrique;Cama Pet;Pet;1;105,25;105,25;5,26;71,05;-0,16;-0,0016;Redes sociais;Nordeste;Recife;Entregue;Pix;29,10;0,00
+PED-00803;2025-09-08;Ana Klein;Kit Chaves;Ferramentas;3;77,09;231,27;23,13;138,83;46,46;0,2232;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;22,85;0,00
+PED-00804;2025-09-02;Isabela Nunes;Bola;Esporte;1;89,82;89,82;8,98;50,98;6,72;0,0831;App;Sul;Curitiba;Entregue;Pix;23,14;0,00
+PED-00805;2025-09-07;Heitor Farias;Furadeira;Ferramentas;4;312,79;1251,16;62,56;709,14;455,25;0,3830;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;24,21;0,00
+PED-00806;2025-09-24;Nicolas Guedes;Cama Pet;Pet;1;115,97;115,97;11,60;60,28;31,37;0,3006;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;12,72;0,00
+PED-00807;2025-09-04;Elisa Henrique;Bola;Esporte;3;86,77;260,31;13,02;146,89;-172,89;-0,6991;Site próprio;Nordeste;Recife;Devolvido;Boleto;26,00;247,29
+PED-00808;2025-09-22;Kelly Jardim;Cama Pet;Pet;2;114,07;228,14;11,41;152,13;33,26;0,1535;Marketplace;Sul;Curitiba;Entregue;Pix;31,34;0,00
+PED-00809;2025-09-23;João Esteves;Garrafa Térmica;Esporte;2;64,52;129,04;6,45;86,20;11,23;0,0916;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;25,16;0,00
+PED-00810;2025-09-23;Bruno Guedes;Hidratante;Beleza;2;51,43;102,86;5,14;71,28;13,53;0,1385;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;12,91;0,00
+PED-00811;2025-09-27;Isabela Ibrahim;Perfume;Beleza;4;239,94;959,76;0,00;517,17;425,22;0,4430;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;17,37;0,00
+PED-00812;2025-09-21;Diego Almeida;Furadeira;Ferramentas;2;336,58;673,16;67,32;358,21;226,16;0,3733;Site próprio;Sul;Curitiba;Entregue;Pix;21,47;0,00
+PED-00813;2025-09-12;Gabriela Nunes;Trena;Ferramentas;1;28,59;28,59;4,29;17,36;-15,31;-0,6300;App;Sul;Porto Alegre;Entregue;Cartão de crédito;22,25;0,00
+PED-00814;2025-09-01;Felipe Henrique;Brinquedo;Pet;1;42,13;42,13;6,32;0,00;0,00;0,0000;Redes sociais;Nordeste;Salvador;Cancelado;Cartão de débito;0,00;35,81
+PED-00815;2025-09-22;Lucas Moreira;Kit Skincare;Beleza;1;166,80;166,80;0,00;108,05;38,78;0,2325;Redes sociais;Nordeste;Salvador;Entregue;Boleto;19,97;0,00
+PED-00816;2025-09-22;Kelly Moreira;Bola;Esporte;2;87,95;175,90;0,00;120,49;31,56;0,1794;Site próprio;Sudeste;São Paulo;Entregue;Boleto;23,85;0,00
+PED-00817;2025-09-11;Gabriela Nunes;Cama Pet;Pet;2;111,77;223,54;0,00;137,01;56,16;0,2512;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;30,37;0,00
+PED-00818;2025-09-05;Diego Henrique;Garrafa Térmica;Esporte;1;61,73;61,73;3,09;42,00;-12,98;-0,2214;Site próprio;Nordeste;Recife;Entregue;Boleto;29,62;0,00
+PED-00819;2025-09-03;Bruno Moreira;Perfume;Beleza;1;213,61;213,61;0,00;130,60;71,23;0,3335;Site próprio;Nordeste;Salvador;Entregue;Boleto;11,78;0,00
+PED-00820;2025-09-21;Kelly Farias;Brinquedo;Pet;1;38,07;38,07;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Salvador;Cancelado;Cartão de crédito;0,00;38,07
+PED-00821;2025-09-17;Gabriela Almeida;Perfume;Beleza;1;228,26;228,26;0,00;124,11;75,98;0,3329;Site próprio;Sul;Porto Alegre;Entregue;Pix;28,17;0,00
+PED-00822;2025-09-21;Heitor Klein;Kit Chaves;Ferramentas;1;82,18;82,18;0,00;0,00;0,00;0,0000;App;Centro-Oeste;Goiânia;Cancelado;Cartão de crédito;0,00;82,18
+PED-00823;2025-09-17;Carla Esteves;Ração Premium;Pet;3;149,08;447,24;67,09;267,11;86,84;0,2284;Redes sociais;Nordeste;Salvador;Entregue;Pix;26,20;0,00
+PED-00824;2025-09-07;Diego Barros;Trena;Ferramentas;1;31,44;31,44;1,57;16,72;-6,72;-0,2250;App;Nordeste;Salvador;Entregue;Cartão de crédito;19,87;0,00
+PED-00825;2025-09-05;Nicolas Guedes;Kit Chaves;Ferramentas;4;83,99;335,96;0,00;170,38;144,23;0,4293;Redes sociais;Sul;Curitiba;Entregue;Cartão de crédito;21,35;0,00
+PED-00826;2025-09-19;Nicolas Jardim;Ração Premium;Pet;3;148,68;446,04;0,00;229,30;188,42;0,4224;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;28,32;0,00
+PED-00827;2025-09-26;Gabriela Henrique;Ração Premium;Pet;1;141,29;141,29;0,00;0,00;0,00;0,0000;App;Sul;Curitiba;Cancelado;Pix;0,00;141,29
+PED-00828;2025-09-09;João Henrique;Furadeira;Ferramentas;1;331,83;331,83;33,18;213,59;66,12;0,2214;App;Nordeste;Salvador;Entregue;Cartão de crédito;18,94;0,00
+PED-00829;2025-09-20;Olívia Klein;Hidratante;Beleza;3;58,80;176,40;26,46;95,01;31,57;0,2106;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;23,36;0,00
+PED-00830;2025-09-07;Gabriela Duarte;Brinquedo;Pet;1;38,31;38,31;3,83;20,83;-0,88;-0,0255;Marketplace;Sul;Porto Alegre;Entregue;Boleto;14,53;0,00
+PED-00831;2025-09-12;Marina Esteves;Bola;Esporte;1;85,21;85,21;0,00;43,57;27,46;0,3223;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;14,18;0,00
+PED-00832;2025-09-08;Isabela Klein;Kit Skincare;Beleza;2;174,74;349,48;0,00;176,86;146,37;0,4188;Marketplace;Sul;Porto Alegre;Entregue;Pix;26,25;0,00
+PED-00833;2025-09-11;Diego Moreira;Kit Skincare;Beleza;2;184,94;369,88;0,00;240,24;104,42;0,2823;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;25,22;0,00
+PED-00834;2025-09-13;Diego Duarte;Bola;Esporte;1;89,66;89,66;0,00;46,83;28,24;0,3150;App;Nordeste;Recife;Entregue;Boleto;14,59;0,00
+PED-00835;2025-09-15;João Moreira;Perfume;Beleza;1;228,16;228,16;0,00;122,58;92,53;0,4055;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;13,05;0,00
+PED-00836;2025-09-26;Carla Jardim;Ração Premium;Pet;1;133,50;133,50;0,00;83,30;38,48;0,2882;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;11,72;0,00
+PED-00837;2025-09-01;Elisa Moreira;Brinquedo;Pet;2;37,17;74,34;0,00;44,88;17,08;0,2298;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;12,38;0,00
+PED-00838;2025-09-04;Heitor Moreira;Bola;Esporte;1;97,23;97,23;0,00;52,69;20,53;0,2111;Redes sociais;Sul;Curitiba;Entregue;Pix;24,01;0,00
+PED-00839;2025-09-05;João Ibrahim;Brinquedo;Pet;1;42,62;42,62;6,39;22,75;3,60;0,0994;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;9,88;0,00
+PED-00840;2025-09-17;Nicolas Henrique;Trena;Ferramentas;1;29,57;29,57;1,48;18,39;-22,12;-0,7875;Marketplace;Nordeste;Recife;Entregue;Boleto;31,82;0,00
+PED-00841;2025-09-12;Marina Esteves;Cama Pet;Pet;1;107,82;107,82;0,00;70,85;22,43;0,2080;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;14,54;0,00
+PED-00842;2025-09-14;Kelly Duarte;Kit Chaves;Ferramentas;1;76,97;76,97;0,00;46,06;1,16;0,0151;Redes sociais;Sul;Curitiba;Entregue;Boleto;29,75;0,00
+PED-00843;2025-09-23;Gabriela Farias;Kit Skincare;Beleza;1;177,36;177,36;0,00;108,96;50,64;0,2855;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;17,76;0,00
+PED-00844;2025-09-05;Paulo Henrique;Hidratante;Beleza;2;53,04;106,08;15,91;66,95;-8,30;-0,0920;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;31,52;0,00
+PED-00845;2025-09-18;Paulo Farias;Kit Skincare;Beleza;2;169,46;338,92;0,00;220,14;90,82;0,2680;App;Sul;Porto Alegre;Entregue;Pix;27,96;0,00
+PED-00846;2025-09-09;Isabela Cardoso;Hidratante;Beleza;3;58,70;176,10;17,61;89,36;53,53;0,3378;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;15,60;0,00
+PED-00847;2025-09-02;Carla Klein;Trena;Ferramentas;1;28,17;28,17;1,41;19,33;-9,59;-0,3584;Site próprio;Nordeste;Salvador;Entregue;Boleto;17,02;0,00
+PED-00848;2025-09-02;Heitor Cardoso;Perfume;Beleza;4;212,68;850,72;127,61;446,71;258,48;0,3575;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;17,92;0,00
+PED-00849;2025-09-24;João Almeida;Hidratante;Beleza;1;56,75;56,75;2,84;32,56;0,15;0,0028;App;Sudeste;São Paulo;Entregue;Boleto;21,20;0,00
+PED-00850;2025-09-27;Kelly Henrique;Furadeira;Ferramentas;1;340,57;340,57;17,03;221,84;70,20;0,2170;App;Centro-Oeste;Goiânia;Entregue;Pix;31,50;0,00
+PED-00851;2025-09-04;Heitor Moreira;Halter;Esporte;1;134,43;134,43;0,00;88,14;36,34;0,2703;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;9,95;0,00
+PED-00852;2025-09-05;Marina Nunes;Kit Chaves;Ferramentas;1;80,48;80,48;4,02;55,69;-3,76;-0,0492;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;24,53;0,00
+PED-00853;2025-09-15;Carla Jardim;Furadeira;Ferramentas;1;328,78;328,78;49,32;203,05;67,10;0,2401;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;9,31;0,00
+PED-00854;2025-09-11;Heitor Lopes;Kit Skincare;Beleza;1;177,64;177,64;26,65;89,18;36,28;0,2403;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;25,53;0,00
+PED-00855;2025-09-22;Elisa Farias;Kit Chaves;Ferramentas;1;77,82;77,82;0,00;41,99;19,85;0,2551;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;15,98;0,00
+PED-00856;2025-09-21;Heitor Klein;Furadeira;Ferramentas;1;346,53;346,53;51,98;219,32;64,56;0,2192;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;10,67;0,00
+PED-00857;2025-09-27;Heitor Barros;Cama Pet;Pet;2;105,57;211,14;0,00;131,81;-155,93;-0,7385;Site próprio;Sudeste;Rio de Janeiro;Devolvido;Cartão de crédito;24,12;211,14
+PED-00858;2025-09-05;João Moreira;Kit Skincare;Beleza;1;163,03;163,03;0,00;98,85;42,97;0,2636;App;Nordeste;Recife;Entregue;Pix;21,21;0,00
+PED-00859;2025-09-12;Gabriela Esteves;Furadeira;Ferramentas;2;358,69;717,38;107,61;381,45;216,03;0,3543;App;Nordeste;Recife;Entregue;Cartão de crédito;12,29;0,00
+PED-00860;2025-09-20;Paulo Lopes;Kit Chaves;Ferramentas;2;85,85;171,70;17,17;108,53;27,38;0,1772;Site próprio;Sul;Curitiba;Entregue;Boleto;18,62;0,00
+PED-00861;2025-09-06;Gabriela Nunes;Garrafa Térmica;Esporte;1;58,55;58,55;8,78;32,64;-4,15;-0,0834;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;21,28;0,00
+PED-00862;2025-09-06;Elisa Moreira;Perfume;Beleza;2;221,74;443,48;0,00;283,23;129,05;0,2910;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;31,20;0,00
+PED-00863;2025-09-23;Heitor Barros;Trena;Ferramentas;1;27,70;27,70;4,15;14,30;-4,81;-0,2042;Redes sociais;Nordeste;Salvador;Entregue;Pix;14,06;0,00
+PED-00864;2025-09-15;Paulo Klein;Bola;Esporte;1;85,65;85,65;4,28;43,71;23,54;0,2893;Site próprio;Sudeste;São Paulo;Entregue;Pix;14,12;0,00
+PED-00865;2025-09-23;Olívia Duarte;Garrafa Térmica;Esporte;1;56,78;56,78;8,52;30,43;0,05;0,0010;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;17,78;0,00
+PED-00866;2025-09-07;Carla Klein;Kit Chaves;Ferramentas;2;80,13;160,26;0,00;101,13;35,01;0,2185;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;24,12;0,00
+PED-00867;2025-09-10;João Cardoso;Hidratante;Beleza;1;53,58;53,58;0,00;27,83;3,67;0,0685;Site próprio;Nordeste;Salvador;Entregue;Pix;22,08;0,00
+PED-00868;2025-10-27;Paulo Farias;Ração Premium;Pet;1;139,16;139,16;0,00;85,11;44,65;0,3209;App;Centro-Oeste;Goiânia;Entregue;Pix;9,40;0,00
+PED-00869;2025-10-12;Marina Lopes;Kit Chaves;Ferramentas;1;79,41;79,41;11,91;40,42;5,43;0,0804;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;21,65;0,00
+PED-00870;2025-10-22;Bruno Duarte;Bola;Esporte;1;91,24;91,24;13,69;56,09;-9,79;-0,1262;Marketplace;Nordeste;Recife;Entregue;Pix;31,25;0,00
+PED-00871;2025-10-09;Carla Henrique;Cama Pet;Pet;2;110,16;220,32;22,03;117,17;71,42;0,3602;Site próprio;Nordeste;Salvador;Entregue;Cartão de débito;9,70;0,00
+PED-00872;2025-10-05;Isabela Duarte;Kit Chaves;Ferramentas;1;82,77;82,77;0,00;0,00;0,00;0,0000;Redes sociais;Sudeste;Rio de Janeiro;Cancelado;Boleto;0,00;82,77
+PED-00873;2025-10-06;Marina Nunes;Kit Chaves;Ferramentas;1;78,74;78,74;0,00;40,65;11,37;0,1444;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;26,72;0,00
+PED-00874;2025-10-09;João Klein;Hidratante;Beleza;2;53,90;107,80;0,00;68,40;9,24;0,0857;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;30,16;0,00
+PED-00875;2025-10-21;Paulo Guedes;Brinquedo;Pet;1;41,44;41,44;6,22;24,66;-19,79;-0,5619;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;30,35;0,00
+PED-00876;2025-10-27;Diego Almeida;Cama Pet;Pet;4;113,03;452,12;22,61;297,43;113,43;0,2641;Redes sociais;Nordeste;Salvador;Entregue;Boleto;18,65;0,00
+PED-00877;2025-10-02;Felipe Guedes;Hidratante;Beleza;1;58,03;58,03;5,80;34,96;4,20;0,0804;Marketplace;Nordeste;Salvador;Entregue;Pix;13,07;0,00
+PED-00878;2025-10-23;Carla Ibrahim;Halter;Esporte;1;130,74;130,74;6,54;69,36;38,24;0,3079;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;16,60;0,00
+PED-00879;2025-10-17;Lucas Ibrahim;Halter;Esporte;1;130,71;130,71;0,00;66,66;53,42;0,4087;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;10,63;0,00
+PED-00880;2025-10-05;Kelly Henrique;Hidratante;Beleza;1;58,49;58,49;5,85;32,08;7,54;0,1432;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;13,02;0,00
+PED-00881;2025-10-27;Elisa Jardim;Ração Premium;Pet;1;146,89;146,89;0,00;87,60;49,23;0,3351;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;10,06;0,00
+PED-00882;2025-10-24;Paulo Jardim;Kit Skincare;Beleza;2;171,50;343,00;0,00;186,73;140,12;0,4085;Marketplace;Sul;Curitiba;Entregue;Pix;16,15;0,00
+PED-00883;2025-10-21;João Guedes;Garrafa Térmica;Esporte;3;61,17;183,51;9,18;122,44;33,46;0,1919;Site próprio;Sul;Porto Alegre;Entregue;Pix;18,43;0,00
+PED-00884;2025-10-26;Elisa Almeida;Ração Premium;Pet;2;138,68;277,36;0,00;189,22;76,39;0,2754;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de débito;11,75;0,00
+PED-00885;2025-10-11;Carla Esteves;Furadeira;Ferramentas;1;355,42;355,42;0,00;0,00;0,00;0,0000;Site próprio;Sudeste;Rio de Janeiro;Cancelado;Pix;0,00;355,42
+PED-00886;2025-10-26;Ana Henrique;Ração Premium;Pet;1;147,44;147,44;22,12;77,75;19,15;0,1528;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;28,42;0,00
+PED-00887;2025-10-14;Gabriela Guedes;Trena;Ferramentas;1;30,49;30,49;1,52;15,85;-11,57;-0,3994;App;Nordeste;Fortaleza;Entregue;Boleto;24,69;0,00
+PED-00888;2025-10-23;Bruno Duarte;Hidratante;Beleza;1;56,45;56,45;0,00;33,99;8,23;0,1458;App;Sul;Curitiba;Entregue;Pix;14,23;0,00
+PED-00889;2025-10-02;Gabriela Klein;Ração Premium;Pet;1;150,73;150,73;7,54;103,05;16,45;0,1149;Redes sociais;Sudeste;São Paulo;Entregue;Boleto;23,69;0,00
+PED-00890;2025-10-17;Isabela Cardoso;Kit Chaves;Ferramentas;1;81,72;81,72;0,00;49,29;16,69;0,2042;Marketplace;Sudeste;São Paulo;Entregue;Pix;15,74;0,00
+PED-00891;2025-10-07;Lucas Klein;Kit Skincare;Beleza;1;183,91;183,91;27,59;107,92;31,31;0,2003;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;17,09;0,00
+PED-00892;2025-10-12;Nicolas Henrique;Halter;Esporte;1;135,44;135,44;0,00;0,00;0,00;0,0000;Redes sociais;Centro-Oeste;Goiânia;Cancelado;Cartão de débito;0,00;135,44
+PED-00893;2025-10-25;Paulo Lopes;Furadeira;Ferramentas;2;330,67;661,34;0,00;343,63;294,05;0,4446;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;23,66;0,00
+PED-00894;2025-10-18;Marina Guedes;Trena;Ferramentas;1;30,87;30,87;3,09;15,74;-13,05;-0,4698;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;25,09;0,00
+PED-00895;2025-10-15;Gabriela Esteves;Halter;Esporte;2;141,32;282,64;28,26;160,37;82,04;0,3225;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;11,97;0,00
+PED-00896;2025-10-25;Felipe Jardim;Halter;Esporte;2;132,46;264,92;39,74;146,46;65,68;0,2917;Marketplace;Sudeste;São Paulo;Entregue;Pix;13,04;0,00
+PED-00897;2025-10-12;Elisa Farias;Kit Chaves;Ferramentas;1;76,21;76,21;3,81;46,06;-4,73;-0,0653;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;31,07;0,00
+PED-00898;2025-10-22;Heitor Duarte;Ração Premium;Pet;2;144,82;289,64;43,45;167,55;47,44;0,1927;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;31,20;0,00
+PED-00899;2025-10-21;Diego Duarte;Hidratante;Beleza;1;52,98;52,98;7,95;36,08;-13,28;-0,2949;Marketplace;Nordeste;Fortaleza;Entregue;Pix;22,23;0,00
+PED-00900;2025-10-25;Bruno Klein;Bola;Esporte;1;92,27;92,27;0,00;57,03;5,17;0,0560;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;30,07;0,00
+PED-00901;2025-10-19;Nicolas Jardim;Hidratante;Beleza;1;56,18;56,18;2,81;38,53;-9,03;-0,1692;App;Sudeste;Belo Horizonte;Entregue;Boleto;23,87;0,00
+PED-00902;2025-10-02;Ana Ibrahim;Brinquedo;Pet;3;41,21;123,63;6,18;0,00;-0,00;-0,0000;Marketplace;Sul;Curitiba;Cancelado;Boleto;0,00;117,45
+PED-00903;2025-10-01;Heitor Farias;Kit Skincare;Beleza;1;172,14;172,14;25,82;107,31;21,17;0,1447;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;17,84;0,00
+PED-00904;2025-10-10;Nicolas Cardoso;Halter;Esporte;1;136,41;136,41;0,00;81,68;26,13;0,1916;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;28,60;0,00
+PED-00905;2025-10-14;Carla Jardim;Trena;Ferramentas;1;27,70;27,70;0,00;18,96;-4,20;-0,1516;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;12,94;0,00
+PED-00906;2025-10-16;Gabriela Ibrahim;Hidratante;Beleza;2;52,21;104,42;0,00;55,43;38,97;0,3732;Marketplace;Sul;Curitiba;Entregue;Pix;10,02;0,00
+PED-00907;2025-10-18;Felipe Klein;Furadeira;Ferramentas;1;341,14;341,14;34,11;236,39;40,11;0,1306;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;30,53;0,00
+PED-00908;2025-10-19;Ana Henrique;Furadeira;Ferramentas;4;335,75;1343,00;201,45;698,71;412,48;0,3613;Site próprio;Nordeste;Fortaleza;Entregue;Boleto;30,36;0,00
+PED-00909;2025-10-28;Felipe Cardoso;Ração Premium;Pet;1;136,24;136,24;6,81;78,49;40,20;0,3106;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;10,74;0,00
+PED-00910;2025-10-01;Lucas Cardoso;Perfume;Beleza;1;218,05;218,05;0,00;144,24;64,07;0,2938;App;Centro-Oeste;Brasília;Entregue;Pix;9,74;0,00
+PED-00911;2025-10-13;Marina Lopes;Bola;Esporte;2;93,95;187,90;9,40;126,71;33,94;0,1901;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;17,85;0,00
+PED-00912;2025-10-09;Elisa Lopes;Ração Premium;Pet;1;151,89;151,89;0,00;84,53;41,30;0,2719;App;Centro-Oeste;Brasília;Entregue;Boleto;26,06;0,00
+PED-00913;2025-10-09;Felipe Lopes;Cama Pet;Pet;1;119,11;119,11;5,96;64,56;31,28;0,2764;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;17,31;0,00
+PED-00914;2025-10-25;Felipe Klein;Bola;Esporte;3;92,24;276,72;27,67;187,55;37,27;0,1496;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;24,23;0,00
+PED-00915;2025-10-04;Felipe Farias;Kit Skincare;Beleza;1;184,19;184,19;9,21;116,39;-132,80;-0,7589;Site próprio;Centro-Oeste;Brasília;Devolvido;Cartão de crédito;16,41;174,98
+PED-00916;2025-10-20;Paulo Guedes;Kit Skincare;Beleza;2;178,75;357,50;0,00;204,73;129,70;0,3628;App;Nordeste;Recife;Entregue;Cartão de crédito;23,07;0,00
+PED-00917;2025-10-07;Isabela Duarte;Ração Premium;Pet;2;147,78;295,56;14,78;176,01;85,40;0,3042;App;Nordeste;Salvador;Entregue;Cartão de crédito;19,37;0,00
+PED-00918;2025-10-20;Lucas Jardim;Perfume;Beleza;2;219,69;439,38;43,94;235,39;131,13;0,3316;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;28,92;0,00
+PED-00919;2025-10-03;Diego Lopes;Bola;Esporte;1;90,95;90,95;13,64;51,67;3,78;0,0489;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;21,86;0,00
+PED-00920;2025-10-13;Carla Nunes;Ração Premium;Pet;2;139,52;279,04;41,86;156,77;69,90;0,2947;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;10,51;0,00
+PED-00921;2025-10-02;Ana Barros;Furadeira;Ferramentas;1;348,18;348,18;0,00;199,14;136,85;0,3930;Redes sociais;Sul;Curitiba;Entregue;Pix;12,19;0,00
+PED-00922;2025-10-09;Kelly Esteves;Cama Pet;Pet;3;106,86;320,58;0,00;173,50;120,46;0,3758;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;26,62;0,00
+PED-00923;2025-10-02;João Barros;Trena;Ferramentas;1;31,86;31,86;3,19;18,48;-10,37;-0,3617;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;20,56;0,00
+PED-00924;2025-10-08;Heitor Almeida;Halter;Esporte;2;122,78;245,56;0,00;134,04;97,86;0,3985;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;13,66;0,00
+PED-00925;2025-10-13;Bruno Cardoso;Kit Chaves;Ferramentas;2;79,99;159,98;0,00;109,40;24,43;0,1527;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de crédito;26,15;0,00
+PED-00926;2025-10-14;Olívia Cardoso;Ração Premium;Pet;2;134,00;268,00;26,80;178,75;32,57;0,1350;App;Nordeste;Salvador;Entregue;Pix;29,88;0,00
+PED-00927;2025-10-19;Marina Farias;Halter;Esporte;1;127,17;127,17;0,00;67,79;48,29;0,3797;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;11,09;0,00
+PED-00928;2025-10-04;Lucas Klein;Perfume;Beleza;1;208,73;208,73;10,44;145,66;27,91;0,1408;Redes sociais;Sul;Curitiba;Entregue;Cartão de débito;24,72;0,00
+PED-00929;2025-10-11;Nicolas Klein;Perfume;Beleza;2;230,03;460,06;69,01;230,57;143,51;0,3670;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;16,97;0,00
+PED-00930;2025-10-13;Paulo Cardoso;Kit Chaves;Ferramentas;1;80,25;80,25;0,00;41,84;19,36;0,2412;Site próprio;Nordeste;Recife;Entregue;Boleto;19,05;0,00
+PED-00931;2025-10-20;Kelly Moreira;Ração Premium;Pet;2;134,19;268,38;13,42;149,17;75,69;0,2969;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;30,10;0,00
+PED-00932;2025-10-25;Heitor Almeida;Perfume;Beleza;2;236,43;472,86;47,29;281,09;133,06;0,3127;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;11,42;0,00
+PED-00933;2025-10-07;Nicolas Almeida;Garrafa Térmica;Esporte;1;59,72;59,72;2,99;33,03;3,00;0,0529;Redes sociais;Sul;Porto Alegre;Entregue;Boleto;20,70;0,00
+PED-00934;2025-10-20;Gabriela Ibrahim;Bola;Esporte;4;86,12;344,48;51,67;173,10;92,68;0,3165;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;27,03;0,00
+PED-00935;2025-10-23;Nicolas Farias;Bola;Esporte;3;85,06;255,18;38,28;138,10;65,85;0,3036;Redes sociais;Nordeste;Recife;Entregue;Cartão de débito;12,95;0,00
+PED-00936;2025-10-11;Carla Esteves;Garrafa Térmica;Esporte;1;63,89;63,89;6,39;0,00;0,00;0,0000;Redes sociais;Nordeste;Fortaleza;Cancelado;Cartão de débito;0,00;57,50
+PED-00937;2025-10-06;João Duarte;Bola;Esporte;3;86,30;258,90;12,95;150,15;66,48;0,2703;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;29,32;0,00
+PED-00938;2025-10-23;Gabriela Lopes;Perfume;Beleza;2;237,08;474,16;0,00;248,60;212,02;0,4471;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;13,54;0,00
+PED-00939;2025-10-25;Diego Guedes;Trena;Ferramentas;1;30,82;30,82;0,00;17,85;-3,90;-0,1265;App;Sul;Porto Alegre;Entregue;Cartão de crédito;16,87;0,00
+PED-00940;2025-10-02;Kelly Esteves;Garrafa Térmica;Esporte;2;59,51;119,02;17,85;76,00;-2,77;-0,0274;Marketplace;Sul;Porto Alegre;Entregue;Boleto;27,94;0,00
+PED-00941;2025-10-04;Bruno Cardoso;Bola;Esporte;1;96,04;96,04;4,80;52,75;24,78;0,2716;App;Nordeste;Salvador;Entregue;Pix;13,71;0,00
+PED-00942;2025-10-11;Lucas Cardoso;Kit Skincare;Beleza;2;179,68;359,36;0,00;204,11;140,53;0,3911;Marketplace;Nordeste;Salvador;Entregue;Pix;14,72;0,00
+PED-00943;2025-10-28;Elisa Jardim;Kit Skincare;Beleza;1;167,42;167,42;25,11;114,73;0,86;0,0060;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;26,72;0,00
+PED-00944;2025-10-12;Diego Almeida;Ração Premium;Pet;2;149,88;299,76;0,00;207,34;76,39;0,2548;Marketplace;Sul;Porto Alegre;Entregue;Boleto;16,03;0,00
+PED-00945;2025-10-11;Diego Barros;Bola;Esporte;1;95,20;95,20;9,52;0,00;0,00;0,0000;Redes sociais;Nordeste;Fortaleza;Cancelado;Cartão de crédito;0,00;85,68
+PED-00946;2025-10-24;Marina Barros;Bola;Esporte;2;91,84;183,68;0,00;105,58;58,97;0,3210;App;Sul;Curitiba;Entregue;Cartão de crédito;19,13;0,00
+PED-00947;2025-10-13;Carla Guedes;Kit Chaves;Ferramentas;1;77,71;77,71;11,66;39,74;10,19;0,1543;App;Sul;Porto Alegre;Entregue;Pix;16,12;0,00
+PED-00948;2025-10-06;Diego Henrique;Hidratante;Beleza;3;53,24;159,72;23,96;111,05;-0,45;-0,0033;App;Sul;Curitiba;Entregue;Cartão de débito;25,16;0,00
+PED-00949;2025-10-18;Carla Almeida;Perfume;Beleza;1;228,73;228,73;0,00;134,58;73,61;0,3218;Site próprio;Sudeste;Belo Horizonte;Entregue;Pix;20,54;0,00
+PED-00950;2025-10-01;Lucas Moreira;Furadeira;Ferramentas;2;316,48;632,96;0,00;372,41;247,39;0,3908;Site próprio;Sudeste;São Paulo;Entregue;Pix;13,16;0,00
+PED-00951;2025-10-28;Ana Klein;Furadeira;Ferramentas;2;324,44;648,88;0,00;405,98;220,10;0,3392;Redes sociais;Sul;Curitiba;Entregue;Cartão de débito;22,80;0,00
+PED-00952;2025-10-03;Olívia Guedes;Cama Pet;Pet;1;113,11;113,11;11,31;62,12;28,65;0,2814;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;11,03;0,00
+PED-00953;2025-10-26;Diego Esteves;Halter;Esporte;3;125,27;375,81;0,00;232,23;128,30;0,3414;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;15,28;0,00
+PED-00954;2025-10-13;Isabela Ibrahim;Garrafa Térmica;Esporte;1;61,33;61,33;3,07;38,20;-9,34;-0,1603;Redes sociais;Centro-Oeste;Brasília;Entregue;Boleto;29,40;0,00
+PED-00955;2025-10-03;Gabriela Jardim;Cama Pet;Pet;1;116,55;116,55;0,00;59,47;38,58;0,3310;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;18,50;0,00
+PED-00956;2025-10-22;Elisa Farias;Cama Pet;Pet;4;109,01;436,04;21,80;243,78;148,50;0,3585;Marketplace;Nordeste;Salvador;Entregue;Pix;21,96;0,00
+PED-00957;2025-10-02;Marina Lopes;Hidratante;Beleza;3;51,38;154,14;0,00;80,24;52,03;0,3376;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;21,87;0,00
+PED-00958;2025-10-04;Elisa Duarte;Hidratante;Beleza;1;52,43;52,43;0,00;35,40;4,68;0,0893;App;Nordeste;Recife;Entregue;Cartão de débito;12,35;0,00
+PED-00959;2025-10-09;Bruno Barros;Bola;Esporte;1;92,46;92,46;13,87;59,47;5,31;0,0676;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;13,81;0,00
+PED-00960;2025-10-18;Kelly Duarte;Garrafa Térmica;Esporte;1;59,26;59,26;2,96;0,00;0,00;0,0000;Site próprio;Centro-Oeste;Brasília;Cancelado;Pix;0,00;56,30
+PED-00961;2025-10-08;Nicolas Ibrahim;Trena;Ferramentas;2;30,92;61,84;3,09;42,32;-3,59;-0,0611;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;20,02;0,00
+PED-00962;2025-10-16;Lucas Barros;Furadeira;Ferramentas;4;331,36;1325,44;0,00;713,28;586,30;0,4423;App;Centro-Oeste;Brasília;Entregue;Cartão de débito;25,86;0,00
+PED-00963;2025-10-26;Ana Lopes;Trena;Ferramentas;3;28,21;84,63;0,00;46,94;19,80;0,2340;Site próprio;Sul;Porto Alegre;Entregue;Pix;17,89;0,00
+PED-00964;2025-10-17;Marina Barros;Furadeira;Ferramentas;1;350,15;350,15;0,00;225,54;103,90;0,2967;App;Sudeste;Belo Horizonte;Entregue;Boleto;20,71;0,00
+PED-00965;2025-10-17;João Duarte;Hidratante;Beleza;2;53,88;107,76;16,16;63,79;-0,44;-0,0048;Site próprio;Nordeste;Recife;Entregue;Cartão de crédito;28,25;0,00
+PED-00966;2025-10-02;Lucas Klein;Garrafa Térmica;Esporte;2;60,31;120,62;6,03;84,00;10,54;0,0920;App;Sul;Porto Alegre;Entregue;Pix;20,05;0,00
+PED-00967;2025-10-19;Kelly Esteves;Trena;Ferramentas;1;28,60;28,60;0,00;18,38;-13,31;-0,4654;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;23,53;0,00
+PED-00968;2025-10-25;Kelly Moreira;Perfume;Beleza;1;216,55;216,55;32,48;108,62;46,46;0,2524;App;Nordeste;Recife;Entregue;Boleto;28,99;0,00
+PED-00969;2025-10-05;Marina Cardoso;Brinquedo;Pet;1;38,02;38,02;3,80;26,54;-8,49;-0,2481;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;16,17;0,00
+PED-00970;2025-10-10;Kelly Jardim;Trena;Ferramentas;1;31,07;31,07;0,00;15,62;-15,60;-0,5021;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;31,05;0,00
+PED-00971;2025-10-20;Lucas Lopes;Ração Premium;Pet;2;151,10;302,20;30,22;174,85;81,99;0,3015;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;15,14;0,00
+PED-00972;2025-10-28;Heitor Lopes;Bola;Esporte;1;96,37;96,37;14,46;52,90;5,14;0,0628;App;Nordeste;Fortaleza;Entregue;Pix;23,87;0,00
+PED-00973;2025-10-02;Paulo Lopes;Kit Skincare;Beleza;1;167,44;167,44;8,37;93,63;40,28;0,2532;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;25,16;0,00
+PED-00974;2025-10-08;Olívia Jardim;Perfume;Beleza;1;213,61;213,61;21,36;139,00;43,50;0,2263;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;9,75;0,00
+PED-00975;2025-10-04;Carla Almeida;Ração Premium;Pet;1;136,72;136,72;6,84;76,26;21,92;0,1688;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;31,70;0,00
+PED-00976;2025-10-26;Diego Moreira;Furadeira;Ferramentas;3;327,93;983,79;49,19;497,35;416,12;0,4452;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;21,13;0,00
+PED-00977;2025-10-11;Lucas Klein;Kit Skincare;Beleza;2;181,27;362,54;0,00;203,63;-216,53;-0,5973;App;Sudeste;Belo Horizonte;Devolvido;Cartão de crédito;12,90;362,54
+PED-00978;2025-10-09;Diego Cardoso;Cama Pet;Pet;2;116,91;233,82;0,00;118,86;96,32;0,4119;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;18,64;0,00
+PED-00979;2025-10-26;Ana Farias;Furadeira;Ferramentas;1;323,32;323,32;0,00;199,67;107,40;0,3322;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Pix;16,25;0,00
+PED-00980;2025-10-26;Heitor Duarte;Halter;Esporte;1;135,81;135,81;20,37;92,23;8,33;0,0722;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de débito;14,88;0,00
+PED-00981;2025-10-10;Nicolas Moreira;Ração Premium;Pet;4;144,04;576,16;0,00;294,80;253,56;0,4401;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;27,80;0,00
+PED-00982;2025-10-27;Gabriela Moreira;Kit Skincare;Beleza;3;179,41;538,23;53,82;302,25;169,74;0,3504;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;12,42;0,00
+PED-00983;2025-10-21;Paulo Cardoso;Ração Premium;Pet;1;143,98;143,98;0,00;78,62;48,03;0,3336;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;17,33;0,00
+PED-00984;2025-10-20;Lucas Klein;Trena;Ferramentas;1;27,59;27,59;2,76;16,84;-15,62;-0,6291;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;23,61;0,00
+PED-00985;2025-10-06;Ana Klein;Furadeira;Ferramentas;4;329,30;1317,20;0,00;776,79;523,30;0,3973;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;17,11;0,00
+PED-00986;2025-10-19;Gabriela Esteves;Bola;Esporte;3;89,43;268,29;0,00;143,73;114,38;0,4263;Redes sociais;Nordeste;Recife;Entregue;Boleto;10,18;0,00
+PED-00987;2025-10-15;Carla Guedes;Kit Chaves;Ferramentas;1;81,25;81,25;0,00;44,99;6,91;0,0850;App;Sul;Porto Alegre;Entregue;Boleto;29,35;0,00
+PED-00988;2025-10-12;Nicolas Moreira;Garrafa Térmica;Esporte;1;58,47;58,47;5,85;35,60;-2,61;-0,0496;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;19,63;0,00
+PED-00989;2025-10-17;Olívia Cardoso;Ração Premium;Pet;1;140,20;140,20;0,00;75,56;48,25;0,3442;App;Centro-Oeste;Brasília;Entregue;Pix;16,39;0,00
+PED-00990;2025-10-19;Kelly Henrique;Ração Premium;Pet;1;145,81;145,81;0,00;84,55;-115,95;-0,7952;Redes sociais;Centro-Oeste;Brasília;Devolvido;Cartão de débito;31,40;145,81
+PED-00991;2025-10-18;Olívia Esteves;Ração Premium;Pet;1;137,75;137,75;20,66;91,99;7,46;0,0637;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;17,64;0,00
+PED-00992;2025-10-06;Diego Henrique;Ração Premium;Pet;3;147,84;443,52;44,35;308,33;78,29;0,1961;Site próprio;Sudeste;Rio de Janeiro;Entregue;Boleto;12,55;0,00
+PED-00993;2025-10-12;Diego Farias;Perfume;Beleza;2;215,99;431,98;0,00;224,19;180,09;0,4169;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;27,70;0,00
+PED-00994;2025-10-22;Lucas Nunes;Garrafa Térmica;Esporte;1;58,45;58,45;2,92;37,00;-0,90;-0,0162;Marketplace;Centro-Oeste;Goiânia;Entregue;Pix;19,43;0,00
+PED-00995;2025-10-08;Paulo Farias;Cama Pet;Pet;1;105,10;105,10;0,00;53,48;35,81;0,3407;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;15,81;0,00
+PED-00996;2025-10-13;Paulo Farias;Bola;Esporte;4;92,54;370,16;18,51;252,92;83,18;0,2365;App;Nordeste;Fortaleza;Entregue;Boleto;15,55;0,00
+PED-00997;2025-10-02;Isabela Jardim;Halter;Esporte;1;130,07;130,07;0,00;87,27;12,63;0,0971;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;30,17;0,00
+PED-00998;2025-10-07;Gabriela Nunes;Ração Premium;Pet;1;143,83;143,83;0,00;91,08;23,95;0,1665;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;28,80;0,00
+PED-00999;2025-10-25;João Esteves;Perfume;Beleza;1;222,74;222,74;0,00;153,23;38,25;0,1717;Marketplace;Centro-Oeste;Brasília;Entregue;Pix;31,26;0,00
+PED-01000;2025-10-26;Gabriela Nunes;Halter;Esporte;1;124,53;124,53;12,45;66,29;22,92;0,2045;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;22,87;0,00
+PED-01001;2025-10-06;João Barros;Halter;Esporte;1;128,68;128,68;0,00;84,40;15,01;0,1166;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;29,27;0,00
+PED-01002;2025-10-28;João Cardoso;Kit Skincare;Beleza;3;168,03;504,09;25,20;313,37;134,29;0,2804;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;31,23;0,00
+PED-01003;2025-10-05;Olívia Jardim;Ração Premium;Pet;1;147,47;147,47;14,75;95,06;25,59;0,1928;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;12,07;0,00
+PED-01004;2025-11-26;Ana Ibrahim;Halter;Esporte;2;129,19;258,38;0,00;139,50;107,59;0,4164;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;11,29;0,00
+PED-01005;2025-11-03;Marina Duarte;Brinquedo;Pet;2;41,96;83,92;12,59;56,90;-15,27;-0,2141;Redes sociais;Nordeste;Recife;Entregue;Cartão de débito;29,70;0,00
+PED-01006;2025-11-15;Kelly Moreira;Ração Premium;Pet;1;146,77;146,77;7,34;86,54;42,61;0,3056;Marketplace;Sudeste;Belo Horizonte;Entregue;Pix;10,28;0,00
+PED-01007;2025-11-19;Olívia Ibrahim;Hidratante;Beleza;1;53,97;53,97;0,00;31,85;-7,04;-0,1304;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de débito;29,16;0,00
+PED-01008;2025-11-11;Nicolas Jardim;Furadeira;Ferramentas;4;330,25;1321,00;66,05;832,94;398,44;0,3175;Site próprio;Nordeste;Salvador;Entregue;Boleto;23,57;0,00
+PED-01009;2025-11-28;Lucas Henrique;Furadeira;Ferramentas;1;361,48;361,48;36,15;252,67;52,38;0,1610;Marketplace;Nordeste;Fortaleza;Entregue;Pix;20,28;0,00
+PED-01010;2025-11-14;Felipe Jardim;Ração Premium;Pet;1;150,50;150,50;0,00;80,27;39,64;0,2634;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;30,59;0,00
+PED-01011;2025-11-26;Ana Barros;Furadeira;Ferramentas;1;318,19;318,19;0,00;222,36;83,90;0,2637;Marketplace;Sudeste;São Paulo;Entregue;Cartão de crédito;11,93;0,00
+PED-01012;2025-11-05;Bruno Nunes;Perfume;Beleza;1;211,83;211,83;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Salvador;Cancelado;Cartão de crédito;0,00;211,83
+PED-01013;2025-11-09;Ana Ibrahim;Bola;Esporte;1;92,85;92,85;13,93;63,55;-11,17;-0,1415;App;Sudeste;São Paulo;Entregue;Pix;26,54;0,00
+PED-01014;2025-11-25;Diego Guedes;Kit Skincare;Beleza;2;185,18;370,36;0,00;220,94;126,87;0,3426;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de crédito;22,55;0,00
+PED-01015;2025-11-07;João Nunes;Cama Pet;Pet;1;103,78;103,78;15,57;56,63;14,62;0,1657;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;16,96;0,00
+PED-01016;2025-11-24;Elisa Duarte;Hidratante;Beleza;1;58,53;58,53;2,93;32,14;-6,12;-0,1101;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;29,58;0,00
+PED-01017;2025-11-14;Diego Lopes;Kit Skincare;Beleza;1;162,00;162,00;16,20;100,47;17,40;0,1193;Marketplace;Sul;Porto Alegre;Entregue;Cartão de crédito;27,93;0,00
+PED-01018;2025-11-02;Heitor Lopes;Hidratante;Beleza;1;58,68;58,68;0,00;31,33;4,10;0,0699;Site próprio;Nordeste;Salvador;Entregue;Cartão de débito;23,25;0,00
+PED-01019;2025-11-21;Heitor Jardim;Ração Premium;Pet;3;146,69;440,07;44,01;292,32;93,71;0,2366;Site próprio;Nordeste;Salvador;Entregue;Boleto;10,03;0,00
+PED-01020;2025-11-19;Lucas Lopes;Kit Chaves;Ferramentas;3;77,87;233,61;11,68;162,39;47,07;0,2121;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;12,47;0,00
+PED-01021;2025-11-06;Kelly Lopes;Trena;Ferramentas;4;29,17;116,68;0,00;68,24;-97,34;-0,8342;App;Sul;Porto Alegre;Devolvido;Pix;29,10;116,68
+PED-01022;2025-11-04;Nicolas Guedes;Bola;Esporte;1;86,16;86,16;0,00;49,49;5,47;0,0635;Marketplace;Sudeste;Belo Horizonte;Entregue;Boleto;31,20;0,00
+PED-01023;2025-11-04;Nicolas Almeida;Brinquedo;Pet;1;40,20;40,20;4,02;24,08;-7,63;-0,2109;App;Nordeste;Recife;Entregue;Cartão de débito;19,73;0,00
+PED-01024;2025-11-23;Isabela Moreira;Furadeira;Ferramentas;1;342,76;342,76;51,41;221,87;45,02;0,1545;App;Centro-Oeste;Brasília;Entregue;Cartão de crédito;24,46;0,00
+PED-01025;2025-11-10;Heitor Jardim;Cama Pet;Pet;1;106,26;106,26;5,31;53,47;17,91;0,1774;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de débito;29,57;0,00
+PED-01026;2025-11-25;Elisa Klein;Ração Premium;Pet;1;145,26;145,26;0,00;94,86;35,95;0,2475;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;14,45;0,00
+PED-01027;2025-11-13;Ana Esteves;Bola;Esporte;2;85,35;170,70;25,60;107,71;10,73;0,0739;App;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;26,66;0,00
+PED-01028;2025-11-18;Carla Nunes;Perfume;Beleza;1;230,98;230,98;23,10;135,83;47,07;0,2264;Site próprio;Nordeste;Recife;Entregue;Cartão de débito;24,98;0,00
+PED-01029;2025-11-07;Bruno Ibrahim;Trena;Ferramentas;1;31,85;31,85;4,78;19,98;-8,07;-0,2981;App;Nordeste;Salvador;Entregue;Cartão de crédito;15,16;0,00
+PED-01030;2025-11-05;Isabela Farias;Ração Premium;Pet;1;141,31;141,31;0,00;95,55;18,24;0,1291;Site próprio;Sudeste;Rio de Janeiro;Entregue;Pix;27,52;0,00
+PED-01031;2025-11-22;Ana Lopes;Garrafa Térmica;Esporte;3;57,30;171,90;17,19;100,86;26,53;0,1715;App;Nordeste;Fortaleza;Entregue;Cartão de débito;27,32;0,00
+PED-01032;2025-11-28;João Esteves;Kit Skincare;Beleza;1;175,26;175,26;26,29;115,98;6,21;0,0417;App;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;26,78;0,00
+PED-01033;2025-11-04;Marina Barros;Kit Skincare;Beleza;2;179,44;358,88;0,00;222,62;118,48;0,3301;Redes sociais;Nordeste;Recife;Entregue;Boleto;17,78;0,00
+PED-01034;2025-11-10;Kelly Moreira;Perfume;Beleza;1;217,53;217,53;32,63;114,36;44,58;0,2411;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;25,96;0,00
+PED-01035;2025-11-01;Paulo Jardim;Brinquedo;Pet;1;38,38;38,38;1,92;0,00;0,00;0,0000;Marketplace;Sul;Porto Alegre;Cancelado;Boleto;0,00;36,46
+PED-01036;2025-11-22;Carla Cardoso;Ração Premium;Pet;1;134,46;134,46;6,72;71,51;39,47;0,3090;App;Sudeste;São Paulo;Entregue;Cartão de crédito;16,76;0,00
+PED-01037;2025-11-10;Paulo Ibrahim;Kit Skincare;Beleza;1;178,71;178,71;0,00;122,41;31,04;0,1737;Marketplace;Sudeste;São Paulo;Entregue;Pix;25,26;0,00
+PED-01038;2025-11-23;Nicolas Jardim;Brinquedo;Pet;4;39,34;157,36;15,74;79,68;37,65;0,2659;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;24,29;0,00
+PED-01039;2025-11-03;Olívia Moreira;Kit Skincare;Beleza;1;168,76;168,76;25,31;103,86;16,44;0,1146;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;23,15;0,00
+PED-01040;2025-11-05;Paulo Lopes;Brinquedo;Pet;1;42,63;42,63;6,39;26,01;-15,48;-0,4272;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;25,71;0,00
+PED-01041;2025-11-01;Heitor Lopes;Hidratante;Beleza;1;54,48;54,48;0,00;30,59;2,80;0,0514;Marketplace;Nordeste;Recife;Entregue;Pix;21,09;0,00
+PED-01042;2025-11-28;Elisa Guedes;Bola;Esporte;1;90,64;90,64;13,60;55,59;5,08;0,0659;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;16,37;0,00
+PED-01043;2025-11-05;Ana Almeida;Hidratante;Beleza;2;57,55;115,10;11,51;61,51;30,64;0,2958;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;11,44;0,00
+PED-01044;2025-11-22;Elisa Henrique;Kit Skincare;Beleza;1;175,34;175,34;0,00;108,77;56,61;0,3229;Site próprio;Centro-Oeste;Goiânia;Entregue;Boleto;9,96;0,00
+PED-01045;2025-11-03;Heitor Jardim;Halter;Esporte;1;129,88;129,88;0,00;69,33;36,35;0,2799;App;Nordeste;Salvador;Entregue;Pix;24,20;0,00
+PED-01046;2025-11-12;Ana Moreira;Ração Premium;Pet;1;141,71;141,71;7,09;74,99;39,76;0,2953;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;19,87;0,00
+PED-01047;2025-11-14;Lucas Farias;Kit Skincare;Beleza;1;182,93;182,93;9,15;121,90;24,60;0,1416;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;27,28;0,00
+PED-01048;2025-11-04;Bruno Farias;Kit Skincare;Beleza;1;169,80;169,80;0,00;112,18;34,34;0,2022;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;23,28;0,00
+PED-01049;2025-11-19;Bruno Moreira;Perfume;Beleza;2;213,72;427,44;64,12;292,32;60,26;0,1659;Marketplace;Sul;Curitiba;Entregue;Cartão de débito;10,74;0,00
+PED-01050;2025-11-14;Kelly Ibrahim;Furadeira;Ferramentas;2;339,75;679,50;33,98;388,98;229,72;0,3559;Site próprio;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;26,82;0,00
+PED-01051;2025-11-07;Paulo Moreira;Ração Premium;Pet;1;146,68;146,68;7,33;90,22;26,54;0,1905;App;Centro-Oeste;Goiânia;Entregue;Pix;22,59;0,00
+PED-01052;2025-11-13;Carla Almeida;Bola;Esporte;1;96,29;96,29;0,00;53,12;25,79;0,2678;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;17,38;0,00
+PED-01053;2025-11-10;Elisa Jardim;Hidratante;Beleza;1;58,98;58,98;8,85;0,00;-0,00;-0,0000;Site próprio;Nordeste;Salvador;Cancelado;Cartão de crédito;0,00;50,13
+PED-01054;2025-11-15;Kelly Farias;Brinquedo;Pet;1;37,61;37,61;1,88;20,01;-10,70;-0,2995;Marketplace;Nordeste;Recife;Entregue;Cartão de crédito;26,42;0,00
+PED-01055;2025-11-24;Bruno Duarte;Halter;Esporte;1;124,07;124,07;18,61;84,32;-5,44;-0,0516;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;26,58;0,00
+PED-01056;2025-11-21;Gabriela Jardim;Halter;Esporte;3;123,20;369,60;0,00;250,68;94,10;0,2546;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;24,82;0,00
+PED-01057;2025-11-24;Heitor Farias;Furadeira;Ferramentas;2;359,28;718,56;71,86;479,16;144,19;0,2230;App;Nordeste;Recife;Entregue;Cartão de débito;23,35;0,00
+PED-01058;2025-11-25;Carla Henrique;Hidratante;Beleza;1;57,34;57,34;2,87;38,15;-7,88;-0,1447;Marketplace;Sul;Curitiba;Entregue;Pix;24,20;0,00
+PED-01059;2025-11-06;Marina Nunes;Trena;Ferramentas;1;31,81;31,81;4,77;21,08;-14,91;-0,5514;Redes sociais;Sul;Porto Alegre;Entregue;Cartão de crédito;20,87;0,00
+PED-01060;2025-11-05;Heitor Duarte;Hidratante;Beleza;1;54,89;54,89;5,49;35,93;-10,48;-0,2121;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;23,95;0,00
+PED-01061;2025-11-03;Paulo Almeida;Bola;Esporte;1;94,61;94,61;0,00;0,00;0,00;0,0000;Redes sociais;Nordeste;Salvador;Cancelado;Pix;0,00;94,61
+PED-01062;2025-11-10;Marina Nunes;Trena;Ferramentas;1;31,83;31,83;4,77;20,06;-18,01;-0,6656;Redes sociais;Centro-Oeste;Brasília;Entregue;Pix;25,01;0,00
+PED-01063;2025-11-26;Elisa Nunes;Kit Chaves;Ferramentas;4;75,06;300,24;15,01;169,06;105,87;0,3712;Marketplace;Nordeste;Fortaleza;Entregue;Pix;10,30;0,00
+PED-01064;2025-11-18;Felipe Almeida;Hidratante;Beleza;2;52,37;104,74;10,47;56,70;9,57;0,1015;App;Nordeste;Recife;Entregue;Cartão de débito;28,00;0,00
+PED-01065;2025-11-22;Diego Jardim;Halter;Esporte;1;124,90;124,90;6,25;71,41;21,57;0,1818;Marketplace;Nordeste;Salvador;Entregue;Boleto;25,67;0,00
+PED-01066;2025-11-10;Elisa Moreira;Perfume;Beleza;3;235,32;705,96;35,30;493,95;152,76;0,2278;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;23,95;0,00
+PED-01067;2025-11-27;Marina Barros;Kit Skincare;Beleza;1;179,29;179,29;26,89;101,50;37,89;0,2486;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;13,01;0,00
+PED-01068;2025-11-11;Olívia Nunes;Ração Premium;Pet;2;152,40;304,80;15,24;194,77;77,79;0,2686;Site próprio;Nordeste;Recife;Entregue;Pix;17,00;0,00
+PED-01069;2025-11-10;Carla Barros;Furadeira;Ferramentas;1;351,94;351,94;17,60;221,43;86,99;0,2602;App;Sudeste;São Paulo;Entregue;Pix;25,92;0,00
+PED-01070;2025-11-16;Bruno Lopes;Trena;Ferramentas;1;29,41;29,41;1,47;15,48;-12,86;-0,4603;Site próprio;Sul;Curitiba;Entregue;Cartão de crédito;25,32;0,00
+PED-01071;2025-11-15;Kelly Nunes;Hidratante;Beleza;4;57,63;230,52;0,00;115,98;85,98;0,3730;App;Sudeste;São Paulo;Entregue;Cartão de crédito;28,56;0,00
+PED-01072;2025-11-18;Carla Ibrahim;Furadeira;Ferramentas;4;351,49;1405,96;0,00;938,28;448,07;0,3187;App;Sul;Porto Alegre;Entregue;Cartão de crédito;19,61;0,00
+PED-01073;2025-11-06;Nicolas Lopes;Trena;Ferramentas;2;30,99;61,98;0,00;43,28;-4,70;-0,0758;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;23,40;0,00
+PED-01074;2025-11-10;João Cardoso;Hidratante;Beleza;1;56,51;56,51;8,48;37,60;-12,35;-0,2571;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;22,78;0,00
+PED-01075;2025-11-11;Gabriela Guedes;Furadeira;Ferramentas;1;319,22;319,22;47,88;173,18;66,56;0,2453;Marketplace;Sul;Curitiba;Entregue;Pix;31,60;0,00
+PED-01076;2025-11-17;Nicolas Moreira;Furadeira;Ferramentas;2;345,38;690,76;69,08;380,96;223,91;0,3602;Site próprio;Sudeste;São Paulo;Entregue;Boleto;16,81;0,00
+PED-01077;2025-11-04;Lucas Almeida;Halter;Esporte;1;134,79;134,79;13,48;92,20;9,44;0,0778;Redes sociais;Sul;Porto Alegre;Entregue;Pix;19,67;0,00
+PED-01078;2025-11-24;Marina Klein;Cama Pet;Pet;1;119,72;119,72;0,00;63,87;26,39;0,2204;Marketplace;Sudeste;São Paulo;Entregue;Boleto;29,46;0,00
+PED-01079;2025-11-02;Olívia Moreira;Ração Premium;Pet;2;147,99;295,98;44,40;186,25;45,36;0,1803;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;19,97;0,00
+PED-01080;2025-11-02;Olívia Henrique;Garrafa Térmica;Esporte;1;64,60;64,60;6,46;36,68;-9,42;-0,1620;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;30,88;0,00
+PED-01081;2025-11-21;Diego Klein;Brinquedo;Pet;1;39,61;39,61;1,98;26,74;-10,20;-0,2711;App;Sudeste;Belo Horizonte;Entregue;Cartão de débito;21,09;0,00
+PED-01082;2025-11-23;Felipe Klein;Brinquedo;Pet;3;41,01;123,03;0,00;78,53;20,18;0,1640;Marketplace;Sul;Porto Alegre;Entregue;Pix;24,32;0,00
+PED-01083;2025-11-04;João Henrique;Cama Pet;Pet;1;112,84;112,84;0,00;69,94;28,96;0,2566;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;13,94;0,00
+PED-01084;2025-11-17;Felipe Esteves;Trena;Ferramentas;2;30,68;61,36;3,07;33,15;-0,09;-0,0015;App;Sul;Porto Alegre;Entregue;Boleto;25,23;0,00
+PED-01085;2025-11-24;Heitor Guedes;Kit Chaves;Ferramentas;1;82,57;82,57;0,00;53,47;10,56;0,1279;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;18,54;0,00
+PED-01086;2025-11-03;Gabriela Ibrahim;Kit Skincare;Beleza;1;176,89;176,89;0,00;95,94;-119,03;-0,6729;App;Sul;Curitiba;Devolvido;Pix;23,09;176,89
+PED-01087;2025-11-03;Elisa Farias;Ração Premium;Pet;1;138,90;138,90;6,95;76,05;-96,16;-0,7288;Redes sociais;Sudeste;Belo Horizonte;Devolvido;Cartão de crédito;20,11;131,95
+PED-01088;2025-11-22;Bruno Duarte;Ração Premium;Pet;1;147,02;147,02;14,70;99,76;22,39;0,1692;App;Nordeste;Recife;Entregue;Boleto;10,17;0,00
+PED-01089;2025-11-11;Elisa Almeida;Perfume;Beleza;1;238,26;238,26;23,83;146,71;37,35;0,1742;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;30,37;0,00
+PED-01090;2025-11-15;Gabriela Esteves;Garrafa Térmica;Esporte;2;56,99;113,98;0,00;78,87;24,85;0,2180;Site próprio;Sudeste;Belo Horizonte;Entregue;Boleto;10,26;0,00
+PED-01091;2025-11-02;Bruno Guedes;Kit Skincare;Beleza;4;183,81;735,24;110,29;445,64;163,57;0,2617;App;Centro-Oeste;Goiânia;Entregue;Cartão de débito;15,74;0,00
+PED-01092;2025-11-14;Paulo Almeida;Perfume;Beleza;1;222,06;222,06;0,00;139,94;70,50;0,3175;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;11,62;0,00
+PED-01093;2025-11-16;Bruno Duarte;Halter;Esporte;1;122,72;122,72;12,27;62,25;-92,00;-0,8330;Redes sociais;Centro-Oeste;Brasília;Devolvido;Pix;29,75;110,45
+PED-01094;2025-11-24;Felipe Barros;Brinquedo;Pet;1;42,47;42,47;4,25;22,62;-6,44;-0,1685;Marketplace;Sudeste;São Paulo;Entregue;Boleto;22,04;0,00
+PED-01095;2025-11-20;João Cardoso;Hidratante;Beleza;1;55,96;55,96;8,39;29,32;-3,85;-0,0809;App;Centro-Oeste;Brasília;Entregue;Boleto;22,10;0,00
+PED-01096;2025-11-03;Marina Esteves;Hidratante;Beleza;2;52,40;104,80;5,24;70,94;-0,74;-0,0074;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;29,36;0,00
+PED-01097;2025-11-18;Carla Jardim;Halter;Esporte;2;138,21;276,42;41,46;165,14;58,87;0,2506;Site próprio;Nordeste;Salvador;Entregue;Pix;10,95;0,00
+PED-01098;2025-11-02;Kelly Ibrahim;Furadeira;Ferramentas;3;323,30;969,90;145,48;581,94;219,64;0,2664;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;22,84;0,00
+PED-01099;2025-11-28;Ana Nunes;Hidratante;Beleza;2;55,85;111,70;5,59;57,68;23,98;0,2260;App;Nordeste;Salvador;Entregue;Boleto;24,45;0,00
+PED-01100;2025-11-04;Gabriela Almeida;Hidratante;Beleza;2;57,84;115,68;0,00;61,58;35,00;0,3026;App;Nordeste;Fortaleza;Entregue;Cartão de débito;19,10;0,00
+PED-01101;2025-11-06;Olívia Moreira;Ração Premium;Pet;2;135,52;271,04;27,10;143,01;84,53;0,3465;App;Nordeste;Recife;Entregue;Pix;16,40;0,00
+PED-01102;2025-11-26;Gabriela Ibrahim;Ração Premium;Pet;1;152,00;152,00;15,20;79,25;33,31;0,2435;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de crédito;24,24;0,00
+PED-01103;2025-11-14;Marina Cardoso;Kit Skincare;Beleza;2;166,95;333,90;0,00;208,95;93,29;0,2794;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;31,66;0,00
+PED-01104;2025-11-10;Marina Klein;Ração Premium;Pet;1;138,11;138,11;0,00;86,15;26,81;0,1941;App;Sudeste;São Paulo;Entregue;Pix;25,15;0,00
+PED-01105;2025-11-21;Heitor Klein;Hidratante;Beleza;4;57,02;228,08;22,81;143,03;44,52;0,2169;Marketplace;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;17,72;0,00
+PED-01106;2025-11-22;Marina Henrique;Ração Premium;Pet;1;147,24;147,24;0,00;83,21;49,33;0,3350;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de débito;14,70;0,00
+PED-01107;2025-11-15;Kelly Ibrahim;Kit Chaves;Ferramentas;1;76,62;76,62;0,00;0,00;0,00;0,0000;Site próprio;Nordeste;Recife;Cancelado;Cartão de crédito;0,00;76,62
+PED-01108;2025-11-13;Nicolas Henrique;Perfume;Beleza;1;220,16;220,16;0,00;117,80;-139,69;-0,6345;Redes sociais;Sul;Curitiba;Devolvido;Boleto;21,89;220,16
+PED-01109;2025-11-25;Ana Moreira;Ração Premium;Pet;1;151,63;151,63;15,16;97,58;24,73;0,1812;App;Nordeste;Recife;Entregue;Cartão de débito;14,16;0,00
+PED-01110;2025-11-08;Ana Duarte;Halter;Esporte;1;137,43;137,43;20,61;79,82;-93,69;-0,8020;Redes sociais;Sudeste;Rio de Janeiro;Devolvido;Pix;13,87;116,82
+PED-01111;2025-11-24;Olívia Cardoso;Kit Skincare;Beleza;2;168,45;336,90;50,53;210,77;55,54;0,1939;Marketplace;Sul;Porto Alegre;Entregue;Pix;20,06;0,00
+PED-01112;2025-11-21;Lucas Cardoso;Perfume;Beleza;2;213,54;427,08;42,71;289,67;71,20;0,1852;Redes sociais;Centro-Oeste;Goiânia;Entregue;Boleto;23,50;0,00
+PED-01113;2025-11-17;Carla Lopes;Cama Pet;Pet;3;105,18;315,54;47,33;192,68;52,87;0,1971;Site próprio;Nordeste;Recife;Entregue;Cartão de crédito;22,66;0,00
+PED-01114;2025-11-04;Olívia Guedes;Furadeira;Ferramentas;1;356,67;356,67;35,67;220,55;89,31;0,2782;Redes sociais;Nordeste;Salvador;Entregue;Pix;11,14;0,00
+PED-01115;2025-11-20;Paulo Lopes;Bola;Esporte;3;95,00;285,00;14,25;148,25;102,43;0,3783;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Boleto;20,07;0,00
+PED-01116;2025-11-04;Nicolas Almeida;Furadeira;Ferramentas;1;332,95;332,95;33,30;226,26;57,49;0,1919;App;Sudeste;Belo Horizonte;Entregue;Pix;15,90;0,00
+PED-01117;2025-11-21;Carla Farias;Bola;Esporte;3;88,45;265,35;39,80;153,16;59,56;0,2641;Marketplace;Nordeste;Salvador;Entregue;Boleto;12,83;0,00
+PED-01118;2025-11-02;Bruno Jardim;Kit Skincare;Beleza;1;172,47;172,47;0,00;96,28;48,00;0,2783;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de débito;28,19;0,00
+PED-01119;2025-11-09;Elisa Cardoso;Hidratante;Beleza;1;51,52;51,52;0,00;32,42;7,24;0,1405;App;Nordeste;Salvador;Entregue;Pix;11,86;0,00
+PED-01120;2025-11-02;Paulo Almeida;Kit Skincare;Beleza;2;182,54;365,08;18,25;225,46;91,85;0,2648;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;29,52;0,00
+PED-01121;2025-11-10;Elisa Esteves;Garrafa Térmica;Esporte;1;58,45;58,45;8,77;36,13;2,06;0,0415;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;11,49;0,00
+PED-01122;2025-11-26;Nicolas Esteves;Halter;Esporte;1;141,01;141,01;14,10;82,85;17,20;0,1355;Site próprio;Sul;Porto Alegre;Entregue;Cartão de débito;26,86;0,00
+PED-01123;2025-11-07;Kelly Ibrahim;Brinquedo;Pet;1;37,99;37,99;0,00;20,28;-8,99;-0,2366;Marketplace;Sudeste;Rio de Janeiro;Entregue;Pix;26,70;0,00
+PED-01124;2025-11-16;Felipe Cardoso;Perfume;Beleza;1;235,88;235,88;11,79;164,68;42,33;0,1889;Marketplace;Sudeste;São Paulo;Entregue;Cartão de débito;17,08;0,00
+PED-01125;2025-11-15;Paulo Duarte;Halter;Esporte;2;127,51;255,02;0,00;134,49;108,18;0,4242;Marketplace;Nordeste;Fortaleza;Entregue;Pix;12,35;0,00
+PED-01126;2025-11-05;Gabriela Lopes;Brinquedo;Pet;4;41,35;165,40;8,27;108,32;29,11;0,1853;Site próprio;Sudeste;São Paulo;Entregue;Pix;19,70;0,00
+PED-01127;2025-11-12;Isabela Ibrahim;Furadeira;Ferramentas;1;329,83;329,83;16,49;182,22;118,40;0,3779;App;Sudeste;São Paulo;Entregue;Boleto;12,72;0,00
+PED-01128;2025-11-05;Felipe Lopes;Halter;Esporte;1;137,77;137,77;13,78;86,73;10,39;0,0838;Site próprio;Nordeste;Recife;Entregue;Pix;26,87;0,00
+PED-01129;2025-11-18;Paulo Cardoso;Hidratante;Beleza;1;57,12;57,12;2,86;32,55;-60,37;-1,1126;Site próprio;Sudeste;Belo Horizonte;Devolvido;Cartão de débito;27,82;54,26
+PED-01130;2025-11-11;Gabriela Nunes;Trena;Ferramentas;3;30,95;92,85;4,64;61,71;4,19;0,0475;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;22,31;0,00
+PED-01131;2025-11-04;Diego Klein;Halter;Esporte;1;126,61;126,61;6,33;69,63;20,12;0,1673;Site próprio;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;30,53;0,00
+PED-01132;2025-11-16;João Cardoso;Trena;Ferramentas;1;31,63;31,63;0,00;17,33;-41,23;-1,3035;Marketplace;Nordeste;Salvador;Devolvido;Cartão de débito;23,90;31,63
+PED-01133;2025-11-25;Lucas Duarte;Ração Premium;Pet;1;137,75;137,75;0,00;93,15;28,85;0,2094;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de débito;15,75;0,00
+PED-01134;2025-11-24;Carla Cardoso;Kit Skincare;Beleza;2;178,78;357,56;35,76;215,07;79,03;0,2456;App;Sul;Porto Alegre;Entregue;Boleto;27,70;0,00
+PED-01135;2025-11-27;Diego Barros;Halter;Esporte;2;134,47;268,94;0,00;0,00;0,00;0,0000;App;Sudeste;Rio de Janeiro;Cancelado;Pix;0,00;268,94
+PED-01136;2025-11-03;Gabriela Barros;Brinquedo;Pet;1;37,57;37,57;3,76;23,20;-14,55;-0,4303;App;Centro-Oeste;Goiânia;Entregue;Boleto;25,16;0,00
+PED-01137;2025-11-10;Elisa Moreira;Garrafa Térmica;Esporte;3;64,60;193,80;29,07;134,19;19,04;0,1156;App;Nordeste;Recife;Entregue;Cartão de crédito;11,50;0,00
+PED-01138;2025-12-26;Felipe Barros;Kit Chaves;Ferramentas;1;76,69;76,69;0,00;47,91;6,12;0,0798;App;Nordeste;Recife;Entregue;Pix;22,66;0,00
+PED-01139;2025-12-09;Gabriela Jardim;Garrafa Térmica;Esporte;1;63,34;63,34;3,17;37,66;-8,25;-0,1371;Marketplace;Nordeste;Recife;Entregue;Boleto;30,76;0,00
+PED-01140;2025-12-15;Gabriela Klein;Garrafa Térmica;Esporte;1;60,02;60,02;0,00;33,81;-63,82;-1,0633;App;Sudeste;Rio de Janeiro;Devolvido;Boleto;30,01;60,02
+PED-01141;2025-12-21;Ana Duarte;Trena;Ferramentas;4;30,81;123,24;12,32;71,72;25,13;0,2266;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;14,07;0,00
+PED-01142;2025-12-10;Lucas Esteves;Kit Skincare;Beleza;2;184,12;368,24;0,00;222,88;113,99;0,3096;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;31,37;0,00
+PED-01143;2025-12-21;Diego Guedes;Halter;Esporte;1;124,53;124,53;12,45;68,60;19,76;0,1763;Site próprio;Centro-Oeste;Brasília;Entregue;Cartão de crédito;23,72;0,00
+PED-01144;2025-12-20;Bruno Farias;Furadeira;Ferramentas;2;322,53;645,06;32,25;443,76;147,98;0,2415;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;21,07;0,00
+PED-01145;2025-12-22;Lucas Esteves;Cama Pet;Pet;1;107,84;107,84;5,39;54,00;16,87;0,1647;Site próprio;Nordeste;Recife;Entregue;Cartão de crédito;31,58;0,00
+PED-01146;2025-12-24;Isabela Farias;Brinquedo;Pet;3;42,19;126,57;6,33;64,97;-95,40;-0,7934;Redes sociais;Centro-Oeste;Goiânia;Devolvido;Pix;30,43;120,24
+PED-01147;2025-12-15;Felipe Farias;Ração Premium;Pet;2;140,30;280,60;28,06;180,12;-208,13;-0,8241;Site próprio;Nordeste;Fortaleza;Devolvido;Pix;28,01;252,54
+PED-01148;2025-12-28;Felipe Almeida;Furadeira;Ferramentas;3;326,01;978,03;0,00;500,97;456,14;0,4664;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;20,92;0,00
+PED-01149;2025-12-10;Bruno Moreira;Garrafa Térmica;Esporte;2;60,01;120,02;12,00;67,59;29,09;0,2693;App;Sul;Porto Alegre;Entregue;Cartão de débito;11,34;0,00
+PED-01150;2025-12-05;Lucas Lopes;Kit Chaves;Ferramentas;1;85,87;85,87;0,00;47,36;19,63;0,2286;Site próprio;Nordeste;Recife;Entregue;Cartão de crédito;18,88;0,00
+PED-01151;2025-12-28;Carla Esteves;Garrafa Térmica;Esporte;3;63,50;190,50;9,53;123,87;45,94;0,2539;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;11,16;0,00
+PED-01152;2025-12-20;Lucas Barros;Garrafa Térmica;Esporte;3;56,05;168,15;8,41;97,77;47,41;0,2968;Site próprio;Sul;Curitiba;Entregue;Boleto;14,56;0,00
+PED-01153;2025-12-19;Paulo Henrique;Perfume;Beleza;1;212,25;212,25;31,84;138,94;30,01;0,1663;App;Nordeste;Salvador;Entregue;Boleto;11,46;0,00
+PED-01154;2025-12-02;Paulo Almeida;Kit Chaves;Ferramentas;1;80,90;80,90;0,00;41,77;28,52;0,3525;App;Sudeste;Belo Horizonte;Entregue;Pix;10,61;0,00
+PED-01155;2025-12-22;João Moreira;Ração Premium;Pet;1;145,46;145,46;0,00;77,90;39,89;0,2742;Redes sociais;Sudeste;Belo Horizonte;Entregue;Pix;27,67;0,00
+PED-01156;2025-12-13;Marina Moreira;Ração Premium;Pet;3;132,83;398,49;19,92;267,95;92,31;0,2438;Redes sociais;Centro-Oeste;Goiânia;Entregue;Cartão de débito;18,31;0,00
+PED-01157;2025-12-19;Bruno Ibrahim;Kit Chaves;Ferramentas;1;77,30;77,30;7,73;38,69;5,61;0,0806;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;25,27;0,00
+PED-01158;2025-12-09;Kelly Lopes;Kit Chaves;Ferramentas;3;79,97;239,91;0,00;154,78;63,09;0,2630;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;22,04;0,00
+PED-01159;2025-12-20;Isabela Moreira;Garrafa Térmica;Esporte;1;60,22;60,22;9,03;33,63;-4,07;-0,0795;App;Sudeste;Belo Horizonte;Entregue;Pix;21,63;0,00
+PED-01160;2025-12-10;Olívia Barros;Brinquedo;Pet;1;42,62;42,62;2,13;28,91;-18,66;-0,4609;App;Sul;Porto Alegre;Entregue;Cartão de débito;30,24;0,00
+PED-01161;2025-12-06;Nicolas Henrique;Perfume;Beleza;1;211,50;211,50;0,00;137,21;55,30;0,2615;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;18,99;0,00
+PED-01162;2025-12-02;Paulo Ibrahim;Cama Pet;Pet;3;113,08;339,24;0,00;232,63;93,24;0,2748;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;13,37;0,00
+PED-01163;2025-12-27;Kelly Ibrahim;Cama Pet;Pet;1;114,88;114,88;0,00;0,00;0,00;0,0000;Marketplace;Centro-Oeste;Goiânia;Cancelado;Cartão de débito;0,00;114,88
+PED-01164;2025-12-24;Paulo Barros;Bola;Esporte;1;92,81;92,81;0,00;0,00;0,00;0,0000;Redes sociais;Centro-Oeste;Goiânia;Cancelado;Pix;0,00;92,81
+PED-01165;2025-12-02;Gabriela Almeida;Cama Pet;Pet;1;104,39;104,39;10,44;70,71;-3,10;-0,0330;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de débito;26,34;0,00
+PED-01166;2025-12-08;Elisa Farias;Hidratante;Beleza;1;58,57;58,57;8,79;40,77;-2,57;-0,0516;Marketplace;Sudeste;São Paulo;Entregue;Pix;11,58;0,00
+PED-01167;2025-12-04;Diego Henrique;Furadeira;Ferramentas;1;348,62;348,62;17,43;196,80;110,07;0,3323;Site próprio;Nordeste;Recife;Entregue;Boleto;24,32;0,00
+PED-01168;2025-12-28;Elisa Moreira;Kit Skincare;Beleza;1;175,99;175,99;0,00;102,44;50,89;0,2892;Marketplace;Sudeste;Rio de Janeiro;Entregue;Boleto;22,66;0,00
+PED-01169;2025-12-15;Marina Barros;Brinquedo;Pet;1;41,71;41,71;2,09;25,02;1,82;0,0459;App;Nordeste;Fortaleza;Entregue;Cartão de crédito;12,78;0,00
+PED-01170;2025-12-05;Elisa Jardim;Hidratante;Beleza;3;53,51;160,53;0,00;105,06;23,55;0,1467;Redes sociais;Sudeste;Belo Horizonte;Entregue;Boleto;31,92;0,00
+PED-01171;2025-12-08;Diego Ibrahim;Hidratante;Beleza;2;56,27;112,54;16,88;59,78;10,89;0,1138;App;Centro-Oeste;Brasília;Entregue;Pix;24,99;0,00
+PED-01172;2025-12-09;João Klein;Kit Chaves;Ferramentas;1;82,04;82,04;12,31;43,63;-1,33;-0,0191;Redes sociais;Sul;Curitiba;Entregue;Boleto;27,43;0,00
+PED-01173;2025-12-22;Elisa Duarte;Brinquedo;Pet;4;42,79;171,16;0,00;110,64;33,30;0,1946;Site próprio;Centro-Oeste;Brasília;Entregue;Pix;27,22;0,00
+PED-01174;2025-12-04;Isabela Ibrahim;Halter;Esporte;1;124,09;124,09;12,41;81,78;3,25;0,0291;Marketplace;Sudeste;Belo Horizonte;Entregue;Pix;26,65;0,00
+PED-01175;2025-12-25;Olívia Cardoso;Bola;Esporte;4;97,84;391,36;0,00;251,01;111,96;0,2861;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;28,39;0,00
+PED-01176;2025-12-07;Kelly Lopes;Hidratante;Beleza;1;56,53;56,53;0,00;28,80;-40,93;-0,7240;Redes sociais;Sudeste;Rio de Janeiro;Devolvido;Pix;12,13;56,53
+PED-01177;2025-12-08;João Guedes;Halter;Esporte;1;132,20;132,20;0,00;72,17;33,57;0,2539;Marketplace;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;26,46;0,00
+PED-01178;2025-12-27;Diego Guedes;Kit Chaves;Ferramentas;1;80,40;80,40;0,00;53,19;10,69;0,1330;Redes sociais;Sudeste;São Paulo;Entregue;Pix;16,52;0,00
+PED-01179;2025-12-27;Paulo Ibrahim;Hidratante;Beleza;2;56,54;113,08;5,65;69,91;15,53;0,1446;App;Sudeste;Belo Horizonte;Entregue;Pix;21,99;0,00
+PED-01180;2025-12-21;Lucas Moreira;Kit Chaves;Ferramentas;2;81,78;163,56;0,00;85,84;58,77;0,3593;App;Sudeste;Belo Horizonte;Entregue;Pix;18,95;0,00
+PED-01181;2025-12-12;Heitor Almeida;Cama Pet;Pet;1;104,85;104,85;15,73;56,31;11,17;0,1253;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de crédito;21,64;0,00
+PED-01182;2025-12-07;Gabriela Lopes;Ração Premium;Pet;2;144,09;288,18;14,41;154,28;95,94;0,3504;Site próprio;Nordeste;Salvador;Entregue;Pix;23,55;0,00
+PED-01183;2025-12-03;Nicolas Jardim;Cama Pet;Pet;1;114,58;114,58;11,46;70,57;18,63;0,1807;Marketplace;Nordeste;Fortaleza;Entregue;Pix;13,92;0,00
+PED-01184;2025-12-26;Lucas Almeida;Kit Skincare;Beleza;1;181,50;181,50;27,22;98,46;46,70;0,3027;Marketplace;Sudeste;São Paulo;Entregue;Cartão de crédito;9,12;0,00
+PED-01185;2025-12-16;Nicolas Henrique;Cama Pet;Pet;1;113,90;113,90;17,09;71,57;10,83;0,1119;Marketplace;Nordeste;Fortaleza;Entregue;Cartão de crédito;14,41;0,00
+PED-01186;2025-12-28;Lucas Barros;Bola;Esporte;1;93,58;93,58;9,36;54,59;-0,84;-0,0100;Site próprio;Nordeste;Fortaleza;Entregue;Cartão de débito;30,47;0,00
+PED-01187;2025-12-20;Olívia Ibrahim;Ração Premium;Pet;3;132,80;398,40;0,00;256,09;129,36;0,3247;App;Sul;Porto Alegre;Entregue;Boleto;12,95;0,00
+PED-01188;2025-12-13;Paulo Moreira;Garrafa Térmica;Esporte;1;61,64;61,64;0,00;39,60;-0,64;-0,0104;Site próprio;Nordeste;Fortaleza;Entregue;Boleto;22,68;0,00
+PED-01189;2025-12-10;Kelly Duarte;Trena;Ferramentas;1;31,68;31,68;0,00;21,34;-16,46;-0,5196;App;Nordeste;Salvador;Entregue;Boleto;26,80;0,00
+PED-01190;2025-12-13;Elisa Ibrahim;Kit Skincare;Beleza;2;164,08;328,16;0,00;214,38;87,33;0,2661;App;Nordeste;Recife;Entregue;Boleto;26,45;0,00
+PED-01191;2025-12-04;Heitor Ibrahim;Hidratante;Beleza;1;59,08;59,08;5,91;38,23;-16,54;-0,3111;Site próprio;Nordeste;Salvador;Entregue;Boleto;31,48;0,00
+PED-01192;2025-12-22;Isabela Almeida;Garrafa Térmica;Esporte;1;56,08;56,08;8,41;36,85;-17,61;-0,3694;Redes sociais;Centro-Oeste;Brasília;Entregue;Cartão de débito;28,43;0,00
+PED-01193;2025-12-11;Paulo Klein;Perfume;Beleza;1;229,48;229,48;11,47;138,41;61,65;0,2828;Redes sociais;Centro-Oeste;Goiânia;Entregue;Pix;17,95;0,00
+PED-01194;2025-12-16;Gabriela Jardim;Brinquedo;Pet;2;41,83;83,66;4,18;47,29;19,15;0,2409;Site próprio;Nordeste;Recife;Entregue;Pix;13,04;0,00
+PED-01195;2025-12-09;Elisa Lopes;Furadeira;Ferramentas;1;334,48;334,48;16,72;189,52;101,75;0,3202;Redes sociais;Nordeste;Salvador;Entregue;Cartão de débito;26,49;0,00
+PED-01196;2025-12-04;Marina Almeida;Bola;Esporte;1;95,39;95,39;0,00;62,25;12,04;0,1262;Marketplace;Centro-Oeste;Goiânia;Entregue;Boleto;21,10;0,00
+PED-01197;2025-12-28;Lucas Lopes;Bola;Esporte;2;90,31;180,62;27,09;121,86;7,62;0,0496;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;24,05;0,00
+PED-01198;2025-12-13;Paulo Nunes;Brinquedo;Pet;2;38,00;76,00;0,00;52,16;-80,00;-1,0526;Marketplace;Nordeste;Salvador;Devolvido;Boleto;27,84;76,00
+PED-01199;2025-12-14;Carla Lopes;Kit Skincare;Beleza;2;169,62;339,24;33,92;0,00;0,00;0,0000;Redes sociais;Centro-Oeste;Goiânia;Cancelado;Cartão de débito;0,00;305,32
+PED-01200;2025-12-07;Diego Henrique;Kit Skincare;Beleza;2;177,77;355,54;35,55;198,04;103,66;0,3239;Marketplace;Nordeste;Recife;Entregue;Boleto;18,29;0,00
+PED-01201;2025-12-28;Gabriela Henrique;Trena;Ferramentas;4;29,73;118,92;17,84;64,76;23,36;0,2311;Marketplace;Centro-Oeste;Brasília;Entregue;Cartão de débito;12,96;0,00
+PED-01202;2025-12-14;Ana Guedes;Hidratante;Beleza;2;55,73;111,46;0,00;63,51;22,08;0,1981;Redes sociais;Sudeste;São Paulo;Entregue;Cartão de crédito;25,87;0,00
+PED-01203;2025-12-15;Isabela Moreira;Perfume;Beleza;1;215,50;215,50;21,55;136,62;47,39;0,2443;Redes sociais;Nordeste;Fortaleza;Entregue;Cartão de débito;9,94;0,00
+PED-01204;2025-12-04;Isabela Moreira;Hidratante;Beleza;1;54,73;54,73;5,47;38,25;-0,11;-0,0022;Site próprio;Sudeste;São Paulo;Entregue;Pix;11,12;0,00
+PED-01205;2025-12-05;Carla Esteves;Kit Skincare;Beleza;1;181,93;181,93;27,29;114,96;25,07;0,1621;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;14,61;0,00
+PED-01206;2025-12-27;Elisa Nunes;Ração Premium;Pet;2;145,51;291,02;29,10;182,44;-212,41;-0,8110;Redes sociais;Sudeste;Rio de Janeiro;Devolvido;Cartão de crédito;29,97;261,92
+PED-01207;2025-12-15;Gabriela Henrique;Brinquedo;Pet;4;38,50;154,00;0,00;82,76;52,81;0,3429;App;Sul;Porto Alegre;Entregue;Cartão de crédito;18,43;0,00
+PED-01208;2025-12-15;Heitor Duarte;Ração Premium;Pet;2;152,58;305,16;30,52;205,17;46,62;0,1697;App;Sudeste;Rio de Janeiro;Entregue;Cartão de crédito;22,85;0,00
+PED-01209;2025-12-25;Bruno Henrique;Garrafa Térmica;Esporte;2;60,45;120,90;0,00;73,55;23,75;0,1964;App;Nordeste;Salvador;Entregue;Cartão de crédito;23,60;0,00
+PED-01210;2025-12-25;Kelly Henrique;Hidratante;Beleza;1;52,80;52,80;0,00;28,65;-49,02;-0,9284;Marketplace;Nordeste;Fortaleza;Devolvido;Cartão de crédito;20,37;52,80
+PED-01211;2025-12-11;Olívia Barros;Trena;Ferramentas;3;31,86;95,58;9,56;55,81;17,90;0,2081;App;Centro-Oeste;Goiânia;Entregue;Pix;12,31;0,00
+PED-01212;2025-12-03;Heitor Jardim;Furadeira;Ferramentas;2;358,45;716,90;0,00;404,85;289,87;0,4043;Redes sociais;Nordeste;Recife;Entregue;Pix;22,18;0,00
+PED-01213;2025-12-02;Gabriela Moreira;Furadeira;Ferramentas;1;332,41;332,41;33,24;179,98;100,10;0,3346;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;19,09;0,00
+PED-01214;2025-12-15;Lucas Farias;Halter;Esporte;1;140,79;140,79;21,12;87,93;20,07;0,1677;Marketplace;Nordeste;Fortaleza;Entregue;Pix;11,67;0,00
+PED-01215;2025-12-07;Gabriela Almeida;Perfume;Beleza;1;238,86;238,86;11,94;144,68;72,84;0,3210;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;9,40;0,00
+PED-01216;2025-12-23;Heitor Duarte;Cama Pet;Pet;2;119,60;239,20;11,96;143,93;67,12;0,2954;Redes sociais;Nordeste;Fortaleza;Entregue;Boleto;16,19;0,00
+PED-01217;2025-12-19;João Klein;Halter;Esporte;2;124,29;248,58;0,00;133,54;97,81;0,3935;Marketplace;Nordeste;Recife;Entregue;Cartão de débito;17,23;0,00
+PED-01218;2025-12-14;Carla Farias;Kit Chaves;Ferramentas;3;83,65;250,95;25,09;169,72;25,27;0,1119;App;Sudeste;São Paulo;Entregue;Cartão de crédito;30,87;0,00
+PED-01219;2025-12-17;Felipe Guedes;Garrafa Térmica;Esporte;1;61,90;61,90;9,29;42,13;-6,69;-0,1272;Site próprio;Sul;Curitiba;Entregue;Cartão de débito;17,17;0,00
+PED-01220;2025-12-28;Bruno Guedes;Bola;Esporte;2;85,73;171,46;0,00;115,13;31,87;0,1859;App;Sudeste;São Paulo;Entregue;Cartão de débito;24,46;0,00
+PED-01221;2025-12-17;Felipe Ibrahim;Kit Chaves;Ferramentas;1;80,24;80,24;12,04;53,64;-72,90;-1,0689;Redes sociais;Sudeste;Rio de Janeiro;Devolvido;Cartão de crédito;19,26;68,20
+PED-01222;2025-12-20;Carla Henrique;Kit Skincare;Beleza;1;180,75;180,75;0,00;122,42;30,23;0,1672;Site próprio;Centro-Oeste;Brasília;Entregue;Boleto;28,10;0,00
+PED-01223;2025-12-09;Kelly Farias;Perfume;Beleza;1;235,38;235,38;23,54;119,18;80,58;0,3804;Redes sociais;Nordeste;Salvador;Entregue;Cartão de crédito;12,08;0,00
+PED-01224;2025-12-08;Nicolas Cardoso;Hidratante;Beleza;1;55,68;55,68;0,00;29,69;9,49;0,1704;Marketplace;Nordeste;Salvador;Entregue;Cartão de crédito;16,50;0,00
+PED-01225;2025-12-04;Nicolas Ibrahim;Brinquedo;Pet;1;37,19;37,19;3,72;25,88;-14,22;-0,4249;App;Nordeste;Fortaleza;Entregue;Pix;21,81;0,00
+PED-01226;2025-12-19;Lucas Almeida;Brinquedo;Pet;3;42,01;126,03;6,30;81,71;28,97;0,2420;Site próprio;Sudeste;Rio de Janeiro;Entregue;Boleto;9,05;0,00
+PED-01227;2025-12-28;Lucas Farias;Furadeira;Ferramentas;2;321,45;642,90;96,43;435,78;86,85;0,1589;App;Sudeste;Rio de Janeiro;Entregue;Boleto;23,84;0,00
+PED-01228;2025-12-28;Isabela Barros;Brinquedo;Pet;3;41,81;125,43;6,27;83,80;-105,09;-0,8819;Marketplace;Sul;Curitiba;Devolvido;Cartão de crédito;21,29;119,16
+PED-01229;2025-12-02;Lucas Duarte;Trena;Ferramentas;2;29,96;59,92;8,99;32,38;-8,24;-0,1618;Site próprio;Sul;Porto Alegre;Entregue;Boleto;26,79;0,00
+PED-01230;2025-12-25;Marina Ibrahim;Garrafa Térmica;Esporte;1;60,65;60,65;6,07;37,26;0,77;0,0141;App;Sul;Porto Alegre;Entregue;Boleto;16,55;0,00
+PED-01231;2025-12-10;Isabela Duarte;Garrafa Térmica;Esporte;4;60,98;243,92;24,39;125,71;75,88;0,3456;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;17,94;0,00
+PED-01232;2025-12-04;Felipe Barros;Bola;Esporte;1;95,30;95,30;9,53;48,47;21,39;0,2494;App;Sul;Curitiba;Entregue;Cartão de débito;15,91;0,00
+PED-01233;2025-12-24;Carla Esteves;Furadeira;Ferramentas;2;353,78;707,56;0,00;379,03;302,55;0,4276;App;Nordeste;Recife;Entregue;Cartão de crédito;25,98;0,00
+PED-01234;2025-12-27;Marina Esteves;Ração Premium;Pet;4;132,47;529,88;26,49;290,49;186,88;0,3712;Marketplace;Nordeste;Salvador;Entregue;Cartão de débito;26,02;0,00
+PED-01235;2025-12-27;Marina Moreira;Kit Skincare;Beleza;1;174,80;174,80;17,48;120,20;23,68;0,1505;Redes sociais;Sudeste;Belo Horizonte;Entregue;Cartão de crédito;13,44;0,00
+PED-01236;2025-12-13;Nicolas Barros;Kit Skincare;Beleza;1;171,11;171,11;0,00;101,04;47,05;0,2750;Redes sociais;Sul;Porto Alegre;Entregue;Pix;23,02;0,00
+PED-01237;2025-12-08;Paulo Moreira;Perfume;Beleza;1;208,91;208,91;20,89;135,36;-153,68;-0,8174;App;Nordeste;Salvador;Devolvido;Boleto;18,32;188,02
+PED-01238;2025-12-07;Isabela Almeida;Halter;Esporte;3;136,93;410,79;0,00;210,40;185,07;0,4505;App;Sudeste;Belo Horizonte;Entregue;Pix;15,32;0,00
+PED-01239;2025-12-03;João Almeida;Brinquedo;Pet;1;41,35;41,35;2,07;23,34;4,09;0,1041;Site próprio;Centro-Oeste;Goiânia;Entregue;Cartão de débito;11,85;0,00
+PED-01240;2025-12-21;João Guedes;Kit Skincare;Beleza;1;171,89;171,89;0,00;0,00;0,00;0,0000;Site próprio;Sul;Curitiba;Cancelado;Boleto;0,00;171,89
+PED-01241;2025-12-24;João Moreira;Furadeira;Ferramentas;3;343,08;1029,24;154,39;608,42;255,54;0,2921;Redes sociais;Nordeste;Recife;Entregue;Cartão de crédito;10,89;0,00
+PED-01242;2025-12-07;Elisa Klein;Halter;Esporte;1;137,59;137,59;0,00;89,40;27,97;0,2033;Site próprio;Nordeste;Salvador;Entregue;Boleto;20,22;0,00
+PED-01243;2025-12-04;Ana Ibrahim;Hidratante;Beleza;1;54,26;54,26;2,71;29,85;-3,27;-0,0634;App;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;24,97;0,00
+PED-01244;2025-12-22;Elisa Duarte;Perfume;Beleza;1;220,63;220,63;11,03;114,71;73,32;0,3498;Site próprio;Sudeste;São Paulo;Entregue;Cartão de crédito;21,57;0,00
+PED-01245;2025-12-22;João Guedes;Halter;Esporte;1;140,41;140,41;0,00;96,04;16,54;0,1178;Site próprio;Centro-Oeste;Goiânia;Entregue;Pix;27,83;0,00
+PED-01246;2025-12-21;João Barros;Brinquedo;Pet;1;37,35;37,35;3,74;0,00;0,00;0,0000;Site próprio;Sudeste;Belo Horizonte;Cancelado;Pix;0,00;33,61
+PED-01247;2025-12-27;Lucas Jardim;Kit Chaves;Ferramentas;1;85,09;85,09;0,00;52,97;11,04;0,1297;Marketplace;Centro-Oeste;Brasília;Entregue;Boleto;21,08;0,00
+PED-01248;2025-12-02;Gabriela Barros;Furadeira;Ferramentas;1;348,55;348,55;0,00;192,83;130,97;0,3758;Redes sociais;Sudeste;Rio de Janeiro;Entregue;Cartão de débito;24,75;0,00
+PED-01249;2025-12-09;Heitor Barros;Bola;Esporte;1;92,35;92,35;0,00;56,05;4,86;0,0526;Site próprio;Nordeste;Fortaleza;Entregue;Pix;31,44;0,00
+PED-01250;2025-12-03;João Guedes;Hidratante;Beleza;1;58,67;58,67;8,80;29,79;8,31;0,1666;Marketplace;Centro-Oeste;Goiânia;Entregue;Cartão de débito;11,77;0,00
+PED-01251;2025-12-10;Marina Lopes;Kit Chaves;Ferramentas;4;78,02;312,08;31,21;196,88;64,04;0,2280;App;Sudeste;São Paulo;Entregue;Pix;19,95;0,00
+PED-01252;2025-12-14;Ana Jardim;Perfume;Beleza;2;238,37;476,74;23,84;312,90;129,25;0,2854;Marketplace;Sul;Porto Alegre;Entregue;Cartão de débito;10,75;0,00
+PED-01253;2025-12-16;Marina Lopes;Ração Premium;Pet;1;151,61;151,61;15,16;100,52;12,24;0,0897;Marketplace;Sul;Curitiba;Entregue;Cartão de crédito;23,69;0,00
+PED-01254;2025-12-06;Bruno Lopes;Perfume;Beleza;2;212,09;424,18;42,42;239,91;116,05;0,3040;Site próprio;Sudeste;São Paulo;Entregue;Cartão de débito;25,80;0,00
