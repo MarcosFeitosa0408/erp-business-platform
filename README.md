@@ -4,6 +4,14 @@ Plataforma ERP de demonstração com **20 empresas fictícias** (10 de Marketing
 
 > Todos os dados são fictícios e gerados por script. Nenhuma informação real de empresas ou pessoas.
 
+## Analisar uma planilha da sua empresa
+
+Abra **Analisar minha planilha** no menu ou na página inicial. Importe CSV, TSV, XLSX ou XLS, escolha a aba e a linha de cabeçalho, confirme o mapeamento e clique em **Gerar análise da empresa**. A tela oferece filtros, indicadores, seis visualizações, tabela paginada, CSV filtrado e impressão/PDF. Baixe o modelo CSV para conferir a estrutura.
+
+Os dados são processados em um Web Worker no navegador, sem envio ao GitHub ou a um servidor. Permanecem apenas na memória da aba; recarregar a página limpa a análise. Limites: 20 MB, 50.000 registros, 200 colunas e 1 milhão de células. CSV aceita UTF-8 ou Windows-1252; números em texto usam o formato escolhido (Brasil ou EUA).
+
+A importação não transforma o site em sistema transacional: não há estoque, faturamento fiscal, login ou banco de dados compartilhado.
+
 ## Funcionalidades
 - **Dashboard:** 10 indicadores (receita, lucro, margem, pedidos, ticket médio, investimento, clientes, conversão, ROI e ROAS), 6 gráficos em SVG e ranking de lucro, tudo reagindo aos filtros de segmento, cidade e período.
 - **Catálogo:** cartões por empresa com indicadores do período, detalhe com histórico mensal e download do CSV.
@@ -41,3 +49,9 @@ Endereço esperado após a conclusão do deploy: https://marcosfeitosa0408.githu
 
 ## Autor
 **Marcos Feitosa** · [GitHub](https://github.com/MarcosFeitosa0408)
+
+## Dependência de leitura Excel
+
+SheetJS CE 0.20.3 incluído localmente em `vendor/`, conforme documentação oficial: https://docs.sheetjs.com/docs/getting-started/installation/standalone/. Licença em `vendor/LICENSE-SheetJS.txt`. A página não carrega scripts de terceiros por CDN.
+
+Veja [regras da importação](docs/importacao.md).

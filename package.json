@@ -1,1 +1,1 @@
-{ "name": "erp-business-platform", "version": "1.0.0", "private": true, "scripts": { "test": "node tests/smoke.js" }, "devDependencies": { "jsdom": "^24.0.0" } }
+{ "name": "erp-business-platform", "version": "1.0.0", "private": true, "scripts": { "test": "node tests/smoke.js && node --test tests/import.test.cjs" }, "devDependencies": { "jsdom": "^24.0.0" } }
