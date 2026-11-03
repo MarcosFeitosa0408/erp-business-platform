@@ -1,4 +1,5 @@
 import csv, json, pathlib, re, zipfile
+from urllib.parse import urlsplit, unquote
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 EMP = json.loads((RAIZ / "data/empresas.json").read_text(encoding="utf-8"))["empresas"]
@@ -62,4 +63,4 @@ def test_zip_completo():
 def test_paginas_apontam_para_arquivos_existentes():
     for h in RAIZ.glob("*.html"):
         for ref in re.findall(r'(?:src|href)="([^"#:]+)"', h.read_text(encoding="utf-8")):
-            assert (RAIZ / ref).exists(), f"{h.name}: {ref}"
+            assert (RAIZ / unquote(urlsplit(ref).path)).exists(), f"{h.name}: {ref}"

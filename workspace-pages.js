@@ -25,8 +25,8 @@ function render(page){
  q('#workspace-coverage').textContent=`Base importada · ${state.datasets.length} arquivos/abas · ${new Set(all.map(r=>r.company)).size} empresas · ${C.entities(all).length} empresas/lojas`;
  function showError(e){q('#workspace-error').textContent=e.message||String(e);}
  function persist(){clearTimeout(filterTimer);filterTimer=setTimeout(()=>ERPWorkspace.setFilters(filters).catch(showError),150);}
- host.addEventListener('click',e=>{const link=e.target.closest('a[href$=".html"]');if(link){e.preventDefault();clearTimeout(filterTimer);ERPWorkspace.setFilters(filters).then(()=>{location.href=link.getAttribute('href');}).catch(showError);}});
- document.querySelectorAll('aside nav a').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();clearTimeout(filterTimer);ERPWorkspace.setFilters(filters).then(()=>{location.href=link.getAttribute('href');}).catch(showError);}));
+ host.addEventListener('click',e=>{const link=e.target.closest('a[href$=".html"]');if(link){e.preventDefault();clearTimeout(filterTimer);ERPWorkspace.setFilters(filters).then(()=>{const target=new URL(link.getAttribute('href'),location.href);target.searchParams.set('v',window.ERPBuild);location.href=target.href;}).catch(showError);}});
+ document.querySelectorAll('aside nav a').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();clearTimeout(filterTimer);ERPWorkspace.setFilters(filters).then(()=>{const target=new URL(link.getAttribute('href'),location.href);target.searchParams.set('v',window.ERPBuild);location.href=target.href;}).catch(showError);}));
  q('#workspace-reset').addEventListener('click',()=>{filters={};host.querySelectorAll('[data-workspace-filter]').forEach(el=>el.value='');persist();draw();});
  host.querySelectorAll('[data-workspace-filter]').forEach(el=>el.addEventListener('input',()=>{filters[el.dataset.workspaceFilter]=el.value;persist();draw();}));
  q('#workspace-export').addEventListener('click',()=>save('dados-importados-filtrados.csv',C.csv(active)));

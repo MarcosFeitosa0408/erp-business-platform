@@ -1,4 +1,5 @@
 "use strict";
+window.ERPBuild=document.querySelector('meta[name="erp-build"]')?.content||"workspace-20261103-2";
 const ERP = window.ERP, E = ERP.empresas, PAGE = document.body.dataset.page;
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -75,7 +76,7 @@ function donut(el, items) {
 const NAV = [["importar", "Analisar minha planilha", "M12 3v12m-5-5l5-5 5 5M4 21h16"], ["index", "Visão geral", "M3 11l9-8 9 8v9H3z"], ["dashboard", "Dashboard", "M4 20V10M10 20V4M16 20v-8M22 20H2"], ["empresas", "Empresas", "M4 21V5l8-2v18M12 9h8v12"], ["dados", "Central de Dados", "M12 3v12m-5-5l5 5 5-5M4 21h16"]];
 function shell(t, s) {
   document.title = t + " · ERP Business Platform";
-  document.body.innerHTML = `<aside><div class="brand"><b>ERP</b>Business Platform</div><nav>${NAV.map(([p, n, d]) => `<a href="${p}.html"${p === PAGE ? ' class="on"' : ""}><svg viewBox="0 0 24 24"><path d="${d}"/></svg><span>${n}</span></a>`).join("")}</nav><small>${window.ERPActive?.mode === "imported" ? "Base importada · dados locais" : PAGE === "importar" ? "Importação local" : "Dados 100% fictícios"}</small></aside><main><header><h1>${t}</h1><p>${s}</p></header><div id="workspace-mode" class="workspace-mode" role="status"></div><div id="c"></div></main>`;
+  document.body.innerHTML = `<aside><div class="brand"><b>ERP</b>Business Platform</div><nav>${NAV.map(([p, n, d]) => `<a href="${p}.html?v=${window.ERPBuild}"${p === PAGE ? ' class="on"' : ""}><svg viewBox="0 0 24 24"><path d="${d}"/></svg><span>${n}</span></a>`).join("")}</nav><small>${window.ERPActive?.mode === "imported" ? "Base importada · dados locais" : PAGE === "importar" ? "Importação local" : "Dados 100% fictícios"}</small></aside><main><header><h1>${t}</h1><p>${s}</p></header><div id="workspace-mode" class="workspace-mode" role="status"></div><div id="c"></div></main>`;
   renderWorkspaceBanner();
   return $("#c");
 }
@@ -86,7 +87,7 @@ function pgIndex() {
   const i = ind(E.map(e => ({ e, m: e.meses })));
   c.innerHTML = `<div class="kpis">${card("Empresas", E.length, "10 Marketing · 10 E-commerce")}${card("Período", "12 meses", lab(MES[0]) + " a " + lab(MES[11]))}${card("Receita consolidada", R(i.rec))}${card("Lucro consolidado", R(i.luc))}</div>
   <div class="panel"><h2>Analise os dados da sua empresa</h2><p>Importe CSV ou Excel, confira as colunas e explore indicadores e gráficos. O arquivo é processado apenas no seu navegador.</p><a class="btn" href="importar.html">Analisar minha planilha →</a></div>
-  <div class="grid3" style="margin-top:16px">${NAV.filter(([p]) => p !== "index" && p !== "importar").map(([p, n]) => `<a class="card dl" href="${p}.html"><b>${n}</b><small>${{ dashboard: "Indicadores e gráficos com filtros", empresas: "Catálogo e histórico de cada empresa", dados: "Baixe planilhas CSV, JSON e ZIP" }[p]}</small></a>`).join("")}</div>
+  <div class="grid3" style="margin-top:16px">${NAV.filter(([p]) => p !== "index" && p !== "importar").map(([p, n]) => `<a class="card dl" href="${p}.html?v=${window.ERPBuild}"><b>${n}</b><small>${{ dashboard: "Indicadores e gráficos com filtros", empresas: "Catálogo e histórico de cada empresa", dados: "Baixe planilhas CSV, JSON e ZIP" }[p]}</small></a>`).join("")}</div>
   <div class="panel"><h2>Sobre o projeto</h2><p>Plataforma de estudo e portfólio: dados fictícios gerados em Python, painel em HTML, CSS e JavaScript, sem dependências externas. Veja a <a href="docs/documentacao.md">documentação</a> e o <a href="docs/dicionario_dados.md">dicionário de dados</a>.</p></div>`;
 }
 function pgEmpresas() {

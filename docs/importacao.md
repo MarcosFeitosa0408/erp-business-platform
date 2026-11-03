@@ -38,3 +38,9 @@ A faixa no topo identifica **Dados importados da sua empresa** ou **Demonstraç�
 Reimportar a mesma combinação de nome de empresa + nome de arquivo + aba substitui essa base, evitando duplicá-la. Outra combinação acrescenta uma base. Mantenha o mesmo nome de empresa para reunir vários arquivos ou abas da mesma organização; identifique a loja na coluna correspondente. Linhas sobrepostas entre arquivos diferentes não são removidas automaticamente.
 
 As importações feitas na versão anterior, que existiam somente na memória da aba, precisam ser importadas e confirmadas uma vez nesta versão para alimentar as quatro telas.
+
+## Ativação ao navegar e revisão dos arquivos
+
+Após escolher o arquivo e conferir as colunas, clicar em Visão Geral, Dashboard, Empresas ou Central de Dados na tela de importação valida e ativa a planilha antes de navegar. O botão **Adicionar base e atualizar todas as telas** continua disponível para conferir os resultados primeiro. Sem arquivo, durante a leitura ou com mapeamento inválido, a navegação é interrompida e uma mensagem explica o próximo passo; a tela não troca silenciosamente para a demonstração. O link **Ver demonstração fictícia** é a opção explícita para abrir os exemplos.
+
+Os scripts e estilos são carregados com uma revisão comum na URL para evitar a mistura de arquivos antigos em cache com a atualização.

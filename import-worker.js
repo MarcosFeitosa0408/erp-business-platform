@@ -1,5 +1,5 @@
 'use strict';
-importScripts('vendor/xlsx.full.min.js','import-core.js');
+importScripts('vendor/xlsx.full.min.js','import-core.js?v=workspace-20261103-2');
 let workbook=null,csvGrid=null,csvSkip=0;
 self.onmessage=ev=>{
  const {id,type,buffer,extension,delimiter,encoding,sheet}=ev.data;

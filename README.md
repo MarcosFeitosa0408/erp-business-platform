@@ -12,6 +12,8 @@ Os dados são processados em um Web Worker no navegador, sem envio ao GitHub ou 
 
 A importação não transforma o site em sistema transacional: não há estoque, faturamento fiscal, login ou banco de dados compartilhado.
 
+Na importação, abrir uma das quatro telas valida e ativa o arquivo selecionado antes de navegar. Se a base estiver ausente ou inválida, a plataforma explica o erro e não abre os fictícios no lugar dela. Os arquivos de interface são versionados para evitar cache misturado.
+
 A faixa no topo permite alternar **Dados importados** e **Demonstração**. Filtros são compartilhados entre as quatro telas no modo importado. Até 50 bases e 200.000 registros podem ser guardados localmente.
 
 ## Funcionalidades
