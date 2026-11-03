@@ -31,7 +31,7 @@ jobs:
       - name: Preparar arquivos públicos
         run: |
           mkdir _site
-          cp index.html dashboard.html empresas.html dados.html importar.html style.css import.css app.js dashboard.js import-core.js import.js import-worker.js _site/
+          cp index.html dashboard.html empresas.html dados.html importar.html style.css import.css app.js dashboard.js import-core.js import.js import-worker.js workspace-core.js workspace.js workspace-pages.js _site/
           cp -R data docs vendor _site/
       - uses: actions/configure-pages@v5
         with:

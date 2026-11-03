@@ -1,10 +1,12 @@
 // Teste de navegação, filtros e downloads em jsdom (não substitui testar em um navegador real).
 const { JSDOM } = require("jsdom"), path = require("path"), fs = require("fs");
+const { IDBFactory } = require("fake-indexeddb");
 const raiz = path.join(__dirname, ".."); let falhas = 0;
 const ok = (n, c, d = "") => { console.log((c ? "PASS" : "FAIL") + " | " + n + (c ? "" : " | " + d)); if (!c) falhas++; };
 async function abrir(p) {
-  const errs = [], d = await JSDOM.fromFile(path.join(raiz, p), { runScripts: "dangerously", resources: "usable", pretendToBeVisual: true, beforeParse(w) { w.addEventListener("error", e => errs.push(e.message)); w.HTMLElement.prototype.scrollIntoView = () => {}; } });
+  const errs = [], d = await JSDOM.fromFile(path.join(raiz, p), { runScripts: "dangerously", resources: "usable", pretendToBeVisual: true, beforeParse(w) { w.indexedDB = new IDBFactory(); w.addEventListener("error", e => errs.push(e.message)); w.HTMLElement.prototype.scrollIntoView = () => {}; } });
   await new Promise(r => d.window.document.readyState === "complete" ? r() : d.window.addEventListener("load", r));
+  await d.window.ERPReady;
   return { w: d.window, doc: d.window.document, errs };
 }
 const ev = (w, el, v) => { el.value = v; el.dispatchEvent(new w.Event("change", { bubbles: true })); };

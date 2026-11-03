@@ -1,5 +1,6 @@
 "use strict";
-if (PAGE === "dashboard") {
+window.ERPReady.then(state => {
+if (state && state.mode === "demo" && PAGE === "dashboard") {
   const c = shell("Dashboard executivo", "Indicadores e gráficos respondem aos filtros");
   const bloco = (id, t) => `<section class="card"><h3>${t}</h3><div class="chart" id="${id}"></div></section>`;
   c.innerHTML = `<div class="filtros" id="fl"></div><div class="kpis" id="kpis"></div><div class="charts">
@@ -22,3 +23,5 @@ if (PAGE === "dashboard") {
   };
   draw(filtros($("#fl"), { busca: false }, draw)());
 }
+
+});

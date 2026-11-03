@@ -75,7 +75,8 @@ function donut(el, items) {
 const NAV = [["importar", "Analisar minha planilha", "M12 3v12m-5-5l5-5 5 5M4 21h16"], ["index", "Visão geral", "M3 11l9-8 9 8v9H3z"], ["dashboard", "Dashboard", "M4 20V10M10 20V4M16 20v-8M22 20H2"], ["empresas", "Empresas", "M4 21V5l8-2v18M12 9h8v12"], ["dados", "Central de Dados", "M12 3v12m-5-5l5 5 5-5M4 21h16"]];
 function shell(t, s) {
   document.title = t + " · ERP Business Platform";
-  document.body.innerHTML = `<aside><div class="brand"><b>ERP</b>Business Platform</div><nav>${NAV.map(([p, n, d]) => `<a href="${p}.html"${p === PAGE ? ' class="on"' : ""}><svg viewBox="0 0 24 24"><path d="${d}"/></svg><span>${n}</span></a>`).join("")}</nav><small>${PAGE === "importar" ? "Planilha local · análise privada" : "Dados 100% fictícios"}</small></aside><main><header><h1>${t}</h1><p>${s}</p></header><div id="c"></div></main>`;
+  document.body.innerHTML = `<aside><div class="brand"><b>ERP</b>Business Platform</div><nav>${NAV.map(([p, n, d]) => `<a href="${p}.html"${p === PAGE ? ' class="on"' : ""}><svg viewBox="0 0 24 24"><path d="${d}"/></svg><span>${n}</span></a>`).join("")}</nav><small>${window.ERPActive?.mode === "imported" ? "Base importada · dados locais" : PAGE === "importar" ? "Importação local" : "Dados 100% fictícios"}</small></aside><main><header><h1>${t}</h1><p>${s}</p></header><div id="workspace-mode" class="workspace-mode" role="status"></div><div id="c"></div></main>`;
+  renderWorkspaceBanner();
   return $("#c");
 }
 
@@ -114,4 +115,31 @@ function pgDados() {
   const draw = f => { $("#tb").innerHTML = filtrar({ ...f, de: MES[0], ate: MES[11] }).map(({ e }) => `<tr><td><b>${esc(e.nome)}</b></td><td>${esc(e.segmento)}</td><td>${esc(e.cidade)}/${e.uf}</td><td>${N(e.linhas)}</td><td><a class="btn" href="${esc(e.detalhado)}" download>CSV detalhado</a> <a class="btn sec" href="${esc(e.resumo)}" download>Resumo mensal</a></td></tr>`).join(""); };
   draw(filtros($("#fl"), { periodo: false }, draw)());
 }
-({ index: pgIndex, empresas: pgEmpresas, dados: pgDados })[PAGE]?.();
+function renderWorkspaceBanner() {
+  const el = document.getElementById("workspace-mode"), state = window.ERPActive;
+  if (!el || !state) return;
+  const imported = state.mode === "imported";
+  el.innerHTML = `<div><strong>${imported ? "Dados importados da sua empresa" : PAGE === "importar" ? "Pronto para receber suas planilhas" : "Demonstração · 20 empresas fictícias"}</strong><small>${imported ? `${state.datasets.length} arquivos/abas salvos neste navegador. Todas as telas usam esta base.` : PAGE === "importar" ? "Confirme uma base para ativar seus dados nas quatro telas." : "Os indicadores abaixo pertencem à base de exemplo."}</small></div><div class="workspace-mode-actions">${state.datasets.length ? `<button class="sec" id="workspace-switch">${imported ? "Ver demonstração" : "Usar meus dados importados"}</button>` : ""}${state.datasets.length ? '<button class="sec" id="workspace-clear">Apagar bases locais</button>' : ""}</div>`;
+  document.getElementById("workspace-switch")?.addEventListener("click", async () => {
+    try { await ERPWorkspace.setMode(imported ? "demo" : "imported"); location.reload(); }
+    catch (error) { alert(error.message); }
+  });
+  document.getElementById("workspace-clear")?.addEventListener("click", async () => {
+    if (!confirm("Apagar todas as bases importadas deste navegador? Exporte um backup na Central de Dados antes de continuar.")) return;
+    try { await ERPWorkspace.clear(); location.reload(); }
+    catch (error) { alert(error.message); }
+  });
+}
+window.ERPRefreshWorkspaceBanner = renderWorkspaceBanner;
+window.ERPReady = ERPWorkspace.load().then(state => {
+  window.ERPActive = state;
+  if (PAGE === "importar") return state;
+  if (state.mode === "imported") ERPWorkspacePages.render(PAGE);
+  else ({ index: pgIndex, empresas: pgEmpresas, dados: pgDados })[PAGE]?.();
+  return state;
+}).catch(error => {
+  window.ERPStorageError = error;
+  const content = shell("Não foi possível abrir a base local", "Os dados fictícios não substituíram sua base importada.");
+  content.innerHTML = `<p role="alert">${esc(error.message)}</p><p>Verifique as permissões de armazenamento do navegador e recarregue a página. Seus dados anteriores não foram sobrescritos.</p>`;
+  return null;
+});

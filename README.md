@@ -1,16 +1,18 @@
 # ERP Business Platform
 
-Plataforma ERP de demonstração com **20 empresas fictícias** (10 de Marketing e 10 de E-commerce) em cidades brasileiras. Reúne dashboard executivo, catálogo de empresas e uma **Central de Dados Empresariais** para baixar as bases e analisar no Excel, Power BI, Python e SQL Server.
+Plataforma de análise com importação de **CSV e Excel** e um modo de demonstração com **20 empresas fictícias** (10 de Marketing e 10 de E-commerce) em cidades brasileiras. Reúne dashboard executivo, catálogo de empresas e uma **Central de Dados Empresariais** para baixar as bases e analisar no Excel, Power BI, Python e SQL Server.
 
-> Todos os dados são fictícios e gerados por script. Nenhuma informação real de empresas ou pessoas.
+> O modo demonstração usa dados 100% fictícios. O modo importado analisa exclusivamente as planilhas confirmadas por você, salvas apenas no navegador. As bases não são misturadas.
 
 ## Analisar uma planilha da sua empresa
 
-Abra **Analisar minha planilha** no menu ou na página inicial. Importe CSV, TSV, XLSX ou XLS, escolha a aba e a linha de cabeçalho, confirme o mapeamento e clique em **Gerar análise da empresa**. A tela oferece filtros, indicadores, seis visualizações, tabela paginada, CSV filtrado e impressão/PDF. Baixe o modelo CSV para conferir a estrutura.
+Abra **Analisar minha planilha** no menu ou na página inicial. Importe CSV, TSV, XLSX ou XLS, escolha a aba e a linha de cabeçalho, confirme o mapeamento e clique em **Adicionar base e atualizar todas as telas**. A tela oferece filtros, indicadores, seis visualizações, tabela paginada, CSV filtrado e impressão/PDF. Baixe o modelo CSV para conferir a estrutura.
 
-Os dados são processados em um Web Worker no navegador, sem envio ao GitHub ou a um servidor. Permanecem apenas na memória da aba; recarregar a página limpa a análise. Limites: 20 MB, 50.000 registros, 200 colunas e 1 milhão de células. CSV aceita UTF-8 ou Windows-1252; números em texto usam o formato escolhido (Brasil ou EUA).
+Os dados são processados em um Web Worker no navegador, sem envio ao GitHub ou a um servidor. Os registros normalizados ficam no IndexedDB local e acompanham Visão Geral, Dashboard, Empresas e Central de Dados, inclusive após recarregar. A Central exporta CSV, Excel e backup JSON e permite remover bases. Você pode selecionar vários arquivos, confirmar cada um e acrescentar abas de Excel. Reimportar a mesma empresa/arquivo/aba substitui a base existente. Limites: 20 MB, 50.000 registros, 200 colunas e 1 milhão de células. CSV aceita UTF-8 ou Windows-1252; números em texto usam o formato escolhido (Brasil ou EUA).
 
 A importação não transforma o site em sistema transacional: não há estoque, faturamento fiscal, login ou banco de dados compartilhado.
+
+A faixa no topo permite alternar **Dados importados** e **Demonstração**. Filtros são compartilhados entre as quatro telas no modo importado. Até 50 bases e 200.000 registros podem ser guardados localmente.
 
 ## Funcionalidades
 - **Dashboard:** 10 indicadores (receita, lucro, margem, pedidos, ticket médio, investimento, clientes, conversão, ROI e ROAS), 6 gráficos em SVG e ranking de lucro, tudo reagindo aos filtros de segmento, cidade e período.
@@ -22,7 +24,8 @@ A importação não transforma o site em sistema transacional: não há estoque,
 ```bash
 git clone https://github.com/MarcosFeitosa0408/erp-business-platform.git
 cd erp-business-platform
-# abra index.html no navegador
+python -m http.server 8000
+# abra http://localhost:8000 para usar a persistência local
 python generate_data.py   # opcional: regenera os dados (semente fixa, resultado reproduzível)
 ```
 
