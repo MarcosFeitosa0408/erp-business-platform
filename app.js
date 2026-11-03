@@ -1,5 +1,5 @@
 "use strict";
-window.ERPBuild=document.querySelector('meta[name="erp-build"]')?.content||"workspace-20261103-2";
+window.ERPBuild=document.querySelector('meta[name="erp-build"]')?.content||"workspace-20261103-3";
 const ERP = window.ERP, E = ERP.empresas, PAGE = document.body.dataset.page;
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
